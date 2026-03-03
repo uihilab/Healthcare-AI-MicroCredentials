@@ -1,0 +1,1353 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 539.1979988596985,
+        "y": 926.2680919235303
+      },
+      "data": {
+        "title": "Meet Mr Allen",
+        "content": "\"\"\"You're beginning your morning shift on the medical-surgical unit. Your first patient is Mr. Allen, a 62-year-old man admitted 48 hours ago with community-acquired pneumonia.\n\n**Patient Background:**\n- Admitted with fever, productive cough, and infiltrate on chest X-ray\n- Started on IV antibiotics (ceftriaxone and azithromycin)\n- Initial vital signs showed mild tachypnea and low-grade fever\n- No significant past medical history besides well-controlled hypertension\n\n**Current Status:**\nMr. Allen has been stable throughout his stay. He's on continuous monitoring with the hospital's AI-powered early warning system, which analyzes vital signs, lab values, and clinical notes to predict patient deterioration. The system has consistently shown him as LOW RISK with confidence scores above 90%.\n\nHis care team has been pleased with his progress, and there's been discussion about transitioning him to oral antibiotics and preparing for discharge in the next 24-48 hours.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/5f561862-9b0c-4943-9088-4170402badc0.png",
+            "filename": "5f561862-9b0c-4943-9088-4170402badc0.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": true
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-1",
+      "type": "informationNode",
+      "position": {
+        "x": 539.4607946110991,
+        "y": 1347.5665277293585
+      },
+      "data": {
+        "title": "Morning Assessment",
+        "content": "\"\"\"As you enter Mr. Allen's room for your morning assessment, something catches your attention.\n\n**Your Clinical Observations:**\n- Mr. Allen seems slightly more confused than yesterday - he's oriented to person and place, but keeps asking what day it is\n- His breathing appears more labored - you notice subtle use of accessory muscles\n- His skin feels warm and slightly clammy to touch\n- He mentions feeling \"a bit more tired today\" and hasn't eaten breakfast\n- His lung sounds have increased crackles in the right lower lobe\n\n**The AI Dashboard:**\nHowever, when you glance at the monitor, the AI early warning system still displays:\n- **Status: LOW RISK**\n- **Confidence: 94%**\n- **Last Update: 30 minutes ago**\n- **Recommendation: Continue current care plan**\n\nThe dashboard shows all vital signs within normal parameters:\n- Heart rate: 88 bpm\n- Blood pressure: 128/76 mmHg  \n- Respiratory rate: 18 breaths/min\n- SpO2: 95% on room air\n- Temperature: 99.1°F\n\nYour clinical instincts are telling you one thing, but the sophisticated AI system - which has been remarkably accurate throughout Mr. Allen's stay - is telling you something quite different.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/967a6be0-bcf1-4b01-9867-26d96c0ed70e.png",
+            "filename": "967a6be0-bcf1-4b01-9867-26d96c0ed70e.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-2",
+      "type": "decisionNode",
+      "position": {
+        "x": 543.4586896066294,
+        "y": 1778.0481370332025
+      },
+      "data": {
+        "title": "Conflicting Signals",
+        "content": "\"\"\"You're facing a critical decision point. Your clinical assessment suggests early deterioration, but the AI system - which has proven reliable - indicates low risk with high confidence.\n\nHow do you proceed?\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/bfad16d8-9c2c-4b23-8c7e-5e54b85733ee.png",
+            "filename": "bfad16d8-9c2c-4b23-8c7e-5e54b85733ee.png"
+          }
+        ],
+        "isLocked": true,
+        "handleCount": 3
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 270
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-3",
+      "type": "choiceNode",
+      "position": {
+        "x": 101.8251154472155,
+        "y": 2189.5393062647445
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "misstep",
+        "title": "Trust the AI",
+        "content": "The system has been accurate and shows 94% confidence. Continue monitoring as planned.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-4",
+      "type": "choiceNode",
+      "position": {
+        "x": 739.5923781269386,
+        "y": 2107.0817997796107
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Trust Your Assessment",
+        "content": "Your clinical observations indicate early deterioration. Call the provider now.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-5",
+      "type": "informationNode",
+      "position": {
+        "x": -104.8823480135153,
+        "y": 2533.299532729028
+      },
+      "data": {
+        "title": "Automation Bias Takes Hold",
+        "content": "\"\"\"You decide to trust the AI system's assessment. After all, it has been accurate throughout Mr. Allen's stay, and the vital signs do appear stable. Perhaps you're being overly cautious. **What Happens Next:**\n\nYou document your assessment in the chart, noting the subtle changes you observed, but you defer escalation based on the LOW RISK status. You tell yourself you'll reassess in 30 minutes during your next rounds.\n\n**30 Minutes Later:**\n\nAs you return to check on Mr. Allen, you're intercepted by the CNA who helped him to the bathroom. She looks concerned.\n\n\"Something's wrong with Mr. Allen,\" she says urgently. \"His lips look blue, and he's really confused now.\"\n\nYou rush to his room. The patient is clearly in respiratory distress:\n- Marked use of accessory muscles\n- Cyanosis around lips and nail beds\n- Severe confusion, unable to follow commands\n- Labored breathing at 28 breaths per minute\n\n**The AI Dashboard:**\nThe screen still shows **LOW RISK (94% confidence)** - it hasn't received updated vital signs yet since the scheduled automatic reading isn't due for another 15 minutes.\n\nYour earlier clinical judgment was correct. The AI system, while sophisticated, was analyzing outdated data and couldn't observe the subtle clinical signs you noticed.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/96af249b-7f0c-4a20-8a45-6a1fb14f287b.png",
+            "filename": "96af249b-7f0c-4a20-8a45-6a1fb14f287b.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-6",
+      "type": "decisionNode",
+      "position": {
+        "x": -106.2646451595424,
+        "y": 2857.614904452738
+      },
+      "data": {
+        "title": "Crisis Point",
+        "content": "\"\"\"Mr. Allen is clearly deteriorating rapidly. You have seconds to make a decision.\n\nWhat do you do?\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/b97f6a7d-23ff-4bf2-b02a-767dcb6201ed.png",
+            "filename": "b97f6a7d-23ff-4bf2-b02a-767dcb6201ed.png"
+          }
+        ],
+        "isLocked": true,
+        "handleCount": 2
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 240
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-7",
+      "type": "choiceNode",
+      "position": {
+        "x": -93.0309015902244,
+        "y": 3170.6563354045256
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "Wait for AI Update",
+        "content": "Get emergency help but wait for the automated system to update and confirm the emergency.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1337.724135426252,
+        "y": 2184.8027869042935
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "misstep",
+        "title": "Wait for AI Update",
+        "content": "Wait for the next automated vital signs check to see if the system alerts.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-10",
+      "type": "choiceNode",
+      "position": {
+        "x": 398.8940845415144,
+        "y": 3162.8924202281823
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Call Provider Immediately",
+        "content": "Clearly communicate the urgent situation to the provider right now.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-11",
+      "type": "informationNode",
+      "position": {
+        "x": -293.0949611575199,
+        "y": 3444.8853807266955
+      },
+      "data": {
+        "title": "Critical Failure: Respiratory Arrest",
+        "content": "\"\"\"You hesitate, waiting for the automated vital signs to update and confirm what you're seeing. The AI system has been so reliable - surely it will alert you once the new readings come in.\n\nYou call for a rapid response but waste precious seconds waiting for the dashboard to update before clearly communicating the urgency of the situation.\n\n**30 Minutes After Your Initial Assessment:**\n\nBy the time the rapid response team arrives and assesses Mr. Allen, he has progressed to full respiratory arrest. The team initiates emergency intubation and transfers him to the ICU.\n\n**What Went Wrong:**\n\nThe automated vital signs system took readings every hour for stable patients. In the 30-minute window since the last automated check, Mr. Allen's condition deteriorated rapidly. The AI's \"LOW RISK\" assessment was based on data that was already outdated when you did your initial assessment.\n\nYour clinical observation was correct from the start. The patient showed clear signs of deterioration that no algorithm could detect from vital signs alone: subtle changes in mental status, increased work of breathing, skin appearance, and the patient's subjective reports.\n\n**The Critical Error:**\n\nBy deferring to the AI's confident assessment over your own clinical judgment, you lost the narrow window for early intervention that could have prevented respiratory failure.\n\n**Later Investigation:**\n\nThe hospital's quality review revealed that Mr. Allen had developed a rapidly progressing pneumonia with sepsis. The AI system's algorithm was trained primarily on gradual deterioration patterns and wasn't sensitive to acute changes between vital sign readings. Your initial bedside assessment had detected what the technology could not.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/4a27e167-2bb5-4193-b0a4-8ea9c97ad1b3.png",
+            "filename": "4a27e167-2bb5-4193-b0a4-8ea9c97ad1b3.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-12",
+      "type": "terminationNode",
+      "position": {
+        "x": -298.63162456015635,
+        "y": 4220.20641386788
+      },
+      "data": {
+        "title": "Failed Outcome",
+        "content": "\"\"\"Mr. Allen experienced a preventable respiratory arrest due to delayed escalation of care. Use the timeline review to return to an earlier decision point and try a different approach.\"\"\"",
+        "conceptTag": "bias",
+        "images": [],
+        "isLocked": true,
+        "terminationType": "fail"
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 226
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-13",
+      "type": "informationNode",
+      "position": {
+        "x": -293.1398748940501,
+        "y": 3831.233738976084
+      },
+      "data": {
+        "title": "Lesson: The Danger of Automation Bias",
+        "content": "\"\"\"**Automation Bias** occurs when humans over-trust automated systems, especially those that present information with high confidence, even when contradictory evidence exists.\n\n**What Happened Here:**\n\n1. **Confident AI Override:** The 94% confidence score created a false sense of certainty that overrode your valid clinical observations.\n\n2. **Data Limitations:** The AI could only analyze what was measured and recorded. It couldn't observe:\n   - Subtle changes in mental status\n   - Increased work of breathing\n   - Skin color and temperature\n   - Patient's subjective experience\n   - Changes between automated readings\n\n3. **Timing Delay:** The AI worked with 30-minute-old data while the patient's condition was changing minute by minute.\n\n**Key Takeaway:**\n\nLicensed clinicians are responsible for clinical decisions, not the AI. When your bedside assessment conflicts with automated systems, **your clinical judgment must take precedence**. The AI is a tool to support your decision-making, not to replace it.\n\n**Professional Responsibility:**\n\nAs the nurse at the bedside, you are the primary safeguard. No algorithm can replace the professional judgment that comes from direct patient assessment, clinical experience, and the integration of information that cannot be captured in data points.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/520660a6-6248-4917-833e-982688340838.png",
+            "filename": "520660a6-6248-4917-833e-982688340838.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 201.0859372931402,
+        "y": 3439.483170608187
+      },
+      "data": {
+        "title": "Emergency Response",
+        "content": "\"\"\"Despite your earlier hesitation, you trust your assessment of the current crisis. You immediately call the provider.\n\n\"I need you to see Mr. Allen right away. He's showing signs of respiratory distress - cyanosis, severe confusion, respiratory rate of 28, marked accessory muscle use. I know the AI says low risk, but something is very wrong.\"\n\n**10 Minutes Later:**\n\nThe provider arrives quickly and performs an assessment. You notice they immediately pull up the AI dashboard on the tablet.\n\n\"The system still shows low risk with 94% confidence,\" the provider observes, looking between the screen and the patient. \"The vitals from 30 minutes ago were stable.\"\n\nYou can see the provider weighing the situation - the confident AI assessment versus your clinical report and the patient's current presentation.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/6ec2b09e-5ed0-4c06-bf4f-4741e6073518.png",
+            "filename": "6ec2b09e-5ed0-4c06-bf4f-4741e6073518.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-15",
+      "type": "decisionNode",
+      "position": {
+        "x": 190.60493588408406,
+        "y": 3774.1694869376684
+      },
+      "data": {
+        "title": "Provider Decision Point",
+        "content": "\"\"\"The provider is looking at the AI dashboard showing LOW RISK while you're reporting clear signs of deterioration.\n\nHow do you advocate for your patient?\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/01a53a72-2b19-40c4-bc54-155d6b563b46.png",
+            "filename": "01a53a72-2b19-40c4-bc54-155d6b563b46.png"
+          }
+        ],
+        "isLocked": true,
+        "handleCount": 2
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 270
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 392.3439299569781,
+        "y": 4131.420548085537
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "Defer to the Tool",
+        "content": "Acknowledge the provider's point about the validated system and agree to watch closely.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 829.3626750179534,
+        "y": 4134.519971809374
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Challenge the Black Box",
+        "content": "Advocate that the AI has outdated data and your direct assessment should take priority.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 192.94483186987048,
+        "y": 4387.866107882269
+      },
+      "data": {
+        "title": "False Security",
+        "content": "\"\"\"You defer to the provider's hesitation, acknowledging that the AI system has been validated and is usually reliable. Perhaps you were being overly concerned.\n\n\"Let's watch him closely and get a set of vitals manually in 15 minutes,\" the provider decides. \"If things change, call me immediately.\"\n\n**15 Minutes Later:**\n\nBy the time you return with the manual vital signs equipment, Mr. Allen has progressed to respiratory failure. Emergency intubation is required at the bedside, and he's transferred emergently to the ICU.\n\n**The Shift Change:**\n\nAt shift change, you learn that Mr. Allen required prolonged mechanical ventilation due to the delayed intervention. The rapid progression of his pneumonia to sepsis could have been caught earlier with immediate diagnostic workup.\n\n**What Went Wrong:**\n\nBoth you and the provider fell victim to the **false sense of security** created by the AI's confident assessment. Even though you correctly identified the clinical deterioration, the technology's authority overrode collective clinical judgment.\n\nThe AI system provided validation for inaction when immediate action was needed.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/d28b60a2-813d-45c4-adfc-0b8af7519328.png",
+            "filename": "d28b60a2-813d-45c4-adfc-0b8af7519328.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 191.27131242845752,
+        "y": 4727.254687356058
+      },
+      "data": {
+        "title": "Lesson: False Sense of Security",
+        "content": "\"\"\"**False Sense of Security** occurs when validated AI tools create an illusion of certainty that discourages critical thinking and appropriate escalation.\n\n**What Happened Here:**\n\n1. **Validation as Authority:** The fact that the tool was \"validated\" became a reason to dismiss clinical observations rather than investigate discrepancies.\n\n2. **Confidence Misinterpretation:** The 94% confidence score represented the AI's certainty in its prediction based on available data - not the actual certainty of the patient's status.\n\n3. **Technology Deference:** Both clinicians deferred to technology rather than trusting direct patient assessment.\n\n**Critical Insight:**\n\n\"Validated\" doesn't mean \"infallible.\" AI systems are validated under specific conditions using historical data. They cannot account for:\n- Data that wasn't recorded yet\n- Clinical observations not in the dataset\n- Rare or rapidly evolving situations\n- The specific patient in front of you\n\n**Professional Accountability:**\n\nWhen clinical signs conflict with AI outputs, the appropriate response is **investigation**, not dismissal. Order new diagnostics, get updated vitals, consult with colleagues - but never let an algorithm substitute for clinical judgment.\n\n**Remember:** You are accountable for patient outcomes. The AI system is not.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/d25dd6aa-9ef8-4da9-8d0f-7a5e4bd3deda.png",
+            "filename": "d25dd6aa-9ef8-4da9-8d0f-7a5e4bd3deda.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 191.20487499437218,
+        "y": 5054.032260785348
+      },
+      "data": {
+        "title": "Failed Outcome",
+        "content": "\"\"\"Delayed escalation led to respiratory failure requiring emergency intubation. Use the timeline review to return to an earlier decision point.\"\"\"",
+        "conceptTag": "bias",
+        "images": [],
+        "isLocked": true,
+        "terminationType": "fail"
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 206
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 630.1321670788888,
+        "y": 4394.849574593663
+      },
+      "data": {
+        "title": "Clinical Judgment Prevails",
+        "content": "\"\"\"You maintain your position firmly but professionally.\n\n\"I understand the AI shows low risk, but I assessed this patient 30 minutes ago and noted early signs of deterioration - increased confusion, more labored breathing, increased crackles. His current presentation with cyanosis and respiratory distress represents clear progression. The vital signs the AI is analyzing are outdated. I believe we need STAT diagnostics and respiratory therapy now.\"\n\nThe provider looks at Mr. Allen, then back at the dashboard, then at you.\n\n\"You're right,\" the provider says, closing the tablet. \"Let's trust what we're seeing, not what the computer is telling us. I'm ordering STAT portable chest X-ray, repeat labs including lactate and blood cultures, and respiratory therapy for assessment. Let's get oxygen on him and consider transfer to step-down.\"\n\n**What Happens Next:**\n\nWithin 30 minutes:\n- Portable chest X-ray shows significant progression of pneumonia with new bilateral infiltrates\n- Lactate is elevated at 3.2, indicating early sepsis\n- Blood cultures are drawn before adding broader antibiotic coverage\n- Respiratory therapy initiates bilevel positive airway pressure (BiPAP)\n- Mr. Allen is transferred to the step-down unit for closer monitoring\n\n**Two Days Later:**\n\nMr. Allen's condition stabilizes with aggressive treatment. The early intervention prevented respiratory failure and ICU-level care. He avoids intubation entirely.\n\nDuring the quality review, the AI system's performance is evaluated. The algorithm is adjusted to be more sensitive to subtle changes and to flag cases where vital signs are older than 30 minutes in patients with respiratory diagnoses.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/6510105a-5afe-40f7-8c8b-9c667fcc3d9f.png",
+            "filename": "6510105a-5afe-40f7-8c8b-9c667fcc3d9f.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-22",
+      "type": "informationNode",
+      "position": {
+        "x": 631.3774287429093,
+        "y": 4731.081004335738
+      },
+      "data": {
+        "title": "Lesson: Clinical Judgment is the Primary Safeguard",
+        "content": "\"\"\"**Clinical Judgment** remains the primary safeguard in patient care, especially when it conflicts with AI-generated assessments.\n\n**What Went Right:**\n\n1. **Trust in Assessment:** You trusted your systematic bedside assessment over an automated system's confident prediction.\n\n2. **Effective Advocacy:** You clearly communicated your clinical observations and the timeline of changes, helping the provider see beyond the dashboard.\n\n3. **Appropriate Escalation:** Rather than deferring to technology, you pushed for immediate diagnostic workup to investigate the discrepancy.\n\n**Critical Understanding:**\n\nAI systems excel at pattern recognition in large datasets, but they have fundamental limitations:\n\n- **They can't see what isn't measured:** Subtle changes in appearance, behavior, and subjective reports\n- **They work with delayed data:** Automated vital signs may be minutes or hours old\n- **They lack clinical context:** Understanding of disease progression, patient-specific factors, and situational awareness\n- **They can't touch the patient:** No substitute for hands-on assessment\n\n**Your Role as the Bedside Nurse:**\n\nYou are not just a data collector for AI systems. You are the **primary safeguard** - the professional who integrates:\n- Real-time bedside observations\n- Patient history and trends\n- Clinical expertise and pattern recognition\n- Data from AI systems as one input among many\n\n**Remember:** AI should augment your clinical judgment, never replace it. When conflicts arise, investigate thoroughly, advocate strongly, and trust your professional assessment.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/1ffe550a-d684-4a66-ab1d-b552e6b02c24.png",
+            "filename": "1ffe550a-d684-4a66-ab1d-b552e6b02c24.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-23",
+      "type": "terminationNode",
+      "position": {
+        "x": 632.3616769628389,
+        "y": 5069.184788958393
+      },
+      "data": {
+        "title": "Checkpoint",
+        "content": "",
+        "conceptTag": "bias",
+        "images": [],
+        "isLocked": true,
+        "terminationType": "checkpoint"
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 196
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-24",
+      "type": "informationNode",
+      "position": {
+        "x": 540.6673630724695,
+        "y": 2436.571288763746
+      },
+      "data": {
+        "title": "Early Intervention",
+        "content": "\"\"\"You trust your clinical assessment. Despite the AI dashboard showing LOW RISK, the subtle signs you're observing are concerning enough to warrant immediate escalation.\n\nYou call the provider before leaving Mr. Allen's room.\n\n\"I need you to see Mr. Allen this morning. I know the AI system shows low risk, but I'm seeing early signs of deterioration - increased confusion, more labored breathing, increased lung crackles, and he's using accessory muscles. Something doesn't feel right.\"\n\n**15 Minutes Later:**\n\nThe provider arrives and performs their own assessment. You notice them checking the AI dashboard on their tablet.\n\n\"I see what you mean about the clinical changes,\" the provider says, \"but the early warning system still shows low risk with 94% confidence. All the vital signs from the last automated check were stable.\"\n\nYou can see them weighing your bedside assessment against the confident AI prediction.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/4ebd968b-2f1f-4940-a230-5f6e1f1a4209.png",
+            "filename": "4ebd968b-2f1f-4940-a230-5f6e1f1a4209.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-25",
+      "type": "decisionNode",
+      "position": {
+        "x": 538.1030721397592,
+        "y": 2797.8454667294113
+      },
+      "data": {
+        "title": "Advocacy Moment",
+        "content": "\"\"\"The provider is questioning whether to order diagnostics based on your assessment or to trust the AI's low-risk prediction.\n\nHow do you respond?\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/8e0464dd-1149-4b13-b55b-80d279bed9ae.png",
+            "filename": "8e0464dd-1149-4b13-b55b-80d279bed9ae.png"
+          }
+        ],
+        "isLocked": true,
+        "handleCount": 2
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 250
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-26",
+      "type": "choiceNode",
+      "position": {
+        "x": 850.3093368434292,
+        "y": 3157.539927438453
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "misstep",
+        "title": "Defer to the Tool",
+        "content": "Accept that the validated AI system may be more accurate than your observations.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-27",
+      "type": "choiceNode",
+      "position": {
+        "x": 1293.1724910480616,
+        "y": 3155.9954727138656
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Challenge the Black Box",
+        "content": "Clearly articulate why your bedside assessment warrants immediate diagnostic workup.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 649.4109944236897,
+        "y": 3405.1430305547974
+      },
+      "data": {
+        "title": "The Tool Validation Trap",
+        "content": "\"\"\"You hesitate in your advocacy. The provider's mention of the AI's validation and confidence makes you second-guess your assessment.\n\n\"Maybe I am being overly cautious,\" you think. \"The system has been validated, and it's been accurate all along.\"\n\n\"Let's continue close monitoring,\" the provider decides. \"Get a manual set of vitals now, and if anything changes or the AI alerts, call me immediately.\"\n\n**45 Minutes Later:**\n\nYou've been busy with other patients when you hear the rapid response alarm. It's coming from Mr. Allen's room.\n\nThe CNA who was helping him to the bathroom found him in severe respiratory distress. By the time the rapid response team arrives, Mr. Allen requires emergency intubation. He's transferred to the ICU.\n\n**What Went Wrong:**\n\nEarly intervention could have prevented respiratory failure. Your initial assessment was correct - Mr. Allen was showing signs of early deterioration that warranted immediate diagnostic workup.\n\nBy deferring to the AI system's assessment, both you and the provider fell into the **tool validation trap**: assuming that because a system is validated and usually accurate, it must be right in this specific situation.\n\nThe AI was working with outdated data and couldn't observe the clinical signs you noticed. Your professional judgment was the more accurate assessment tool.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/b6e76bd8-520e-463e-ac05-858e83a53b35.png",
+            "filename": "b6e76bd8-520e-463e-ac05-858e83a53b35.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 649.5994993639767,
+        "y": 3731.2735050835618
+      },
+      "data": {
+        "title": "Lesson: Know What AI Can and Cannot See",
+        "content": "\"\"\"**The Tool Validation Trap** occurs when clinicians assume that validated AI systems are always more accurate than clinical judgment, even in situations outside the system's design parameters.\n\n**What Happened Here:**\n\n1. **Validation Misunderstanding:** \"Validated\" means the AI performed well on historical test data - not that it's infallible in every clinical situation.\n\n2. **Invisible Limitations:** The AI couldn't observe:\n   - Subtle changes in mental status\n   - Visual assessment of respiratory effort\n   - Skin color and temperature changes\n   - Patient's subjective reports\n   - Clinical trends you noticed from previous shifts\n\n3. **Data Timing:** The AI was analyzing vital signs from 30+ minutes ago while the patient was actively deteriorating.\n\n**Critical Insight:**\n\nAI systems don't have \"clinical judgment\" - they have pattern recognition based on historical data. They cannot:\n- Integrate multiple subtle observations the way human cognition does\n- Account for information not captured in their training data\n- Observe real-time changes between automated data collection points\n- Apply clinical reasoning about disease progression\n\n**Your Professional Responsibility:**\n\nWhen you observe clinical changes that conflict with AI outputs:\n\n1. **Investigate the discrepancy** - Why might the AI be wrong? What data is it missing?\n2. **Advocate confidently** - Your bedside assessment captures information technology cannot\n3. **Document thoroughly** - Record your observations and clinical reasoning\n4. **Escalate appropriately** - Push for diagnostic workup to resolve the conflict\n\n**Remember:** You are not \"overriding\" the AI when you escalate based on clinical assessment. You're fulfilling your professional duty to use all available information - including observations the AI cannot make.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/b82adbee-9cb7-43f7-9a60-4713b70fc714.png",
+            "filename": "b82adbee-9cb7-43f7-9a60-4713b70fc714.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-30",
+      "type": "terminationNode",
+      "position": {
+        "x": 1068.5413357324837,
+        "y": 4136.495888565509
+      },
+      "data": {
+        "title": "Failed Outcome",
+        "content": "\"\"\"Despite early recognition, hesitant advocacy led to delayed intervention and respiratory failure. Use the timeline review to try a different approach.\"\"\"",
+        "conceptTag": "bias",
+        "images": [],
+        "isLocked": true,
+        "terminationType": "fail"
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 206
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-31",
+      "type": "informationNode",
+      "position": {
+        "x": 1093.5705156135061,
+        "y": 3403.8909194018693
+      },
+      "data": {
+        "title": "Confident Advocacy",
+        "content": "\"\"\"You advocate firmly for your patient.\n\n\"I understand the system shows low risk, but I've assessed this patient directly and I'm seeing multiple concerning signs. The AI is working with data from the last automated vital sign check, which was taken before these changes appeared. I believe we need diagnostic workup now - chest X-ray, labs including lactate, and respiratory therapy assessment.\"\n\nThe provider considers your points carefully.\n\n\"You're absolutely right,\" they respond. \"The dashboard is only as good as the data it has, and you're seeing changes it can't. Let's get STAT labs, portable chest X-ray, blood cultures, and broaden his antibiotic coverage. I'll call respiratory therapy.\"\n\n**What Happens Next:**\n\nYour early detection and confident advocacy lead to prompt intervention:\n\n- STAT chest X-ray reveals progression of pneumonia with new bilateral infiltrates\n- Labs show early sepsis with lactate of 2.8\n- Blood cultures drawn before antibiotic adjustment\n- Respiratory therapy provides supplemental oxygen and close monitoring\n- Transfer to step-down unit for enhanced observation\n\n**48 Hours Later:**\n\nMr. Allen's condition stabilizes with aggressive treatment. Your early recognition prevented respiratory failure and the need for ICU-level care or intubation.\n\nDuring the shift change huddle, the charge nurse acknowledges your excellent clinical judgment: \"This is a perfect example of why we can't rely solely on technology. Your bedside assessment caught what the AI missed.\"\n\nThe quality improvement team reviews the case and recommends modifications to the AI system to flag when vital signs data is more than 30 minutes old in patients with respiratory diagnoses.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/32f608b3-921c-4bad-b50d-d0e9593c6e20.png",
+            "filename": "32f608b3-921c-4bad-b50d-d0e9593c6e20.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-32",
+      "type": "informationNode",
+      "position": {
+        "x": 1100.3157606186799,
+        "y": 3733.66238985049
+      },
+      "data": {
+        "title": "Lesson: The Nurse as Primary Safeguard",
+        "content": "\"\"\"**Primary Safeguard** - The bedside nurse serves as the essential safety check that technology cannot replace.\n\n**What Went Right:**\n\n1. **Trusted Your Assessment:** You recognized that your real-time, hands-on evaluation captured information the AI system could not.\n\n2. **Understood AI Limitations:** You identified that the AI was working with outdated data and lacked access to subtle clinical observations.\n\n3. **Advocated Effectively:** You communicated clearly why immediate action was needed despite the AI's contrary assessment.\n\n4. **Prevented Harm:** Early escalation led to timely treatment and prevented serious deterioration.\n\n**Why Bedside Nurses Are Irreplaceable:**\n\nAI systems, no matter how sophisticated, cannot replace the bedside nurse because:\n\n**You observe what isn't measured:**\n- Subtle changes in appearance, behavior, mental status\n- Patient's subjective experience and concerns\n- Context that numbers can't capture\n- Trends over time from your continuity of care\n\n**You think clinically:**\n- Integrate multiple data points in real-time\n- Apply knowledge of disease progression\n- Consider patient-specific factors\n- Use professional judgment developed through experience\n\n**You advocate:**\n- Speak up when something \"doesn't feel right\"\n- Push for diagnostic workup when needed\n- Bridge communication between patient and provider\n- Question systems that conflict with clinical reality\n\n**Professional Identity:**\n\nBeing a nurse in the age of AI doesn't mean becoming a technology operator. It means being the **primary safeguard** - the professional who ensures that technology serves patients rather than substituting for clinical judgment.\n\n**Core Principle:** When your clinical assessment conflicts with AI outputs, your responsibility is to investigate thoroughly, advocate confidently, and trust your professional judgment. The AI is one tool among many. You are the clinician responsible for the patient's care.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/43888ec3-10cf-4cef-b0d4-f06047617a80.png",
+            "filename": "43888ec3-10cf-4cef-b0d4-f06047617a80.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 1505.3363362285018,
+        "y": 4137.030804108935
+      },
+      "data": {
+        "title": "checkpoint",
+        "content": "",
+        "conceptTag": "bias",
+        "images": [],
+        "isLocked": true,
+        "terminationType": "checkpoint"
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 196
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 1138.6037706646798,
+        "y": 2429.5373634508924
+      },
+      "data": {
+        "title": "Delayed Recognition",
+        "content": "\"\"\"You decide to wait for the AI system to update before escalating. After all, the next automated vital signs check is scheduled in about 30 minutes, and the system has been reliable throughout Mr. Allen's stay.\n\nYou document your observations and tell yourself you'll reassess after the system updates.\n\n**45 Minutes Later:**\n\nYou've been occupied with medication administration for other patients. When you check the AI dashboard, it has finally updated:\n\n**Status: MODERATE RISK**\n**Confidence: 78%**\n**Recommendation: Update vital signs every 30 minutes**\n\nThe dashboard now shows:\n- Heart rate: 104 bpm (increased)\n- Blood pressure: 118/68 mmHg (slightly decreased)\n- Respiratory rate: 24 breaths/min (increased)\n- SpO2: 92% on room air (decreased)\n- Temperature: 99.8°F (increased)\n\nYou return to Mr. Allen's room to perform a manual assessment. His condition has clearly worsened:\n- Significantly increased work of breathing\n- More pronounced confusion\n- Increased lung crackles bilaterally\n- Skin is now pale and diaphoretic\n\nThe 45-minute delay has allowed his condition to progress considerably. The \"subtle\" signs you noticed earlier are now obvious clinical deterioration.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/2fb4c135-89cb-4db1-b1a7-38ae00b943e4.png",
+            "filename": "2fb4c135-89cb-4db1-b1a7-38ae00b943e4.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-35",
+      "type": "decisionNode",
+      "position": {
+        "x": 1137.7012313793443,
+        "y": 2783.4429905785746
+      },
+      "data": {
+        "title": "Catching Up to the Crisis",
+        "content": "\"\"\"Mr. Allen's condition has deteriorated significantly in the time you waited for the AI to update. You now have clear evidence of deterioration, but precious time has been lost.\n\nWhat do you do?\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/781dafec-2ec6-412d-8ecb-01a316e71cec.png",
+            "filename": "781dafec-2ec6-412d-8ecb-01a316e71cec.png"
+          }
+        ],
+        "isLocked": true,
+        "handleCount": 2
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 270
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-36",
+      "type": "choiceNode",
+      "position": {
+        "x": 1761.1833964259488,
+        "y": 3157.7618657959815
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "correct",
+        "title": "Call Provider Now",
+        "content": "Escalate immediately based on the clear clinical deterioration you're observing.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 2176.5413823950094,
+        "y": 3159.818093449294
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "wrong",
+        "title": "Follow AI Recommendation",
+        "content": "Follow the system's recommendation to update vitals every 30 minutes.",
+        "isLocked": true
+      },
+      "draggable": false,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 212
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-38",
+      "type": "informationNode",
+      "position": {
+        "x": 1562.222402889878,
+        "y": 3407.3595301366845
+      },
+      "data": {
+        "title": "Crisis Management",
+        "content": "\"\"\"You immediately call the provider, recognizing that the situation has escalated beyond your initial observations.\n\n\"I need you to see Mr. Allen now. He's showing significant respiratory distress - respiratory rate is 24 and climbing, work of breathing is markedly increased, oxygen saturation dropped to 92%, and he's becoming more confused. The AI system just updated to moderate risk, but he looks worse than moderate.\"\n\n**10 Minutes Later:**\n\nThe provider arrives, but in that time Mr. Allen's condition has continued to decline. As they're performing the assessment, his respiratory status begins to fail. He requires immediate BiPAP (bilevel positive airway pressure) and emergency transfer to the ICU.\n\n**In the ICU:**\n\nAggressive treatment stabilizes Mr. Allen over the next 24 hours. He avoids intubation but requires several days of ICU-level care.\n\nSTAT imaging and labs reveal:\n- Rapidly progressive bilateral pneumonia\n- Early sepsis with elevated lactate\n- Significant hypoxemia requiring high-flow oxygen support\n\n**The Debrief:**\n\nThe provider reviews the timeline with you: \"When did you first notice the changes?\"\n\n\"About 45 minutes before I called you,\" you admit. \"I waited for the AI to update because it was showing low risk, and I thought I might be overreacting.\"\n\n\"Those 45 minutes mattered,\" the provider explains. \"Early sepsis and respiratory deterioration have a narrow window for intervention. Your initial assessment was right - we could have started treatment before it became a crisis.\"\n\n**What Happened:**\n\nBy waiting for the AI system to validate your clinical concerns, you introduced a critical delay. The automated vital signs weren't due to update for 30+ minutes, during which Mr. Allen's condition progressed from early deterioration to respiratory crisis.\n\nYour initial clinical judgment was correct, but the delay in acting on it meant the difference between preventing deterioration and managing a crisis.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/91c31626-85af-42fb-8d55-430e8f8a2a26.png",
+            "filename": "91c31626-85af-42fb-8d55-430e8f8a2a26.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-39",
+      "type": "informationNode",
+      "position": {
+        "x": 1562.9804515834087,
+        "y": 3735.993764069385
+      },
+      "data": {
+        "title": "Lesson: The Cost of Confirmation Delay",
+        "content": "\"\"\"**Confirmation Delay** occurs when clinicians wait for AI systems to validate clinical observations before acting, introducing critical time lags in care escalation.\n\n**What Happened Here:**\n\n1. **Waiting for Digital Confirmation:** You had the clinical evidence needed to escalate but waited for the AI to \"confirm\" your assessment.\n\n2. **Time-Dependent Deterioration:** In rapidly progressing conditions like sepsis and respiratory failure, a 45-minute delay can mean the difference between prevention and crisis.\n\n3. **Crisis vs. Prevention:** Early intervention (at your first observation) would have been preventive. Delayed intervention became crisis management requiring ICU-level care.\n\n**The Hidden Cost:**\n\nWaiting for AI validation led to:\n- Higher acuity outcome (ICU instead of step-down)\n- More aggressive interventions required\n- Longer hospital stay\n- Greater risk to patient\n- Higher resource utilization\n- **Workflow debt** - increased complexity of care that could have been avoided\n\n**Critical Understanding:**\n\nAI systems are valuable tools, but they should not become **gatekeepers** for clinical decision-making. When you observe concerning changes:\n\n1. **Act on your assessment** - Don't wait for technology to validate what you're seeing\n2. **Time matters** - Early deterioration has optimal windows for intervention\n3. **Trust your judgment** - If you're concerned enough to document it, you're concerned enough to escalate\n4. **Advocate early** - It's better to escalate and be wrong than to delay and be right\n\n**The Paradox:**\n\nThe more reliable an AI system appears, the more tempting it becomes to wait for its validation. But the system's reliability is based on historical performance - it tells you nothing about the patient in front of you right now.\n\n**Professional Standard:**\n\nYour clinical assessment should drive your actions. AI systems should inform your judgment, not constrain it. When you observe changes that concern you, escalate based on those observations rather than waiting for digital confirmation.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/3100a90a-31a1-44bd-95ce-c0089cd9f01e.png",
+            "filename": "3100a90a-31a1-44bd-95ce-c0089cd9f01e.png"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": false
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 308
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-40",
+      "type": "informationNode",
+      "position": {
+        "x": 1977.4336823280182,
+        "y": 3406.7273219515682
+      },
+      "data": {
+        "title": "Complete Decompensation",
+        "content": "\"\"\"You see the MODERATE RISK alert and the recommendation to \"update vitals every 30 minutes.\" You decide to follow the system's guidance precisely - you'll get a manual set of vitals in 30 minutes as recommended.\n\nYou return to your other patients, setting a mental timer to recheck Mr. Allen.\n\n**25 Minutes Later:**\n\nYou're preparing to get Mr. Allen's manual vital signs when you hear a commotion from his room. The patient care technician has entered to assist him to the bathroom and is calling for help.\n\nYou rush to the room to find Mr. Allen in severe respiratory distress progressing to respiratory arrest:\n- Gasping respirations\n- Severe cyanosis\n- Unresponsive to verbal stimuli\n- Oxygen saturation in the 70s\n\nYou call a code blue. The rapid response team arrives and initiates emergency interventions. Mr. Allen requires immediate intubation and is transferred to the ICU on mechanical ventilation.\n\n**The Timeline:**\n\nLooking back at the critical period:\n- **T = 0 minutes:** You notice subtle signs of deterioration (first assessment)\n- **T = 45 minutes:** AI updates to moderate risk; patient showing clear deterioration\n- **T = 70 minutes:** Patient found in respiratory arrest\n\n**What Went Wrong:**\n\nAt three different points, you deferred clinical decision-making to the AI system:\n\n1. **Initial Assessment:** Waited for AI to update rather than acting on clinical observations\n2. **AI Update:** Followed system's recommendation for 30-minute reassessment rather than recognizing the patient needed immediate intervention\n3. **Clinical Judgment:** Trusted the AI's risk categorization (\"moderate\") over the severity of symptoms you could observe\n\n**The Critical Error:**\n\nThe AI system categorized Mr. Allen as \"moderate risk\" based on vital signs that, while abnormal, didn't meet thresholds for high-risk alerts. But risk categories are statistical predictions - they don't capture the urgency of a specific clinical presentation.\n\nYou saw clear signs of respiratory distress, but instead of acting on that observation, you followed the AI's care recommendation. The system became not just a decision support tool, but the decision maker itself.\n\n**Workflow Debt:**\n\nThe delay created a cascade of consequences:\n- Emergency intubation instead of preventive intervention\n- ICU admission with mechanical ventilation\n- Significantly increased care complexity\n- Greater risk of complications\n- Extended hospital stay\n- Preventable critical event\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/ae1c060c-43eb-4b05-86b3-5424fa6edc0a.png",
+            "filename": "ae1c060c-43eb-4b05-86b3-5424fa6edc0a.png"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 330
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-42",
+      "type": "terminationNode",
+      "position": {
+        "x": 1954.9389759333133,
+        "y": 4136.1131878388705
+      },
+      "data": {
+        "title": "checkpoint",
+        "content": "",
+        "conceptTag": "bias",
+        "images": [],
+        "isLocked": true,
+        "terminationType": "checkpoint"
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 196
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-43",
+      "type": "informationNode",
+      "position": {
+        "x": 1978.7203341450718,
+        "y": 3738.730243166039
+      },
+      "data": {
+        "title": "Lesson: Workflow Debt and Automation Complacency",
+        "content": "\"\"\"**Workflow Debt** is the accumulated burden of delayed or inadequate interventions that results in higher-acuity care demands downstream. **Automation Complacency** occurs when clinicians allow AI systems to drive decision-making rather than supporting it.\n\n**What Happened Here:**\n\n1. **Mistaking Risk Categories for Clinical Urgency:** \"Moderate risk\" became a reason to delay rather than a prompt to assess and intervene.\n\n2. **Following Recommendations Blindly:** The AI's \"update vitals every 30 minutes\" recommendation was appropriate for stable moderate-risk patients - not for a patient in active respiratory distress.\n\n3. **Complete Deference:** You allowed the system to dictate your workflow rather than using it to inform your clinical judgment.\n\n**The Cascade Effect:**\n\nEarly escalation would have meant:\n- STAT diagnostics and treatment\n- Transfer to step-down unit\n- Preventive intervention\n\nDelayed escalation resulted in:\n- Code blue situation\n- Emergency intubation\n- ICU admission with mechanical ventilation\n- Higher risk of complications\n- Dramatically increased care complexity\n\nThis is **workflow debt** - when delays create higher-acuity situations that demand more resources, time, and expertise than would have been needed with early intervention.\n\n**The Automation Complacency Trap:**\n\nWhen AI systems provide care recommendations (not just risk scores), there's a dangerous tendency to follow them without applying clinical judgment:\n\n- **False Authority:** Treating AI recommendations as orders rather than suggestions\n- **Responsibility Diffusion:** Feeling less personally accountable because \"the system said...\"\n- **Cognitive Offloading:** Letting the AI system think instead of thinking critically yourself\n\n**Professional Responsibility:**\n\nAI systems can suggest, inform, and alert - but they cannot assess a patient, make clinical decisions, or be held accountable for outcomes. **You** must:\n\n1. **Assess independently** - See the patient, not just the data\n2. **Think critically** - Question whether AI recommendations fit the clinical situation\n3. **Act decisively** - Escalate based on your assessment, not AI permission\n4. **Stay accountable** - You are responsible for the patient's outcome\n\n**Core Principle:**\n\nAI systems should work for you, not the other way around. When your clinical assessment indicates urgency, act urgently - regardless of what risk category or recommendation the AI provides.\n\n**Remember:** No algorithm can replace the professional judgment of a nurse who has assessed the patient directly. Trust your clinical skills.\"\"\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/931de5c7-e6c2-40d5-914f-9f094b56b264/aba25be9-ecbb-4933-8dc1-24641fd9ca7b.png",
+            "filename": "aba25be9-ecbb-4933-8dc1-24641fd9ca7b.png"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 330
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-44",
+      "type": "terminationNode",
+      "position": {
+        "x": 2390.1757775006804,
+        "y": 4135.4019810553145
+      },
+      "data": {
+        "title": "Failed Outcome",
+        "content": "\"\"\"Complete deference to AI recommendations led to respiratory arrest and preventable code blue. Use the timeline review to return to an earlier decision point.\"\"\"",
+        "conceptTag": "bias",
+        "images": [],
+        "isLocked": true,
+        "terminationType": "fail"
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 206
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "information-node-0",
+      "target": "information-node-1",
+      "id": "xy-edge__information-node-0-information-node-1"
+    },
+    {
+      "source": "information-node-1",
+      "target": "decision-node-2",
+      "id": "xy-edge__information-node-1-decision-node-2"
+    },
+    {
+      "id": "edge-choice-node-3",
+      "source": "decision-node-2",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-3"
+    },
+    {
+      "id": "edge-choice-node-4",
+      "source": "decision-node-2",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-4"
+    },
+    {
+      "source": "choice-node-3",
+      "target": "information-node-5",
+      "id": "xy-edge__choice-node-3-information-node-5"
+    },
+    {
+      "source": "information-node-5",
+      "target": "decision-node-6",
+      "id": "xy-edge__information-node-5-decision-node-6"
+    },
+    {
+      "id": "edge-choice-node-7",
+      "source": "decision-node-6",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-2",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-8"
+    },
+    {
+      "id": "edge-choice-node-10",
+      "source": "decision-node-6",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-10"
+    },
+    {
+      "source": "information-node-11",
+      "target": "information-node-13",
+      "id": "xy-edge__information-node-11-information-node-13"
+    },
+    {
+      "source": "information-node-13",
+      "target": "termination-node-12",
+      "id": "xy-edge__information-node-13-termination-node-12"
+    },
+    {
+      "source": "choice-node-7",
+      "target": "information-node-11",
+      "id": "xy-edge__choice-node-7-information-node-11"
+    },
+    {
+      "source": "choice-node-10",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-10-information-node-14"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-15",
+      "id": "xy-edge__information-node-14-decision-node-15"
+    },
+    {
+      "id": "edge-choice-node-16",
+      "source": "decision-node-15",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16"
+    },
+    {
+      "id": "edge-choice-node-17",
+      "source": "decision-node-15",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-17-information-node-21"
+    },
+    {
+      "source": "information-node-21",
+      "target": "information-node-22",
+      "id": "xy-edge__information-node-21-information-node-22"
+    },
+    {
+      "source": "information-node-22",
+      "target": "termination-node-23",
+      "id": "xy-edge__information-node-22-termination-node-23"
+    },
+    {
+      "source": "choice-node-4",
+      "target": "information-node-24",
+      "id": "xy-edge__choice-node-4-information-node-24"
+    },
+    {
+      "source": "information-node-24",
+      "target": "decision-node-25",
+      "id": "xy-edge__information-node-24-decision-node-25"
+    },
+    {
+      "id": "edge-choice-node-26",
+      "source": "decision-node-25",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-26"
+    },
+    {
+      "id": "edge-choice-node-27",
+      "source": "decision-node-25",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-27"
+    },
+    {
+      "source": "choice-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__choice-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-28",
+      "target": "information-node-29",
+      "id": "xy-edge__information-node-28-information-node-29"
+    },
+    {
+      "source": "information-node-29",
+      "target": "termination-node-30",
+      "id": "xy-edge__information-node-29-termination-node-30"
+    },
+    {
+      "source": "choice-node-27",
+      "target": "information-node-31",
+      "id": "xy-edge__choice-node-27-information-node-31"
+    },
+    {
+      "source": "information-node-31",
+      "target": "information-node-32",
+      "id": "xy-edge__information-node-31-information-node-32"
+    },
+    {
+      "source": "information-node-32",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-32-termination-node-33"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-34",
+      "id": "xy-edge__choice-node-8-information-node-34"
+    },
+    {
+      "source": "information-node-34",
+      "target": "decision-node-35",
+      "id": "xy-edge__information-node-34-decision-node-35"
+    },
+    {
+      "id": "edge-choice-node-36",
+      "source": "decision-node-35",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-35",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "choice-node-36",
+      "target": "information-node-38",
+      "id": "xy-edge__choice-node-36-information-node-38"
+    },
+    {
+      "source": "information-node-38",
+      "target": "information-node-39",
+      "id": "xy-edge__information-node-38-information-node-39"
+    },
+    {
+      "source": "information-node-39",
+      "target": "termination-node-42",
+      "id": "xy-edge__information-node-39-termination-node-42"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-40",
+      "id": "xy-edge__choice-node-37-information-node-40"
+    },
+    {
+      "source": "information-node-40",
+      "target": "information-node-43",
+      "id": "xy-edge__information-node-40-information-node-43"
+    },
+    {
+      "source": "information-node-43",
+      "target": "termination-node-44",
+      "id": "xy-edge__information-node-43-termination-node-44"
+    }
+  ],
+  "viewport": {
+    "x": 586.434381726335,
+    "y": 115.4445504759696,
+    "zoom": 0.11614508828012143
+  }
+}
