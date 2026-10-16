@@ -1,0 +1,889 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 1011.6937943885578,
+        "y": 62.67128046885546
+      },
+      "data": {
+        "title": "The Growing Pains",
+        "content": "Patient Profile: Leo, an 18-month-old male.\nInitial State: Leo is brought into the clinic by his first-time mother, Sarah. She is highly anxious. She reports that Leo recently started throwing severe tantrums when frustrated. During these tantrums, he cries vigorously, holds his breath, turns blue around the lips, and briefly passes out. Additionally, she is worried because he isn't speaking in full sentences yet.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/eb4a6a11-8154-4577-a81c-3e8511bbcd4e.jpeg",
+            "filename": "eb4a6a11-8154-4577-a81c-3e8511bbcd4e.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1016.4782761655183,
+        "y": 401.7224342794046
+      },
+      "data": {
+        "title": "The Tantrum & Triage",
+        "content": "Sarah describes the passing-out episodes in tears. \"I think he is having seizures,\" she says. \"He turns completely blue and just goes limp.\" You need to address her primary fear while diagnosing the etiology of the syncopal episodes.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/66dd69a7-44a7-4015-83b4-7a3f3fa39f8d.jpeg",
+            "filename": "66dd69a7-44a7-4015-83b4-7a3f3fa39f8d.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 659.9755536182183,
+        "y": 735.4466620584808
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Alarmist",
+        "content": "Validate her fear of a seizure disorder immediately. Order an urgent EEG, a brain MRI, and refer him to pediatric neurology to rule out epilepsy.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-3",
+      "type": "choiceNode",
+      "position": {
+        "x": 1152.8632686946426,
+        "y": 731.9447955215256
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "wrong",
+        "title": "The Dismissive Disciplinarian",
+        "content": "Tell her these are just behavioral tantrums. Advise her to implement strict punishments or splash cold water on his face to snap him out of it when he holds his breath.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-4",
+      "type": "choiceNode",
+      "position": {
+        "x": 1664.1357830900806,
+        "y": 731.0693288872869
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Reassuring Educator",
+        "content": "Gently explain that these are cyanotic breath-holding spells, a benign autonomic response triggered by emotional insults like anger or frustration. Assure her that education and reassurance are the primary treatments. You order a CBC and ferritin level to check for anemia, as iron supplementation can reduce spell frequency.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-5",
+      "type": "informationNode",
+      "position": {
+        "x": 1464.381801946375,
+        "y": 1088.2347689199576
+      },
+      "data": {
+        "title": "The Reassuring Educator",
+        "content": "You effectively de-escalate a terrified parent while identifying a classic, benign pediatric presentation. Checking for iron deficiency shows excellent clinical thoroughness.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/dd0f7091-5322-4f3d-851c-9ccbfed601c2.jpeg",
+            "filename": "dd0f7091-5322-4f3d-851c-9ccbfed601c2.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-6",
+      "type": "informationNode",
+      "position": {
+        "x": 451.24104399100054,
+        "y": 1127.4525707855792
+      },
+      "data": {
+        "title": "The Alarmist",
+        "content": "You send a terrified mother and her toddler through a gauntlet of terrifying and expensive neurological tests. Leo has to be sedated for the MRI, exposing him to anesthetic risks. The tests all return perfectly normal. When the pediatric neurologist eventually diagnoses simple breath-holding spells, Sarah loses all trust in your clinical judgment and leaves your practice.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/f2700133-6119-45e1-aace-8806a329bfe7.jpeg",
+            "filename": "f2700133-6119-45e1-aace-8806a329bfe7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-7",
+      "type": "informationNode",
+      "position": {
+        "x": 465.75319729529554,
+        "y": 1463.3237548270827
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Pediatric milestones and common childhood phenomena must be deeply understood because many presentations are simply normal variants that do not require further workup. Cyanotic breath-holding spells occur in roughly 4.6% of children between 6 months and 6 years of age. They are triggered by vigorous crying and forced expiration, leading to cyanosis and a brief loss of consciousness. Confusing this predictable sequence (trigger -> cry -> hold breath -> cyanosis -> limp) with an epileptic seizure subjects a toddler to unnecessary radiation, sedation (for the MRI), and extreme parental psychological trauma.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-8",
+      "type": "terminationNode",
+      "position": {
+        "x": 459.0030377130763,
+        "y": 1794.9652281232902
+      },
+      "data": {
+        "title": "Terminal Outcome: The Unnecessary Cascade",
+        "content": "Final Outcome: Failure / Over-medicalization\n\nThe Flaw: Failing to recognize a classic cyanotic breath-holding spell and immediately jumping to a severe neurological differential without considering the clinical triggers.\n\nActionable Improvement: Always map the timeline of the event. Seizures are unprovoked neurological misfires; breath-holding spells are directly provoked by emotional distress, pain, or frustration.",
+        "conceptTag": "Benign Pediatric Variants & Iatrogenic Trauma",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "checkpoint"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 920.1759564846492,
+        "y": 1124.659473323995
+      },
+      "data": {
+        "title": "The Dismissive Disciplinarian",
+        "content": "Sarah takes your advice. The next time Leo is frustrated and begins a breath-holding spell, she yells at him and splashes ice water on his face. This only exacerbates his emotional distress, making the spells more frequent and severe. You have provided medically inaccurate advice that actively harmed the patient's psychological environment.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/49a57332-754f-48a7-b514-86f35a3bbd35.jpeg",
+            "filename": "49a57332-754f-48a7-b514-86f35a3bbd35.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-10",
+      "type": "informationNode",
+      "position": {
+        "x": 934.9046360560303,
+        "y": 1463.820616167849
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "While breath-holding spells are triggered by emotional tantrums (anger, frustration) , the actual breath-holding, cyanosis, and collapse are involuntary autonomic reflexes. The child is not doing it on purpose to manipulate the parent. Punishing a child for a physiological reflex is unethical and damages the parent-child attachment.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 934.34176498886,
+        "y": 1803.2815991335394
+      },
+      "data": {
+        "title": "Terminal Outcome: The Broken Bond",
+        "content": "Final Outcome: Failure / Harmful Medical Advice\n\nThe Flaw: Treating an involuntary physiological reflex as a conscious behavioral choice that requires punishment.",
+        "conceptTag": "Pediatric Ethics & Involuntary Reflexes",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-12",
+      "type": "decisionNode",
+      "position": {
+        "x": 1672.1867896907045,
+        "y": 1438.745698551308
+      },
+      "data": {
+        "title": "The Milestone Check (Time: Next Steps in the Visit)",
+        "content": "Sarah is vastly relieved to hear the spells are benign and usually resolve by school age. You move on to his developmental assessment.\n\nSarah is still worried. \"He can walk up the stairs holding my hand, he throws his little ball everywhere, and he can name a few objects like 'dog' and 'cup',\" she notes. \"But my friend's child is the same age and is already speaking in three-word sentences and riding a tricycle. Is Leo falling behind?\"",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 1660.3308516125514,
+        "y": 1812.7990949438176
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "misstep",
+        "title": "The Premature Referral",
+        "content": "Agree with her concern. Tell her that 18-month-olds should be forming sentences. Refer Leo to early intervention for speech therapy and autism screening.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-14",
+      "type": "choiceNode",
+      "position": {
+        "x": 2287.5115648421,
+        "y": 1817.5325342889462
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Evidence-Based Reassurance",
+        "content": "Reassure her that Leo is perfectly on track. He has mastered the 18-month motor (walking up stairs, throwing a ball) and language (naming objects) milestones. Explain that 3-word sentences and riding a tricycle are milestones for a 3-year-old (36 months), not an 18-month-old.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-15",
+      "type": "decisionNode",
+      "position": {
+        "x": 1468.4128401888884,
+        "y": 2195.040231143703
+      },
+      "data": {
+        "title": "The Premature Referral",
+        "content": "Sarah looks panicked and begins to cry again. \"Autism? You think he has autism?\" You pause and look at your developmental chart.",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1463.5745521312188,
+        "y": 2535.324935023694
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Premature Label",
+        "content": "Instead of checking your developmental chart and realizing you mixed up the ages, you double down. You tell Sarah that \"early intervention is critical\" and officially submit referrals for an autism evaluation, a pediatric neurologist, and a speech-language pathologist based on his inability to ride a tricycle or speak in 3-word sentences.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 1943.7814396457568,
+        "y": 2528.9221765234997
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Milestone Remedy",
+        "content": "You realize you mixed up the timelines. You quickly apologize, explaining that you misspoke. You reassure her that 2-word sentences don't begin until 24 months , and 3-word sentences are a 36-month milestone. Leo is exactly where he needs to be.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 2221.1477219359954,
+        "y": 2179.2917163887973
+      },
+      "data": {
+        "title": "The Evidence-Based Reassurance",
+        "content": "You correctly utilize milestone data to alleviate unnecessary parental anxiety while proving your competence.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/4796b439-b4de-4e54-863e-4fb6fd373504.jpeg",
+            "filename": "4796b439-b4de-4e54-863e-4fb6fd373504.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-19",
+      "type": "decisionNode",
+      "position": {
+        "x": 2455.551839921562,
+        "y": 2533.251840009836
+      },
+      "data": {
+        "title": "The Nutritional Transition",
+        "content": "Finally, Sarah asks about his diet. She notes that she introduced solid foods right at 6 months, but she is still breastfeeding him several times a day. She hasn't introduced cow's milk because she heard \"milk is for calves, not humans\" on a parenting blog.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/cdbfc5db-7577-4845-a631-e41a648b6175.jpeg",
+            "filename": "cdbfc5db-7577-4845-a631-e41a648b6175.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-20",
+      "type": "choiceNode",
+      "position": {
+        "x": 2474.808346925808,
+        "y": 2852.7267733704593
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Rigid Standard",
+        "content": "Tell her she must completely stop breastfeeding immediately because he is past a year old. Demand she switch him entirely to whole cow's milk to meet pediatric guidelines.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-21",
+      "type": "choiceNode",
+      "position": {
+        "x": 3010.006410895921,
+        "y": 2836.8820938450285
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Collaborative Dietician",
+        "content": "Support her choice to continue breastfeeding, validating that it is a healthy source of nutrition and bonding. However, gently explain that introducing cow's milk at 12 months is the standard recommendation to ensure adequate dietary fats and calcium for brain and bone growth. Suggest she introduce it alongside his normal solid foods, and ensure he gets Vitamin D supplementation.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-22",
+      "type": "informationNode",
+      "position": {
+        "x": 2282.552775995609,
+        "y": 3219.8162834306404
+      },
+      "data": {
+        "title": "The Rigid Standard",
+        "content": "Sarah is highly offended by your aggressive tone and your demand that she terminate breastfeeding. She feels judged and alienated. She leaves the clinic and decides to ignore all of your advice—including the valid recommendation to introduce cow's milk—putting Leo at risk for nutritional deficiencies simply because you lacked the bedside manner to communicate the guidelines collaboratively.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/04f2f232-03b8-433b-b40f-783d0a6588bc.jpeg",
+            "filename": "04f2f232-03b8-433b-b40f-783d0a6588bc.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-23",
+      "type": "informationNode",
+      "position": {
+        "x": 2285.1156215545657,
+        "y": 3551.122030803734
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "While cow's milk should be introduced at 12 months of age, there is absolutely no medical indication to force a mother to stop breastfeeding if both she and the child wish to continue. Nutrition is a highly personal and cultural aspect of pediatric care. Dictating extreme ultimatums destroys the therapeutic alliance and ignores the nuances of collaborative medical guidance.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-24",
+      "type": "terminationNode",
+      "position": {
+        "x": 2308.8761566025814,
+        "y": 3903.3484436541794
+      },
+      "data": {
+        "title": "Terminal Outcome: The Dictator's Office",
+        "content": "Final Outcome: Failure / Poor Bedside Manner\n\nThe Flaw: Utilizing an authoritarian approach to enforce a medical guideline while trampling on patient autonomy and parental bonding.\n\n\nActionable Improvement: Guidelines state when to introduce new foods (e.g., solids at 6 months, cow's milk at 12 months ), but they do not mandate the cessation of breastfeeding. Always use shared decision-making for lifestyle and nutritional transitions.",
+        "conceptTag": "Nutritional Guidelines & Maternal Autonomy",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-25",
+      "type": "informationNode",
+      "position": {
+        "x": 1268.4303408023898,
+        "y": 2921.992988611346
+      },
+      "data": {
+        "title": "The Premature Label",
+        "content": "You submit the referrals. Sarah spends the next four months in a state of sheer terror, crying daily, convinced her perfectly healthy child is severely neurologically impaired. When she finally gets off the six-month waitlist to see the developmental pediatrician, the specialist takes one look at Leo—who is now 24 months old and speaking in normal 2-word sentences—and is baffled. The specialist informs Sarah that Leo is developing perfectly and that your initial expectations were off by a year and a half. Angry and traumatized, Sarah files a formal grievance against your clinic for incompetence and inflicting extreme emotional distress.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/9882fe36-bf8d-46fe-a087-473b2c5f9a4c.jpeg",
+            "filename": "9882fe36-bf8d-46fe-a087-473b2c5f9a4c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 1284.0416350696366,
+        "y": 3284.9079828800714
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "A fundamental requirement of pediatrics is distinguishing pathological delay from normal developmental variance—and more importantly, knowing the actual chronological timeline of milestones. Expecting an 18-month-old to speak in 3-word sentences or ride a tricycle is a severe clinical error. Two-word sentences typically emerge at 24 months , and riding a tricycle and speaking in 3-word sentences are strictly 36-month (3-year-old) milestones . Misapplying these benchmarks pathologizes normal children, inflicts profound psychological trauma on parents, and clogs the already overwhelmed early intervention and specialist systems.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-27",
+      "type": "terminationNode",
+      "position": {
+        "x": 1273.612468110965,
+        "y": 3628.984487457034
+      },
+      "data": {
+        "title": "Terminal Outcome: The Waitlist of Terror",
+        "content": "Final Outcome: Failure / Clinical Incompetence & Resource Waste\n\nThe Flaw: Projecting preschool (3-6 years) developmental milestones onto a toddler (12-24 months), and diagnosing a delay without consulting standardized developmental screening charts.\n\nActionable Improvement: Memorize the core anchors: 1 year = 1-word stages/walking; 2 years = 2-word sentences/running; 3 years = 3-word sentences/tricycle . Never refer a child for a severe developmental delay without first verifying the age-appropriate benchmark.",
+        "conceptTag": "Milestone Timelines & Iatrogenic Anxiety",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "checkpoint"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2846.747916661187,
+        "y": 3250.612285167924
+      },
+      "data": {
+        "title": "The Collaborative Dietician",
+        "content": "You successfully navigated parental misinformation without violating maternal autonomy. You achieved a collaborative plan that meets all pediatric nutritional guidelines.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/eb529391-b069-49f7-96af-fe537aec070e/906ffd73-d461-4612-b8ef-b4adfd27de61.jpeg",
+            "filename": "906ffd73-d461-4612-b8ef-b4adfd27de61.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "id": "edge-choice-node-3",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-3"
+    },
+    {
+      "id": "edge-choice-node-4",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-4"
+    },
+    {
+      "source": "choice-node-4",
+      "target": "information-node-5",
+      "id": "xy-edge__choice-node-4-information-node-5"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-6",
+      "id": "xy-edge__choice-node-2-information-node-6"
+    },
+    {
+      "source": "information-node-6",
+      "target": "information-node-7",
+      "id": "xy-edge__information-node-6-information-node-7"
+    },
+    {
+      "source": "information-node-7",
+      "target": "termination-node-8",
+      "id": "xy-edge__information-node-7-termination-node-8"
+    },
+    {
+      "source": "choice-node-3",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-3-information-node-9"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-10",
+      "id": "xy-edge__information-node-9-information-node-10"
+    },
+    {
+      "source": "information-node-10",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-10-termination-node-11"
+    },
+    {
+      "source": "information-node-5",
+      "target": "decision-node-12",
+      "id": "xy-edge__information-node-5-decision-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-12",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-13"
+    },
+    {
+      "id": "edge-choice-node-14",
+      "source": "decision-node-12",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-14"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "decision-node-15",
+      "id": "xy-edge__choice-node-13-decision-node-15"
+    },
+    {
+      "id": "edge-choice-node-16",
+      "source": "decision-node-15",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16"
+    },
+    {
+      "id": "edge-choice-node-17",
+      "source": "decision-node-15",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17"
+    },
+    {
+      "source": "choice-node-14",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-14-information-node-18"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-17-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "decision-node-19",
+      "id": "xy-edge__information-node-18-decision-node-19"
+    },
+    {
+      "id": "edge-choice-node-20",
+      "source": "decision-node-19",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-20"
+    },
+    {
+      "id": "edge-choice-node-21",
+      "source": "decision-node-19",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-21"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-25",
+      "id": "xy-edge__choice-node-16-information-node-25"
+    },
+    {
+      "source": "choice-node-20",
+      "target": "information-node-22",
+      "id": "xy-edge__choice-node-20-information-node-22"
+    },
+    {
+      "source": "information-node-22",
+      "target": "information-node-23",
+      "id": "xy-edge__information-node-22-information-node-23"
+    },
+    {
+      "source": "information-node-23",
+      "target": "termination-node-24",
+      "id": "xy-edge__information-node-23-termination-node-24"
+    },
+    {
+      "source": "choice-node-21",
+      "target": "information-node-28",
+      "id": "xy-edge__choice-node-21-information-node-28"
+    },
+    {
+      "source": "information-node-25",
+      "target": "information-node-26",
+      "id": "xy-edge__information-node-25-information-node-26"
+    },
+    {
+      "source": "information-node-26",
+      "target": "termination-node-27",
+      "id": "xy-edge__information-node-26-termination-node-27"
+    }
+  ],
+  "viewport": {
+    "x": -407.6018039838409,
+    "y": -1139.6677963924712,
+    "zoom": 0.5454439900505638
+  }
+}

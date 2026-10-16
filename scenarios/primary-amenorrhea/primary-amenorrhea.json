@@ -1,0 +1,1415 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 1113.1409472911728,
+        "y": -611.600263958011
+      },
+      "data": {
+        "title": "The Missing Milestone",
+        "content": "Patient Profile: Chloe, 17-year-old female.\nInitial State: She presents to your clinic highly distressed. She states she is the only girl in her friend group who has not yet started her period. She reports being sexually active with her boyfriend for the past year and uses condoms consistently. She denies any pelvic pain, visual changes, or headaches.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1114.5434535034221,
+        "y": -273.11286991299846
+      },
+      "data": {
+        "title": "The Intake & Trust Building (Time: Initial Consult)",
+        "content": "You enter the room. Chloe is visibly anxious and avoids eye contact. Given her age and the sensitive nature of the visit, establishing trust while executing the correct primary algorithm is critical.",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 900.81661022934,
+        "y": 63.16964420894087
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The \"Late Bloomer\" Dismissal",
+        "content": "Reassure her that every body develops at its own pace. Since she has no pelvic pain, tell her to come back in a year if her period hasn't started by age 18.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-3",
+      "type": "choiceNode",
+      "position": {
+        "x": 1354.8893527924897,
+        "y": 57.33323363614974
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Interrogator",
+        "content": "Focus immediately on her sexual activity. Ask her to detail her contraceptive use in front of the medical scribe, and immediately order a full STD panel and a pelvic exam without explaining why.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-4",
+      "type": "choiceNode",
+      "position": {
+        "x": 1799.6238384391734,
+        "y": 52.664105177916845
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Empathetic Protocol",
+        "content": "Ask the scribe/chaperone to step out for a moment to ensure confidentiality. Validate her anxiety, assuring her that investigating this is standard and safe. Then, order the most critical first test for any reproductive-age female with amenorrhea: a urine beta-hCG (pregnancy test).",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-5",
+      "type": "informationNode",
+      "position": {
+        "x": 2156.2417028086,
+        "y": 401.26576600399056
+      },
+      "data": {
+        "title": "The Empathetic Protocol",
+        "content": "You establish absolute trust. Even though she has primary amenorrhea, pregnancy is always the top differential to rule out in a sexually active female. The test returns negative.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/6cb65a2f-76e9-4a68-b0e7-30cf895496dc.jpeg",
+            "filename": "6cb65a2f-76e9-4a68-b0e7-30cf895496dc.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-6",
+      "type": "informationNode",
+      "position": {
+        "x": 699.1446065522853,
+        "y": 428.7616253968331
+      },
+      "data": {
+        "title": "The \"Late Bloomer\" Dismissal",
+        "content": "You send Chloe home. She feels dismissed but trusts your authority. A year later, she presents to the emergency department with severe, acute cyclic pelvic pain. She actually had a transverse vaginal septum (an anatomical outflow obstruction). Because you delayed the workup, she developed severe retrograde menstruation and endometriosis, compromising her future fertility.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/079a07c6-acda-40ee-9524-214e60d5c4b1.jpeg",
+            "filename": "079a07c6-acda-40ee-9524-214e60d5c4b1.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-7",
+      "type": "informationNode",
+      "position": {
+        "x": 707.2272100302204,
+        "y": 745.8215796149042
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Primary amenorrhea is strictly defined as the absence of menarche by age >15 years in the presence of normal secondary sexual characteristics, or by age >13 years in the absence of secondary sexual characteristics. Dismissing a 17-year-old as a \"late bloomer\" is a severe clinical error that delays the diagnosis of potentially profound anatomical or genetic abnormalities. A full diagnostic workup must be initiated immediately.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-8",
+      "type": "terminationNode",
+      "position": {
+        "x": 659.9697067487389,
+        "y": 1156.5918938511752
+      },
+      "data": {
+        "title": "Terminal Outcome: The Missed Window",
+        "content": "You send Chloe home. She feels dismissed but trusts your authority. A year later, she presents to the emergency department with severe, acute cyclic pelvic pain. She actually had a transverse vaginal septum (an anatomical outflow obstruction). Because you delayed the workup, she developed severe retrograde menstruation and endometriosis, compromising her future fertility.",
+        "conceptTag": "Diagnostic Criteria & Delayed Care",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-10",
+      "type": "decisionNode",
+      "position": {
+        "x": 1154.0285842275705,
+        "y": 430.9184976202132
+      },
+      "data": {
+        "title": "The Interrogator",
+        "content": "Chloe is crying and refusing the exam.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/f651b083-266b-48c8-84c6-7b90b058b118.jpeg",
+            "filename": "f651b083-266b-48c8-84c6-7b90b058b118.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-11",
+      "type": "choiceNode",
+      "position": {
+        "x": 1340.490973947389,
+        "y": 741.4033213802267
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Interrogator",
+        "content": "Instead of apologizing to Chloe when she shuts down, you remind her that since she is an underage minor engaging in sexual activity, you have an obligation to test her, threatening to bring her mother into the room if she doesn’t comply",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1763.9112383062225,
+        "y": 740.0569930356834
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy",
+        "content": "You must ask the scribe to leave, apologize for the abruptness, and explain that a pregnancy test and a non-invasive external exam are the standard first steps. You regain just enough trust to proceed.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-13",
+      "type": "decisionNode",
+      "position": {
+        "x": 2157.530163820546,
+        "y": 768.4848385173076
+      },
+      "data": {
+        "title": "The Anatomical Assessment",
+        "content": "Chloe's pregnancy test is negative. You proceed with a gentle physical exam with a chaperone present. You note she has normal, mature breast development (Tanner Stage V) and normal pubic and axillary hair.",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-14",
+      "type": "choiceNode",
+      "position": {
+        "x": 2144.5141569364355,
+        "y": 1095.5210287616353
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "misstep",
+        "title": "The Hormonal Shotgun",
+        "content": "You assume this is a pituitary issue. You order a massive panel: FSH, LH, TSH, Prolactin, and Estradiol, and schedule her for a brain MRI.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-15",
+      "type": "choiceNode",
+      "position": {
+        "x": 2687.8126812711384,
+        "y": 1089.4747812730138
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Anatomy Check",
+        "content": "You recognize that secondary sexual characteristics are present, meaning her body is producing estrogen. You order a pelvic ultrasound to determine the presence or absence of a uterus.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "decision-node-16",
+      "type": "decisionNode",
+      "position": {
+        "x": 1948.3699130525736,
+        "y": 1469.6175478767539
+      },
+      "data": {
+        "title": "The Hormonal Shotgun",
+        "content": "The lab results return. Her FSH, LH, TSH, and Prolactin are all perfectly normal. The brain MRI is clear. You have wasted thousands of dollars and caused the patient unnecessary stress.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/725209d4-a15d-4e96-a594-d87396d43035.jpeg",
+            "filename": "725209d4-a15d-4e96-a594-d87396d43035.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2318.8788374526516,
+        "y": 1807.0145964441424
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy",
+        "content": "You realize you skipped the anatomical evaluation. You pivot and order the pelvic ultrasound.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 2610.1309962723126,
+        "y": 1488.6729318220987
+      },
+      "data": {
+        "title": "The Anatomy Check",
+        "content": "When a patient has primary amenorrhea but normal breast development, the very next step in the algorithm is a pelvic ultrasound to evaluate the Müllerian structures",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/035cd0cc-8a4f-444b-a1b9-3df10e88e74b.jpeg",
+            "filename": "035cd0cc-8a4f-444b-a1b9-3df10e88e74b.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-20",
+      "type": "decisionNode",
+      "position": {
+        "x": 2652.583195362663,
+        "y": 1816.6916597993816
+      },
+      "data": {
+        "title": "Interpreting the Anatomy",
+        "content": "The pelvic ultrasound results are back. The radiologist notes: \"Normal appearing bilateral ovaries. The uterus and upper two-thirds of the vagina are entirely absent.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/50fa31ac-1c80-4d5d-a3d5-528749025d00.jpeg",
+            "filename": "50fa31ac-1c80-4d5d-a3d5-528749025d00.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-21",
+      "type": "choiceNode",
+      "position": {
+        "x": 2437.7784786549996,
+        "y": 2173.409715815368
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Premature AIS Diagnosis",
+        "content": "Tell Chloe that she has Androgen Insensitivity Syndrome (AIS) and that she is genetically male",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-22",
+      "type": "choiceNode",
+      "position": {
+        "x": 2863.3600024948887,
+        "y": 2172.7809015070943
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Müllerian Assumption",
+        "content": "Tell her she has Müllerian Agenesis (Mayer-Rokitansky-Küster-Hauser syndrome) and that she was born without a uterus.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-23",
+      "type": "choiceNode",
+      "position": {
+        "x": 3286.9293205483004,
+        "y": 2168.7564899341405
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Comprehensive Confirmation",
+        "content": "Explain the ultrasound findings gently, stating that her uterus did not develop in utero. Immediately order a Karyotype and a serum testosterone level to definitively distinguish the etiology.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-24",
+      "type": "informationNode",
+      "position": {
+        "x": 3559.330877842686,
+        "y": 2583.373626882034
+      },
+      "data": {
+        "title": "The Comprehensive Confirmation",
+        "content": "Absent uterus with normal breasts has two main differentials: Müllerian Agenesis (46, XX) and Complete Androgen Insensitivity Syndrome (46, XY). You must have a karyotype and testosterone levels (which will be male-range in AIS) to confirm.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/1ebc5834-eaca-425e-85bd-757e9555880a.jpeg",
+            "filename": "1ebc5834-eaca-425e-85bd-757e9555880a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-25",
+      "type": "informationNode",
+      "position": {
+        "x": 2094.01576524626,
+        "y": 2594.3021502449965
+      },
+      "data": {
+        "title": "The Premature AIS Diagnosis",
+        "content": "You sit Chloe down and tell her she is genetically male. She suffers a massive psychological breakdown in the clinic, experiencing acute identity crisis and severe depression. Two weeks later, another physician pulls her labs and discovers she is 46, XX. She has Müllerian Agenesis, not AIS. Your premature assumption based purely on ultrasound findings caused profound, unnecessary psychological trauma. You face a severe malpractice and ethics board review.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/ec080a24-9dbb-4781-8768-d122b7cc60ab.jpeg",
+            "filename": "ec080a24-9dbb-4781-8768-d122b7cc60ab.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2083.6551010601706,
+        "y": 2920.577437400094
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Delivering life-altering genetic and gender-identity information without objective confirmation is a catastrophic ethical and clinical failure. An absent uterus on ultrasound with normal breast development points to either Müllerian Agenesis (a 46, XX female) or Complete Androgen Insensitivity Syndrome (a 46, XY individual with mutated androgen receptors). You cannot differentiate these visually on an ultrasound.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-27",
+      "type": "terminationNode",
+      "position": {
+        "x": 2088.972873940903,
+        "y": 3283.139100805108
+      },
+      "data": {
+        "title": "Terminal Outcome: The Devastating Assumption",
+        "content": "Final Outcome: Failure / Unprofessional Conduct & Psychological Harm\n\nThe Flaw: Diagnosing a complex disorder of sexual development without a karyotype. Furthermore, diagnosing AIS requires a multidisciplinary team (psychology, endocrinology, gynecology) to navigate the extreme sensitivity of the condition.\n\nActionable Improvement: Never deliver a life-altering genetic diagnosis without the objective genetic data (Karyotype) in hand.",
+        "conceptTag": "Medical Ethics & Genetic Counseling",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-28",
+      "type": "decisionNode",
+      "position": {
+        "x": 2616.483666592646,
+        "y": 2596.7288358878072
+      },
+      "data": {
+        "title": "The Assumption Remedy",
+        "content": "You tell her it is Müllerian Agenesis. Your attending pulls you aside and points out that her axillary and pubic hair are a bit sparse, a classic sign of AIS.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/b08bed47-adde-47d1-8466-2b7f5e328c38.jpeg",
+            "filename": "b08bed47-adde-47d1-8466-2b7f5e328c38.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-29",
+      "type": "choiceNode",
+      "position": {
+        "x": 3117.4563442650565,
+        "y": 2906.166704528865
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy",
+        "content": "You acknowledge the oversight, order the Karyotype and serum testosterone, and tell the patient you are awaiting final genetic confirmation.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-30",
+      "type": "choiceNode",
+      "position": {
+        "x": 2691.924500556608,
+        "y": 2967.837583355768
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Ignored Red Flag",
+        "content": "When the attending points out Chloe's sparse pubic and axillary hair, you dismiss it as a normal variant. You refuse to order the karyotype and counsel the family purely on Müllerian Agenesis.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-32",
+      "type": "decisionNode",
+      "position": {
+        "x": 3546.289866071243,
+        "y": 2955.0635184173475
+      },
+      "data": {
+        "title": "Delivering the Diagnosis (The Bedside Manner Test)",
+        "content": "The labs return. The Karyotype is 46, XX. Her serum testosterone is in the normal female range. The definitive diagnosis is Müllerian Agenesis.\n\nYou sit down with Chloe and her mother to explain that her uterus and upper vagina failed to develop during embryogenesis, but her ovaries are perfectly healthy. Chloe begins to cry. She looks at you and asks, \"Does this mean I can never have my own biological children?\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/6039c6df-0ae2-4e5b-9b72-ced2bd9108ee.jpeg",
+            "filename": "6039c6df-0ae2-4e5b-9b72-ced2bd9108ee.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-33",
+      "type": "choiceNode",
+      "position": {
+        "x": 3299.5562682491327,
+        "y": 3322.5176439483885
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "correct",
+        "title": "The Nuanced Truth",
+        "content": "Hand her a tissue. Say, \"You cannot carry a pregnancy yourself, but you are not sterile. Because your ovaries are healthy, you produce your own eggs. In the future, you can have biological children through IVF and a gestational surrogate.\"",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-34",
+      "type": "choiceNode",
+      "position": {
+        "x": 3753.1745329115224,
+        "y": 3307.097193025021
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "wrong",
+        "title": "The Blunt Denial",
+        "content": "State clearly, \"Yes, because you do not have a uterus, you are permanently sterile. You should look into adoption when you are ready.\"",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-35",
+      "type": "choiceNode",
+      "position": {
+        "x": 4200.367609689176,
+        "y": 3301.957042717232
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "wrong",
+        "title": "The False Hope",
+        "content": "Tell her not to worry, because surgical science is advancing rapidly and she can simply get a uterine transplant in the future to carry a baby.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-36",
+      "type": "informationNode",
+      "position": {
+        "x": 3099.3271111750755,
+        "y": 3693.801869269105
+      },
+      "data": {
+        "title": "The Nuanced Truth",
+        "content": "You successfully navigated a deeply emotional, complex medical diagnosis. You provided accurate scientific data without destroying her hope, blending high-level gynecological knowledge with impeccable bedside manner.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/21304540-2fbc-4d10-b571-00282e783d0a.jpeg",
+            "filename": "21304540-2fbc-4d10-b571-00282e783d0a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-41",
+      "type": "terminationNode",
+      "position": {
+        "x": 3589.473934996582,
+        "y": 3685.637800041344
+      },
+      "data": {
+        "title": "Failure / Medical Inaccuracy & Poor Bedside Manner",
+        "content": "The Flaw: Equating the inability to carry a pregnancy (absent uterus) with biological sterility (absent ovaries). In Müllerian Agenesis, the ovaries function perfectly. She can undergo oocyte retrieval for In Vitro Fertilization (IVF). Telling her she is sterile is factually wrong and unnecessarily cruel.\n\nActionable Improvement: Review the anatomy of Müllerian structures. The ovaries are derived from the genital ridge, not the Müllerian ducts. Therefore, they are unaffected in this condition.",
+        "conceptTag": "Delivering the Diagnosis",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-42",
+      "type": "terminationNode",
+      "position": {
+        "x": 4081.5435175278017,
+        "y": 3680.031867528149
+      },
+      "data": {
+        "title": "Failure / Providing Experimental False Hope",
+        "content": "The Flaw: Uterine transplants are currently highly experimental, incredibly dangerous, and not the standard of care. Promising this to a distressed 17-year-old violates the ethical principle of non-maleficence by setting her up for severe future disappointment and potential physical harm.\n\nActionable Improvement: Always counsel patients based on current, established standards of care (IVF with a gestational carrier), while offering psychological support and counseling resources for individuals with absolute uterine factor infertility.",
+        "conceptTag": "Delivering the Diagnosis",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-43",
+      "type": "informationNode",
+      "position": {
+        "x": 1140.4472472458078,
+        "y": 1128.8131897225503
+      },
+      "data": {
+        "title": "The Interrogator",
+        "content": "Chloe is terrified by your threat. She abruptly stands up, refuses all care, and leaves the clinic against medical advice (AMA). Because you violated her trust, she becomes deeply averse to the healthcare system. She never follows up with another physician. Years later, she experiences painful intercourse (dyspareunia) due to her undiagnosed anatomical abnormality, suffering in silence and developing severe sexual trauma and anxiety because she is too afraid of doctors to seek help.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/8f2e8e68-f15a-4363-abe4-7e8e3f2d6702.jpeg",
+            "filename": "8f2e8e68-f15a-4363-abe4-7e8e3f2d6702.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 1139.4812010555177,
+        "y": 1450.913722228636
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Adolescent gynecology requires a delicate balance of confidentiality, autonomy, and trust. While minors have different legal standing depending on the jurisdiction, using coercion or the threat of parental disclosure to force a physical exam on a stable, non-emergent patient is a profound ethical violation. It completely destroys the therapeutic alliance. A pelvic exam must always be performed with explicit, uncoerced consent, especially in young patients presenting for their first gynecological visit.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-45",
+      "type": "terminationNode",
+      "position": {
+        "x": 1129.182096651276,
+        "y": 1806.755776163378
+      },
+      "data": {
+        "title": "Terminal Outcome: The Broken Trust",
+        "content": "Final Outcome: Failure / AMA and Healthcare Alienation\n\nThe Flaw: Utilizing coercion and violating patient autonomy to force clinical compliance.\n\nActionable Improvement: Master the ethics of adolescent confidentiality. If a patient refuses a non-emergent exam, respect their boundaries, explain the clinical reasoning, and offer to reschedule when they feel more comfortable.",
+        "conceptTag": "Medical Ethics & Adolescent Autonomy",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-46",
+      "type": "choiceNode",
+      "position": {
+        "x": 1819.0416565903959,
+        "y": 1814.4687226722372
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Hormonal Shotgun",
+        "content": "When the massive hormone panel and brain MRI come back normal, you decide she just has functional hypothalamic amenorrhea from the \"stress\" of being a teenager. You prescribe oral contraceptive pills (OCPs) to jumpstart her cycle.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-47",
+      "type": "informationNode",
+      "position": {
+        "x": 1609.9542205063121,
+        "y": 2207.076073405079
+      },
+      "data": {
+        "title": "",
+        "content": "You prescribe the OCPs and tell Chloe her period will start during the placebo week. She takes the medication faithfully for six months. Predictably, she never bleeds, because she has no endometrium to shed. Frustrated and experiencing side effects from the unnecessary estrogen, she seeks a second opinion. The new physician performs a 5-minute bedside ultrasound, immediately noting the absent uterus, and reports your negligent prescribing to the medical board.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/f9a62c0c-9b3d-46b3-bf48-338f714b2fd6/274c9fe1-8930-4d0a-a17b-b1a7a22113cf.jpeg",
+            "filename": "274c9fe1-8930-4d0a-a17b-b1a7a22113cf.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-48",
+      "type": "informationNode",
+      "position": {
+        "x": 1448.2987300630145,
+        "y": 2561.3827786900865
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Prescribing a treatment without a confirmed anatomical diagnosis is a dangerous trap. You cannot chemically induce a period in a patient who lacks a uterus. In the primary amenorrhea algorithm, once a pregnancy test is negative and secondary sexual characteristics are confirmed, a pelvic ultrasound is strictly required to determine the presence of a uterus. Administering exogenous hormones blindly exposes the patient to unnecessary risks (like venous thromboembolism) without any possibility of resolving her chief complaint.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-49",
+      "type": "terminationNode",
+      "position": {
+        "x": 1356.310417917453,
+        "y": 2957.4827681477277
+      },
+      "data": {
+        "title": "Terminal Outcome: The Phantom Cycle",
+        "content": "Final Outcome: Failure / Negligent Prescribing & Missed Diagnosis\n\nThe Flaw: Treating a symptom (amenorrhea) with empirical medical therapy without ruling out an anatomical outflow tract or structural absence first.\n\nActionable Improvement: Never skip the imaging step in primary amenorrhea. A pelvic ultrasound is a cheap, non-invasive, and mandatory tool to confirm Müllerian structures before initiating any hormonal therapy.",
+        "conceptTag": "Anatomical Prerequisites & Empirical Fallacies",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-50",
+      "type": "informationNode",
+      "position": {
+        "x": 2580.0378286781734,
+        "y": 3312.6618103431156
+      },
+      "data": {
+        "title": "The Ignored Red Flag",
+        "content": "You confidently diagnose Chloe with Müllerian Agenesis and discharge her. Because you assumed her ovaries were normal, you do not schedule any surgical follow-up. Chloe is actually 46, XY with Complete Androgen Insensitivity Syndrome. She has retained intra-abdominal testes. Ten years later, at age 27, she presents to the emergency department with a large abdominal mass. The retained testicular tissue has undergone malignant transformation into a highly aggressive gonadoblastoma. By dismissing a subtle physical exam finding and skipping the karyotype, you missed a critical prophylactic intervention.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-51",
+      "type": "informationNode",
+      "position": {
+        "x": 2596.677610759905,
+        "y": 3646.4382251087454
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Sparse or absent axillary and pubic hair in a phenotypic female with an absent uterus is the cardinal clinical sign of Complete Androgen Insensitivity Syndrome (CAIS). CAIS patients are genetically 46, XY and possess male gonads (testes) that are typically retained in the abdomen or inguinal canal. While Müllerian agenesis and CAIS can look identical on a basic ultrasound, the distinction is life-or-death. The retained intra-abdominal testes in CAIS carry a significant risk of malignant transformation (dysgerminoma or gonadoblastoma) after puberty. A karyotype is absolutely mandatory.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-52",
+      "type": "terminationNode",
+      "position": {
+        "x": 2598.4357730122165,
+        "y": 3978.1873152436087
+      },
+      "data": {
+        "title": "Terminal Outcome: The Ticking Time Bomb",
+        "content": "Final Outcome: Fatal / Missed Malignancy Prevention\n\nThe Flaw: Dismissing clinical red flags (sparse hair) and failing to confirm the genetic sex in a patient with an absent uterus, leading to retained malignant-potential gonads.\n\nActionable Improvement: Any patient with an absent uterus must have a karyotype and serum testosterone level. If CAIS (46, XY) is confirmed, the standard of care requires a prophylactic gonadectomy after puberty is complete to prevent cancer.",
+        "conceptTag": "Genotypic Discordance & Malignancy Risk",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "id": "edge-choice-node-3",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-3"
+    },
+    {
+      "id": "edge-choice-node-4",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-4"
+    },
+    {
+      "source": "choice-node-4",
+      "target": "information-node-5",
+      "id": "xy-edge__choice-node-4-information-node-5"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-6",
+      "id": "xy-edge__choice-node-2-information-node-6"
+    },
+    {
+      "source": "information-node-6",
+      "target": "information-node-7",
+      "id": "xy-edge__information-node-6-information-node-7"
+    },
+    {
+      "source": "information-node-7",
+      "target": "termination-node-8",
+      "id": "xy-edge__information-node-7-termination-node-8"
+    },
+    {
+      "source": "choice-node-3",
+      "target": "decision-node-10",
+      "id": "xy-edge__choice-node-3-decision-node-10"
+    },
+    {
+      "id": "edge-choice-node-11",
+      "source": "decision-node-10",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-11"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-10",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-13",
+      "id": "xy-edge__choice-node-12-decision-node-13"
+    },
+    {
+      "source": "information-node-5",
+      "target": "decision-node-13",
+      "id": "xy-edge__information-node-5-decision-node-13"
+    },
+    {
+      "id": "edge-choice-node-14",
+      "source": "decision-node-13",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-14"
+    },
+    {
+      "id": "edge-choice-node-15",
+      "source": "decision-node-13",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-15"
+    },
+    {
+      "source": "choice-node-14",
+      "target": "decision-node-16",
+      "id": "xy-edge__choice-node-14-decision-node-16"
+    },
+    {
+      "id": "edge-choice-node-17",
+      "source": "decision-node-16",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-17-information-node-18"
+    },
+    {
+      "source": "choice-node-15",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-15-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "decision-node-20",
+      "id": "xy-edge__information-node-18-decision-node-20"
+    },
+    {
+      "id": "edge-choice-node-21",
+      "source": "decision-node-20",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-21"
+    },
+    {
+      "id": "edge-choice-node-22",
+      "source": "decision-node-20",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-22"
+    },
+    {
+      "id": "edge-choice-node-23",
+      "source": "decision-node-20",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-23"
+    },
+    {
+      "source": "choice-node-23",
+      "target": "information-node-24",
+      "id": "xy-edge__choice-node-23-information-node-24"
+    },
+    {
+      "source": "choice-node-21",
+      "target": "information-node-25",
+      "id": "xy-edge__choice-node-21-information-node-25"
+    },
+    {
+      "source": "information-node-25",
+      "target": "information-node-26",
+      "id": "xy-edge__information-node-25-information-node-26"
+    },
+    {
+      "source": "information-node-26",
+      "target": "termination-node-27",
+      "id": "xy-edge__information-node-26-termination-node-27"
+    },
+    {
+      "source": "choice-node-22",
+      "target": "decision-node-28",
+      "id": "xy-edge__choice-node-22-decision-node-28"
+    },
+    {
+      "id": "edge-choice-node-29",
+      "source": "decision-node-28",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-29"
+    },
+    {
+      "id": "edge-choice-node-30",
+      "source": "decision-node-28",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-30"
+    },
+    {
+      "source": "choice-node-29",
+      "target": "information-node-24",
+      "id": "xy-edge__choice-node-29-information-node-24"
+    },
+    {
+      "source": "information-node-24",
+      "target": "decision-node-32",
+      "id": "xy-edge__information-node-24-decision-node-32"
+    },
+    {
+      "id": "edge-choice-node-33",
+      "source": "decision-node-32",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-33"
+    },
+    {
+      "id": "edge-choice-node-34",
+      "source": "decision-node-32",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-34"
+    },
+    {
+      "id": "edge-choice-node-35",
+      "source": "decision-node-32",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-35"
+    },
+    {
+      "source": "choice-node-33",
+      "target": "information-node-36",
+      "id": "xy-edge__choice-node-33-information-node-36"
+    },
+    {
+      "source": "choice-node-11",
+      "target": "information-node-43",
+      "id": "xy-edge__choice-node-11-information-node-43"
+    },
+    {
+      "source": "information-node-43",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-43-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-45",
+      "id": "xy-edge__information-node-44-termination-node-45"
+    },
+    {
+      "id": "edge-choice-node-46",
+      "source": "decision-node-16",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-46"
+    },
+    {
+      "source": "choice-node-46",
+      "target": "information-node-47",
+      "id": "xy-edge__choice-node-46-information-node-47"
+    },
+    {
+      "source": "information-node-47",
+      "target": "information-node-48",
+      "id": "xy-edge__information-node-47-information-node-48"
+    },
+    {
+      "source": "information-node-48",
+      "target": "termination-node-49",
+      "id": "xy-edge__information-node-48-termination-node-49"
+    },
+    {
+      "source": "choice-node-30",
+      "target": "information-node-50",
+      "id": "xy-edge__choice-node-30-information-node-50"
+    },
+    {
+      "source": "information-node-50",
+      "target": "information-node-51",
+      "id": "xy-edge__information-node-50-information-node-51"
+    },
+    {
+      "source": "information-node-51",
+      "target": "termination-node-52",
+      "id": "xy-edge__information-node-51-termination-node-52"
+    },
+    {
+      "source": "choice-node-34",
+      "target": "termination-node-41",
+      "id": "xy-edge__choice-node-34-termination-node-41"
+    },
+    {
+      "source": "choice-node-35",
+      "target": "termination-node-42",
+      "id": "xy-edge__choice-node-35-termination-node-42"
+    }
+  ],
+  "viewport": {
+    "x": -1292.0457745469025,
+    "y": -1624.5333036055051,
+    "zoom": 0.6161741282568354
+  }
+}

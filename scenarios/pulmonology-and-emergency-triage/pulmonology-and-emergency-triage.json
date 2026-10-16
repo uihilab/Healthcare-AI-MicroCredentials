@@ -1,0 +1,1102 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Breathless Traveler",
+        "content": "Patient Profile: Ms. Clara Vance, a 36-year-old female.\nThe patient presents to the emergency department with worsening shortness of breath and pleuritic chest pain. She recently returned to the United States from a 14-hour overseas business flight. Her only medication is an oral contraceptive.Vitals: Temperature $98.6^{\\circ}F$ ($37^{\\circ}C$), Blood Pressure $135/82$ mmHg, Pulse $112/min$, Respirations $24/min$, Oxygen Saturation 89% on room air.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/a9cdc1c2-13dd-4d12-b5e0-0b899436bd48.jpeg",
+            "filename": "a9cdc1c2-13dd-4d12-b5e0-0b899436bd48.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Initial Triage",
+        "content": "You enter the room. Clara is gasping for air, clutching her chest, and crying. \"I feel like I'm having a heart attack, I can't catch my breath!\" she panics.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/55cadebf-670b-488b-9811-135371a4586f.jpeg",
+            "filename": "55cadebf-670b-488b-9811-135371a4586f.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Anxiety Anchor",
+        "content": "Assume her symptoms are a panic attack triggered by travel stress, given her young age and normal blood pressure. Reassure her dismissively, order an IV benzodiazepine (Lorazepam) to calm her down, and wait for her heart rate to drop.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Anxiety Anchor",
+        "content": "You administer the Lorazepam. Clara becomes sedated, and her respiratory drive decreases. Because her pulmonary vasculature is mechanically obstructed by a massive clot, her right ventricle is already straining against high pulmonary vascular resistance. The added hypoventilation pushes her into profound hypoxemia. She suffers a pulseless electrical activity (PEA) arrest from right ventricular failure.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/4d8f4b12-c178-4e95-89f1-e75d660849b0.jpeg",
+            "filename": "4d8f4b12-c178-4e95-89f1-e75d660849b0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Dyspnea, tachycardia, and pleuritic chest pain in a young woman on oral contraceptives who just endured prolonged immobilization is a Pulmonary Embolism until proven otherwise . Hypoxemia (SpO2 89%) is a hard, objective finding that is never caused by a primary panic attack. By administering a respiratory depressant (benzodiazepine) to a hypoxic patient while ignoring classic thrombotic risk factors, you actively worsen her respiratory failure.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 152.58812528205152,
+        "y": 375.6633283076233
+      },
+      "data": {
+        "title": "Terminal Outcome: The Fatal Reassurance",
+        "content": "Final Outcome: Fatal / Anchoring Bias leading to Cardiac Arrest\n\nThe Flaw: Dismissing objective, life-threatening vital signs (SpO2 89%, HR 112) as a psychiatric manifestation.\n\nActionable Improvement: Never diagnose a panic attack in the setting of objective hypoxemia. Calculate the Wells score. Her score is at least 6.0 (HR >100 [1.5], Immobilization [1.5], PE most likely [3.0]), making her a moderate/high risk where immediate imaging is indicated .",
+        "conceptTag": "Diagnostic Anchoring & Objective Hypoxemia",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Premature Screen",
+        "content": "Order a stat D-dimer to rule out a PE, telling her you will return when the lab results are back.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The D-Dimer Remedy",
+        "content": "You order the D-dimer. Ninety minutes later, the lab calls to report it is highly elevated.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/a9fe3e82-6ae5-41ed-845c-59061801610a.jpeg",
+            "filename": "a9fe3e82-6ae5-41ed-845c-59061801610a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The False Confirmation",
+        "content": "Instead of realizing the D-dimer was the wrong test and pivoting to a V/Q scan, you assume the highly elevated D-dimer is definitive proof of a pulmonary embolism. You immediately start her on a therapeutic heparin drip without any imaging",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The False Confirmation",
+        "content": "You start the therapeutic heparin drip based solely on the positive D-dimer. Clara's pleuritic chest pain and shortness of breath were actually atypical presentations of an acute aortic dissection, which also heavily elevates D-dimer levels. By initiating systemic anticoagulation, you completely strip her body's ability to form a stabilizing clot. The dissection rapidly tears through the layers of her aorta and ruptures into her chest cavity. She bleeds to death in minutes.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/f702c3ec-413b-47ca-8d58-bfbf68452f8d.jpeg",
+            "filename": "f702c3ec-413b-47ca-8d58-bfbf68452f8d.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-10",
+      "type": "informationNode",
+      "position": {
+        "x": 834.9539392198817,
+        "y": 743.1332715433641
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "A D-dimer has high sensitivity but poor specificity for a pulmonary embolism. It is strictly used to rule out a PE when there is a low pre-test probability. It can never be used to rule in a PE. Many severe cardiopulmonary emergencies—including myocardial infarctions and aortic dissections—will cause a massive spike in a D-dimer. Administering high-risk systemic anticoagulation without confirming the diagnosis with imaging (which can reliably differentiate a PE from an aortic dissection ) is a reckless gamble that can turn an alternative diagnosis into a fatal hemorrhage.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 843.9276863128905,
+        "y": 1103.6228519246808
+      },
+      "data": {
+        "title": "Terminal Outcome: The Bleeding Aorta",
+        "content": "Final Outcome: Fatal / Iatrogenic Hemorrhage\n\nThe Flaw: Using a highly non-specific screening test as a definitive diagnostic tool and initiating dangerous therapy without imaging confirmation.\n\nActionable Improvement: Never treat a suspected PE with blood thinners based on a D-dimer alone unless the patient is far too unstable for the scanner. You must have a confirmatory study (CTA or V/Q scan).",
+        "conceptTag": "Test Specificity & Misguided Therapy",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You review the Wells Criteria and realize D-dimer has a high sensitivity but poor specificity, and is generally only used to rule out PE if there is a low pre-test probability . Because she is moderate/high risk, the D-dimer was a waste of time. You pivot and prep her for imaging.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Objective Empathy",
+        "content": "Validate her distress immediately. \"I know it feels terrifying not to be able to breathe, but you are in the right place and we are going to find out why.\" You place her on supplemental oxygen and mentally calculate her Wells Score based on her tachycardia (>100/min), prolonged immobilization, and the fact that PE is the most likely diagnosis",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Objective Empathy",
+        "content": "You effectively establish a therapeutic alliance, stabilize her hypoxemia, and utilize objective clinical criteria rather than anchoring on anxiety.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/b8a91839-7b3a-4848-b4bb-6ae36900e232.jpeg",
+            "filename": "b8a91839-7b3a-4848-b4bb-6ae36900e232.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-15",
+      "type": "decisionNode",
+      "position": {
+        "x": 2093.2327227924843,
+        "y": 53.8610941111819
+      },
+      "data": {
+        "title": "The Imaging Contraindication",
+        "content": "You prepare to order imaging to confirm the PE. Her baseline stat labs return. Her basic metabolic panel is alarming: her Creatinine is $2.9~mg/dL$ (she has an acute kidney injury, likely from severe dehydration during her travels).",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/7d64b008-7afb-4c1a-95d5-16927b022e54.jpeg",
+            "filename": "7d64b008-7afb-4c1a-95d5-16927b022e54.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Standard Protocol",
+        "content": "Order a CT Angiography (CTA) of the chest, because it is the preferred confirmatory test in most patients",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2755.664185418046,
+        "y": 424.2070307159591
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The V/Q Default",
+        "content": "Order a Ventilation/Perfusion (V/Q) scan",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Contrast Trap",
+        "content": "You push the CTA order through. The scan confirms a large saddle embolus, but the massive contrast load destroys her already struggling renal tubules. Over the next 48 hours, she becomes anuric. You successfully treat the PE, but she requires emergency hemodialysis and suffers permanent renal damage due to your failure to check her metabolic panel before ordering contrast.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "While CT Angiography (CTA) is the preferred and most appropriate confirmatory test for a PE in the general population, it requires a heavy load of iodinated intravenous contrast . In a patient with a known, severe acute kidney injury (Cr 2.9), administering IV contrast will precipitate contrast-induced nephropathy, potentially pushing the patient into irreversible end-stage renal disease requiring dialysis. When CTA is contraindicated (renal failure, severe contrast allergy, or pregnancy to avoid high radiation), a V/Q scan is the standard alternative",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Kidneys Fail",
+        "content": "Final Outcome: Suboptimal / Iatrogenic Renal Failure\n\nThe Flaw: Blindly following a \"preferred\" imaging algorithm without adjusting for patient-specific organ dysfunction.\n\nActionable Improvement: Always verify renal function (BUN/Creatinine) before ordering any CT with IV contrast.",
+        "conceptTag": "Diagnostic Contraindications & Iatrogenic Nephropathy",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 2786.2873000782647,
+        "y": 818.2433972934756
+      },
+      "data": {
+        "title": "The V/Q Default",
+        "content": "You correctly identified that a CTA requires IV contrast, which is strictly contraindicated in severe acute kidney injury. A V/Q scan is the indicated test for patients who cannot undergo a CTA of the chest .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-22",
+      "type": "decisionNode",
+      "position": {
+        "x": 2803.1530301066073,
+        "y": 1174.0894694394797
+      },
+      "data": {
+        "title": "The Hemodynamic Collapse",
+        "content": "The V/Q scan results as \"High-Probability,\" confirming the pulmonary embolism.Before you can write her admission orders, the monitor alarms. Clara's blood pressure drops abruptly to $80/50$ mmHg. She is pale, diaphoretic, and her heart rate spikes to $130/min$. The occlusion in her pulmonary vasculature has caused massive pulmonary vasoconstriction, leading to acute right ventricular dilation and decreased left ventricular preload . She is now hemodynamically unstable.",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-23",
+      "type": "choiceNode",
+      "position": {
+        "x": 2580.7994718278464,
+        "y": 1548.1082129791523
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Renal Failure Trap",
+        "content": "Start therapeutic Low-Molecular Weight Heparin (LMWH) injections to thin her blood.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-24",
+      "type": "choiceNode",
+      "position": {
+        "x": 3189.4948107636837,
+        "y": 1530.1120029584406
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Heparin Pivot",
+        "content": "Start an Unfractionated Heparin drip, because it is preferred in kidney injury/failure .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-25",
+      "type": "choiceNode",
+      "position": {
+        "x": 3835.7704706251247,
+        "y": 1521.6431982428114
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Resuscitation Protocol",
+        "content": "Because she is now hemodynamically unstable, anticoagulation alone is insufficient. You immediately initiate thrombolytic therapy (tPA) to chemically dissolve the clot, or consult vascular surgery for an emergent mechanical embolectomy .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2397.4585858926484,
+        "y": 2020.2994956810626
+      },
+      "data": {
+        "title": "The Renal Failure Trap",
+        "content": "You administer the LMWH. Because of her renal failure, the drug accumulates to toxic levels, causing systemic bleeding. Meanwhile, her right ventricle continues to pump against the massive, unbroken clot. The LMWH does nothing to reduce the immediate pulmonary vascular resistance. Her left ventricular preload drops to zero. She codes and cannot be resuscitated.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/95bf5b41-18ea-4c12-bb49-7673a7ef7410.jpeg",
+            "filename": "95bf5b41-18ea-4c12-bb49-7673a7ef7410.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-27",
+      "type": "decisionNode",
+      "position": {
+        "x": 3008.553037833146,
+        "y": 1962.7663992417388
+      },
+      "data": {
+        "title": "The Heparin Remedy",
+        "content": "You start the unfractionated heparin drip. It is the correct blood thinner for her renal status, but ten minutes later, her blood pressure drops further to $70/40$ mmHg.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/fc13ddd0-3213-4ab5-a55c-f6efb36d7de9.jpeg",
+            "filename": "fc13ddd0-3213-4ab5-a55c-f6efb36d7de9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2390.3750943636965,
+        "y": 2443.358427241273
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "This choice contains two critical errors. First, Low-Molecular Weight Heparin (LMWH) is heavily cleared by the kidneys and must be strictly avoided in renal failure; Unfractionated Heparin is the preferred agent for stable patients with kidney injury . Second, and more importantly, Clara is hemodynamically unstable. Anticoagulants (like heparin) only prevent the clot from getting larger; they do not dissolve the existing mechanical obstruction. In a peri-arrest or hypotensive patient, you must actively break the clot",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 2948.8002435943113,
+        "y": 2866.3032127534216
+      },
+      "data": {
+        "title": "The Volume Overload",
+        "content": "You squeeze the rapid IV fluid bolus into her veins. The sudden rush of volume hits her right atrium and right ventricle. Because the massive clot prevents the blood from moving forward into the lungs, her right ventricle acutely balloons. The pressure crushes her left ventricle flat. Her cardiac output drops to absolute zero. She suffers a pulseless electrical activity (PEA) cardiac arrest right in front of you.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/2a102d55-b092-46fd-9b9d-0a773c24b511.jpeg",
+            "filename": "2a102d55-b092-46fd-9b9d-0a773c24b511.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-30",
+      "type": "choiceNode",
+      "position": {
+        "x": 3141.980986841463,
+        "y": 2391.0577915051545
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Volume Overload",
+        "content": "When her blood pressure drops to 70/40 mmHg on the heparin drip, you assume the hypotension is driven by severe dehydration from her long flight and her acute kidney injury. You order a rapid, massive 2-Liter bolus of IV normal saline to boost her blood pressure.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-31",
+      "type": "choiceNode",
+      "position": {
+        "x": 3674.553817804635,
+        "y": 2376.212555798864
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize heparin will not dissolve the clot causing her obstructive shock. You immediately call a code, escalate therapy, and push systemic thrombolytics (tPA) to break the mechanical obstruction.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2389.167473201198,
+        "y": 2898.710942757801
+      },
+      "data": {
+        "title": "Terminal Outcome: The Obstructive Shock",
+        "content": "Final Outcome: Fatal / Incorrect Pharmacology & Missed EscalationThe Flaw: Using a renally-cleared drug in AKI, and failing to escalate to thrombolytics in a patient with obstructive shock.Actionable Improvement: If a PE patient becomes hypotensive ($<90$ mmHg systolic), they have transitioned to a \"massive\" PE. The treatment instantly shifts from anticoagulation to systemic thrombolytics or mechanical embolectomy ",
+        "conceptTag": "Pharmacokinetics & Hemodynamic Shock",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 2952.32620539283,
+        "y": 3747.962018139819
+      },
+      "data": {
+        "title": "Terminal Outcome: The Septal Shift",
+        "content": "Final Outcome: Fatal / Iatrogenic Cardiac Arrest\n\nThe Flaw: Treating obstructive shock with aggressive volume resuscitation instead of immediately relieving the obstruction.\n\nActionable Improvement: Hypotension in the setting of a PE defines a \"massive\" PE. You must immediately escalate from standard anticoagulants (heparin) to thrombolytic therapy (tPA) or mechanical embolectomy to dissolve the clot and save the right ventricle . Fluid boluses will kill these patients.",
+        "conceptTag": "Obstructive Shock & Ventricular Interdependence",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 2950.1842542891736,
+        "y": 3262.249872228564
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Hemodynamic collapse in a pulmonary embolism is a mechanical plumbing problem, not a volume problem. The occlusion in the pulmonary vasculature drastically increases pulmonary vascular resistance . The right ventricle fails because it is acutely dilated from pumping against that blockage. Aggressively pushing IV fluids into an already over-distended right ventricle causes the wall between the ventricles (the septum) to bow into the left ventricle. This acutely worsens the already decreased left ventricular preload, destroying whatever cardiac output the patient had left.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-35",
+      "type": "informationNode",
+      "position": {
+        "x": 3823.4653425952083,
+        "y": 1954.597266952614
+      },
+      "data": {
+        "title": "The Resuscitation Protocol",
+        "content": "You recognized the shift from a stable PE to a massive, hemodynamically unstable PE. By utilizing thrombolytics or thrombectomy, you rapidly reduced the mechanical obstruction, salvaging her right ventricle and saving her life.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/394cf803-bf14-49ea-8dfd-21b984996b39/d6476993-0bdc-46c4-a295-affb5125ec98.jpeg",
+            "filename": "d6476993-0bdc-46c4-a295-affb5125ec98.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-10",
+      "id": "xy-edge__information-node-9-information-node-10"
+    },
+    {
+      "source": "information-node-10",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-10-termination-node-11"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-15",
+      "id": "xy-edge__information-node-14-decision-node-15"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-15",
+      "id": "xy-edge__choice-node-12-decision-node-15"
+    },
+    {
+      "id": "edge-choice-node-16",
+      "source": "decision-node-15",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16"
+    },
+    {
+      "id": "edge-choice-node-17",
+      "source": "decision-node-15",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-17-information-node-21"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-22",
+      "id": "xy-edge__information-node-21-decision-node-22"
+    },
+    {
+      "id": "edge-choice-node-23",
+      "source": "decision-node-22",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-23"
+    },
+    {
+      "id": "edge-choice-node-24",
+      "source": "decision-node-22",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-24"
+    },
+    {
+      "id": "edge-choice-node-25",
+      "source": "decision-node-22",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-25"
+    },
+    {
+      "source": "choice-node-24",
+      "target": "decision-node-27",
+      "id": "xy-edge__choice-node-24-decision-node-27"
+    },
+    {
+      "source": "choice-node-23",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-23-information-node-26"
+    },
+    {
+      "id": "edge-choice-node-30",
+      "source": "decision-node-27",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-30"
+    },
+    {
+      "id": "edge-choice-node-31",
+      "source": "decision-node-27",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-31"
+    },
+    {
+      "source": "choice-node-30",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-30-information-node-29"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "choice-node-25",
+      "target": "information-node-35",
+      "id": "xy-edge__choice-node-25-information-node-35"
+    },
+    {
+      "source": "choice-node-31",
+      "target": "information-node-35",
+      "id": "xy-edge__choice-node-31-information-node-35"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    }
+  ],
+  "viewport": {
+    "x": -400.63388306818774,
+    "y": -67.37348414471398,
+    "zoom": 0.39224864594523856
+  }
+}

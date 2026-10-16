@@ -1,0 +1,1120 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Vascular Toll",
+        "content": "Patient Profile: Harold, a 52-year-old male.Initial State: Harold presents to the primary care clinic with a three-month history of worsening fatigue, extreme thirst (polydipsia), and waking up 4-5 times a night to urinate (polyuria) . He has a BMI of 33 and a medical history of hypertension and osteoarthritis. A random blood glucose test in the clinic reads $315~mg/dL$, and his Hemoglobin A1c is $9.8\\%$. Basic metabolic labs reveal a serum Creatinine of $2.2~mg/dL$ (indicating significant renal insufficiency).",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/a8ed721f-7e56-431f-a601-1a7739ccb51e.jpeg",
+            "filename": "a8ed721f-7e56-431f-a601-1a7739ccb51e.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Initial Triage (Pharmacology & Contraindications)",
+        "content": "Harold meets the diagnostic criteria for Type II Diabetes Mellitus (random glucose $\\ge 200~mg/dL$ with classic symptoms, plus an A1c $\\ge 6.5\\%$) . He needs immediate pharmacological intervention to lower his blood sugar.  ",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/2f5b8059-a2eb-483b-89f4-e35e1b0daed0.jpeg",
+            "filename": "2f5b8059-a2eb-483b-89f4-e35e1b0daed0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Fatal Flaw",
+        "content": "Because he is an obese patient with Type II diabetes, you immediately prescribe Metformin, as it is the undisputed first-line oral agent for this demographic.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Fatal Flaw",
+        "content": "You prescribe the Metformin. Harold takes it faithfully for a week. Because his failing kidneys cannot clear the drug, it builds up in his bloodstream, shifting his cellular metabolism. He develops severe abdominal pain, profound hyperventilation (Kussmaul breathing to blow off $CO_2$), and lethargy. He is rushed to the emergency department in profound shock with a serum pH of 6.9 and a lactate of 15. Despite aggressive ICU resuscitation and emergency hemodialysis to clear the drug, he suffers fatal cardiac arrhythmias due to the severe acidosis. ",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/b918f7da-1dff-4594-911e-7bef7c13a425.jpeg",
+            "filename": "b918f7da-1dff-4594-911e-7bef7c13a425.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "While Metformin is the absolute first-line oral agent for Type II Diabetes (especially in patients with obesity), it carries two massive, highly-testable contraindications: it cannot be used in patients with renal insufficiency, and it must be held during the use of IV contrast for imaging . Metformin is cleared exclusively by the kidneys. In a patient with a Creatinine of $2.2~mg/dL$, the drug is not excreted. It accumulates to toxic levels, blocking hepatic gluconeogenesis and forcing cells into anaerobic metabolism. This rapidly precipitates severe, life-threatening lactic acidosis.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Acidotic Spiral",
+        "content": "Final Outcome: Fatal / Iatrogenic Lactic Acidosis\n\nThe Flaw: Prescribing Metformin to a patient with acute or chronic renal insufficiency.\n\nActionable Improvement: Always check a basic metabolic panel (BUN/Creatinine) before initiating Metformin. If the GFR is significantly low, you must use alternative agents (like insulin or sulfonylureas).",
+        "conceptTag": "Pharmacokinetics & Iatrogenic Toxicity",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Paternalistic Trap",
+        "content": "You sigh, look at his BMI, and tell him, \"You did this to yourself with a poor diet. You've ruined your pancreas.\" You prescribe insulin without further explanation and walk out of the room.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Bedside Manner Remedy (Ethics)",
+        "content": "Harold looks devastated and humiliated by your accusation. He stands up, crosses his arms, and says, \"If I ruined myself, then I guess there's no point in taking your shots. I'm going home.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/9ae7d775-18a5-47b1-86fc-c88f3fa54e0a.jpeg",
+            "filename": "9ae7d775-18a5-47b1-86fc-c88f3fa54e0a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Ego Double-Down",
+        "content": "You tell him that as a doctor, it is your job to give him the hard truth. You tell him he can leave if he wants, but he'll be back when he loses a toe. You discharge him.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Ego Double-Down",
+        "content": " Harold leaves the clinic and vows never to return to a doctor. Over the next three months, his blood glucose climbs steadily, drawing massive amounts of fluid out of his tissues through osmotic diuresis. He becomes profoundly dehydrated. He is eventually found comatose in his apartment and brought to the ICU with a blood glucose of $1,100~mg/dL$. He has developed Hyperosmolar Hyperglycemic State (HHS), a deadly acute manifestation of unmanaged Type II diabetes. He suffers a severe anoxic brain injury during a hypotensive code. ",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/71e6c55a-f2b5-4986-a5cd-e40e87fdd39a.jpeg",
+            "filename": "71e6c55a-f2b5-4986-a5cd-e40e87fdd39a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: The Hyperosmolar Crisis",
+        "content": "Final Outcome: Fatal / Lost to Follow-Up & HHS\n\nThe Flaw: Using shame and hostility, destroying the therapeutic alliance, and driving a critically ill patient away from care.\n\nActionable Improvement: Chronic disease management requires empathy and partnership. Explain the pathophysiology objectively and collaboratively.",
+        "conceptTag": "Medical Ethics & Patient Abandonment",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize your fat-shaming and paternalistic tone destroyed the therapeutic alliance. You stop him, apologize sincerely, and explain the actual pathophysiology—that Type II diabetes is a complex condition driven by end-organ resistance to insulin, not just \"ruining the pancreas\" . He sits back down and agrees to learn how to use the insulin.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Optimal Protocol",
+        "content": "You explain the diagnosis of Type II diabetes and heavily counsel him on lifestyle modifications (diet, exercise, and weight loss). You explicitly note that his renal insufficiency prevents him from taking the standard first-line pill (Metformin), so you discuss alternative therapies, such as initiating insulin .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Optimal Protocol",
+        "content": "You correctly recognized a strict, life-threatening contraindication to the most commonly prescribed diabetes medication and properly centered lifestyle modifications as a core pillar of treatment.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/55fa95a7-bb76-4985-92d6-aff844253252.jpeg",
+            "filename": "55fa95a7-bb76-4985-92d6-aff844253252.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The GI Dismissal",
+        "content": "You diagnose him with standard gastroesophageal reflux disease (GERD) and prescribe a high-dose proton pump inhibitor (Omeprazole), telling him to avoid spicy foods.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Diagnostic Dead-End",
+        "content": "You recognize this as Diabetic Gastroparesis, an autonomic neuropathy . You recommend lifestyle and dietary modifications (eating smaller, more frequent meals), but inform him there are no medications that can help his stomach empty faster.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The GI Dismissal",
+        "content": "Harold takes the Omeprazole, but his stomach remains paralyzed. Three days later, he eats a large dinner. Because the food cannot empty into his duodenum, it sits pooling in his stomach. When he lies down to sleep, the massive volume of retained food and gastric juices passively regurgitates up his esophagus. He aspirates the contents deep into his lungs. He develops severe, bilateral aspiration pneumonitis and progresses to acute respiratory distress syndrome (ARDS), requiring prolonged mechanical ventilation.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/0553bb4f-3dfd-485e-85d2-fe9c64e7629c.jpeg",
+            "filename": "0553bb4f-3dfd-485e-85d2-fe9c64e7629c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Chronic hyperglycemia causes microvascular damage to the vasa nervorum (the tiny blood vessels supplying the nerves). When this damages the vagus nerve, it causes autonomic dysfunction, classically presenting as Diabetic Gastroparesis (delayed gastric emptying) . The stomach essentially becomes paralyzed, leading to early satiety, bloating, and vomiting of undigested food. Treating this neurological paralysis with an antacid (PPI) does absolutely nothing to restore gastric motility.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Aspiration Event",
+        "content": "Final Outcome: Severe Morbidity / Iatrogenic Aspiration\n\nThe Flaw: Failing to recognize a classic microvascular complication of diabetes (gastroparesis) and treating it as a benign acid issue.\n\nActionable Improvement: Early satiety and vomiting in a long-standing diabetic is gastroparesis until proven otherwise. Treat with prokinetics (Metoclopramide or Erythromycin).",
+        "conceptTag": "Autonomic Neuropathy & Diagnostic Anchoring",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 2875.477121003681,
+        "y": 828.077199590103
+      },
+      "data": {
+        "title": "The Motility Protocol",
+        "content": "You correctly identified a microvascular autonomic complication of diabetes and initiated the exact standard-of-care pharmacological therapy.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/dab994b7-b54c-4a08-be2b-23ad72954388.jpeg",
+            "filename": "dab994b7-b54c-4a08-be2b-23ad72954388.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Therapeutic Nihilism",
+        "content": "You refuse to prescribe the prokinetics. Harold's gastroparesis worsens. Every time he eats, he vomits. Over the next two months, he becomes terrified of food. He suffers severe malnutrition, losing 40 pounds. His severe, unpredictable caloric intake makes his insulin dosing impossible to manage, resulting in wild swings between diabetic ketoacidosis and profound hypoglycemia. He is eventually admitted for a severe hypoglycemic seizure caused by taking his insulin when his stomach was completely paralyzed.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/244cebae-4ab3-496d-9167-ac6190b39729.jpeg",
+            "filename": "244cebae-4ab3-496d-9167-ac6190b39729.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "While Metoclopramide carries risks (such as tardive dyskinesia with long-term use), it is the gold-standard treatment for severe diabetic gastroparesis. Refusing to utilize indicated therapies out of an exaggerated fear of side effects—especially when prompted by a pharmacy colleague—leaves the patient suffering from a debilitating and dangerous condition.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The Hypertension Trap",
+        "content": "You withhold the ACE inhibitor because you are afraid of lowering his normal blood pressure. Without efferent arteriole dilation, the hyperfiltration in Harold's kidneys continues unabated. The microalbuminuria progresses to macroalbuminuria. Over the next five years, the constant pressure destroys his glomeruli entirely. He develops irreversible End-Stage Renal Disease (ESRD) and is forced onto hemodialysis three days a week for the rest of his life, a catastrophic outcome that could have been delayed or prevented with a simple, standard-of-care pill.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/d5d9dcac-4d3f-4bf2-b9a8-58ef72cd4ce0.jpeg",
+            "filename": "d5d9dcac-4d3f-4bf2-b9a8-58ef72cd4ce0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Wasting Syndrome",
+        "content": "Final Outcome: Severe Morbidity / Hypoglycemic Seizure\n\nThe Flaw: Refusing to utilize standard-of-care medication for a severe complication, leading to systemic instability.\n\nActionable Improvement: Diabetic gastroparesis requires active management. Use Metoclopramide or Erythromycin to keep the GI tract moving.",
+        "conceptTag": "Pharmacological Avoidance & Severe Malnutrition",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Dialysis Chair",
+        "content": "Final Outcome: Severe Morbidity / End-Stage Renal Disease\n\nThe Flaw: Failing to initiate ACE inhibitors or ARBs in a diabetic with microalbuminuria simply because they lacked systemic hypertension.\n\n\nActionable Improvement: If the Urine Albumin-to-Creatinine ratio is elevated, start an ACEi or ARB immediately to protect the kidneys",
+        "conceptTag": "[Renal Protection & Hemodynamic Misconceptions",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Diabetic nephropathy is a microvascular complication caused by chronic hyperglycemia damaging the efferent arterioles of the glomerulus, causing hyperfiltration and spilling of albumin into the urine . Angiotensin-Converting Enzyme inhibitors (ACEi) and Angiotensin II Receptor Blockers (ARBs) dilate this efferent arteriole, reducing the intraglomerular pressure and halting the destruction of the kidney . They are strictly indicated in diabetics with microalbuminuria regardless of whether the patient has systemic hypertension.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Autonomic Complication",
+        "content": "Harold has been your patient for several years. His blood sugars are reasonably controlled on a complex insulin regimen. He comes in today complaining of severe nausea, bloating, and vomiting undigested food several hours after he eats. He feels full after taking only two or three bites of a meal.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/7c108dee-e1f5-4574-bbe8-6a63ef8d88cb.jpeg",
+            "filename": "7c108dee-e1f5-4574-bbe8-6a63ef8d88cb.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 2968.8821311223633,
+        "y": 419.74810823046164
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Motility Protocol",
+        "content": "You recognize Diabetic Gastroparesis. You recommend lifestyle modifications (small, low-fat, low-fiber meals) and prescribe a prokinetic agent—either Metoclopramide or Erythromycin—to stimulate gastric emptying .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The Pharmacist Remedy (Interprofessional)",
+        "content": "You enter the prescription for smaller meal sizes into the chart. The clinical pharmacist pages you. \"Doctor, I saw the diagnosis of Diabetic Gastroparesis. Are you planning to add Metoclopramide or Erythromycin to assist with his gastric motility? It's indicated for these severe symptoms.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/13e94425-70dc-4e4f-8d49-5e37a442798f.jpeg",
+            "filename": "13e94425-70dc-4e4f-8d49-5e37a442798f.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2397.035193918221,
+        "y": 1200.8004918818015
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Therapeutic Nihilism",
+        "content": "You tell the pharmacist, \"Those drugs have too many side effects. I don't want to use them. He just needs to chew his food better.\" You refuse the order.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize you forgot about the prokinetic agents. You thank the pharmacist for the safety net and immediately add a prescription for Metoclopramide to help empty his stomach.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3154.0426690079694,
+        "y": 1192.5067096299413
+      },
+      "data": {
+        "title": "The Microvascular Screen (Preventative Medicine)",
+        "content": "Harold's gastroparesis is now well-managed. You are conducting his routine annual diabetic screening. You order a Urine Albumin-to-Creatinine ratio, which is the most sensitive test to detect moderately elevated levels of urinary albumin excretion (early diabetic nephropathy) .  The results return showing moderately elevated microalbuminuria. However, when the nurse checks his blood pressure, it is perfectly normal at $118/76$ mmHg.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/9c34f416-2bc1-490c-93cd-c5991c68f3e6.jpeg",
+            "filename": "9c34f416-2bc1-490c-93cd-c5991c68f3e6.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Hypertension Trap",
+        "content": "Because his blood pressure is completely normal, you tell him his kidneys are showing some stress, but you don't want to start any blood pressure medications because it might make him hypotensive. You plan to just recheck the urine next year.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Renal Shield",
+        "content": "Despite his normal blood pressure, you immediately prescribe an Angiotensin-Converting Enzyme (ACE) inhibitor or an Angiotensin II Receptor Blocker (ARB) . You explain that in the setting of diabetic kidney disease, these drugs are used to protect the kidneys, not just lower blood pressure.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Type II Diabetes is a chronic, high-maintenance disease that requires extensive patient buy-in, education, and trust. Utilizing shame, guilt, or medical gaslighting to force compliance almost universally results in patient alienation. When diabetic patients are lost to follow-up, their disease progresses unmitigated, leading to catastrophic, highly preventable acute emergencies.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 3911.125090802369,
+        "y": 1998.2911237602118
+      },
+      "data": {
+        "title": "The Renal Shield",
+        "content": "You flawlessly navigated the complex, multi-system management of Diabetes Mellitus. You avoided the deadly trap of Metformin in renal failure, successfully diagnosed and treated autonomic gastroparesis, and initiated the exact gold-standard renal-protective medication the moment microalbuminuria was detected, saving his kidneys from irreversible destruction.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/109e2500-cd86-4c66-a5e8-f48db0905912/e723319a-d596-4f1f-93bb-98190194922f.jpeg",
+            "filename": "e723319a-d596-4f1f-93bb-98190194922f.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": -1621.6668677660987,
+    "y": -755.4263154574223,
+    "zoom": 0.6588728138140658
+  }
+}

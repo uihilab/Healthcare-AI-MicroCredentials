@@ -1,0 +1,863 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 1262.92694028509,
+        "y": -644.0170120222924
+      },
+      "data": {
+        "title": "The Clinical Workup",
+        "content": "Patient Profile: Mr. Elias Vance, 60-year-old male.\n\n\nInitial State: He presents to the clinic reporting several months of progressively worsening dyspnea on exertion, severe fatigue, and lower-extremity swelling. He mentions he can no longer sleep flat in bed and has to prop himself up on three pillows (orthopnea). His medical history is significant for sarcoidosis",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/596510fd-1c96-486a-8242-c90396f5562c.jpeg",
+            "filename": "596510fd-1c96-486a-8242-c90396f5562c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1257.6103729942624,
+        "y": -333.8834961086697
+      },
+      "data": {
+        "title": "The Clinical Workup",
+        "content": "You step into the exam room. Mr. Vance looks exhausted. On physical exam, you note pronounced jugular venous distention (JVD) and 2+ pitting edema in his lower extremities. When you listen to his lungs, you hear bilateral crackles (rales) at the bases.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/c224a724-6cf4-4770-9ae2-8ca6ddf86f41.jpeg",
+            "filename": "c224a724-6cf4-4770-9ae2-8ca6ddf86f41.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 950.3174120182158,
+        "y": -22.96485767789209
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "misstep",
+        "title": "The \"Pulmonary\" Focus",
+        "content": "Assume his dyspnea and crackles are primarily a primary pulmonary issue related to his sarcoidosis. Order a chest X-ray, prescribe an albuterol inhaler, and advise him to elevate his legs at night.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-3",
+      "type": "choiceNode",
+      "position": {
+        "x": 1755.8414676101045,
+        "y": -15.027551695802392
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Gold Standard Assessment",
+        "content": "Recognize the classic signs of heart failure. Order an immediate Echocardiogram to evaluate his cardiac function and a stat B-type natriuretic peptide (BNP) level.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-4",
+      "type": "decisionNode",
+      "position": {
+        "x": 1556.1397349687445,
+        "y": 344.68959371690414
+      },
+      "data": {
+        "title": "Classifying the Failure",
+        "content": "The echocardiogram results are back. It shows an ejection fraction (EF) of 35%.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/draft/ebc1730a-01c1-4b62-97bc-a8e6b3981f4c.webp",
+            "filename": "ebc1730a-01c1-4b62-97bc-a8e6b3981f4c.webp"
+          },
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/b75b020d-2cbd-4a6b-8099-46d35f87a1e3.jpeg",
+            "filename": "b75b020d-2cbd-4a6b-8099-46d35f87a1e3.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-5",
+      "type": "choiceNode",
+      "position": {
+        "x": 1720.8942170808891,
+        "y": 686.0665976376921
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "Diastolic Dysfunction",
+        "content": "Diagnose him with Diastolic Dysfunction",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 2438.998087509346,
+        "y": 642.5341393349286
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Systolic Dysfunction",
+        "content": "Diagnose him with Systolic Dysfunction (Heart Failure with reduced Ejection Fraction - HFrEF)",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1835.7212655672472,
+        "y": 1030.0503057770293
+      },
+      "data": {
+        "title": "The Acute Decompensation",
+        "content": "Before you can send Mr. Vance home, he suddenly begins coughing up frothy sputum. He is visibly struggling to breathe. His oxygen saturation (SpO2) drops to 88% on room air. He is in acute decompensated heart failure with acute pulmonary edema.",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1806.4015746442944,
+        "y": 1342.7540099060689
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The \"Long-Term\" Reflex",
+        "content": "You want to protect his heart long-term. You immediately administer an oral Beta-blocker (like metoprolol) to reduce his mortality and push an ACE-inhibitor.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-9",
+      "type": "choiceNode",
+      "position": {
+        "x": 2280.514569581425,
+        "y": 1345.1305161463551
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Rescue Protocol",
+        "content": "Administer supplemental oxygen (since SpO2 is <90%), push IV loop diuretics for acute symptom relief, and administer nitrates",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "decision-node-10",
+      "type": "decisionNode",
+      "position": {
+        "x": 2084.478338002852,
+        "y": 1736.9423684568164
+      },
+      "data": {
+        "title": "The Discharge Masterplan",
+        "content": "Mr. Vance is stabilized after a few days in the hospital. You are writing his long-term discharge orders. You need to design a regimen that specifically targets reducing his mortality, knowing his EF is severe (< 35%).",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/aff82900-c09b-45a7-9966-9d84fa767bfd.jpeg",
+            "filename": "aff82900-c09b-45a7-9966-9d84fa767bfd.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-11",
+      "type": "choiceNode",
+      "position": {
+        "x": 2038.7070569984344,
+        "y": 2090.4094398879834
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Symptom Manager",
+        "content": "Discharge him on daily Loop Diuretics to keep the fluid off, and Digoxin to help his heart squeeze better.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 2501.596078499217,
+        "y": 2090.4094398879834
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Mortality-Lowering Regimen",
+        "content": "Discharge him on an ACE-inhibitor (or ARB), a Beta-blocker (e.g., carvedilol), and Spironolactone. Furthermore, because his EF is < 35%, you place a referral for an Automatic Implantable Cardioverter/Defibrillator (AICD)",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-13",
+      "type": "decisionNode",
+      "position": {
+        "x": 740.110005249151,
+        "y": 343.9458464754751
+      },
+      "data": {
+        "title": "The Pulmonary Checkpoint",
+        "content": "You treated Mr. Vance for a sarcoidosis-related pulmonary exacerbation. Two hours later, his dyspnea has not improved with the albuterol. The chest radiograph you ordered returns. The read shows significant cardiomegaly, pulmonary vascular congestion, and prominent Kerley-B lines.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/draft/528e5718-ee6c-41a2-b017-fefb5219e68d.png",
+            "filename": "528e5718-ee6c-41a2-b017-fefb5219e68d.png"
+          },
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/c2c21a32-b5f6-4ad4-b5a1-bad9ea924265.jpeg",
+            "filename": "c2c21a32-b5f6-4ad4-b5a1-bad9ea924265.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-14",
+      "type": "choiceNode",
+      "position": {
+        "x": 722.0822617531558,
+        "y": 768.6985358265027
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Stubborn Anchor",
+        "content": "Conclude that the sarcoidosis has caused severe interstitial lung disease. Order high-dose IV corticosteroids to reduce lung inflammation and admit him to the medical floor for observation.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-15",
+      "type": "choiceNode",
+      "position": {
+        "x": 1189.632282654926,
+        "y": 767.6108074247574
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Pivot",
+        "content": "Recognize the pattern. Kerley-B lines indicate interstitial edema, and cardiomegaly points to a pump failure. You realize the fluid accumulating in his alveoli is due to left heart pressure overload. You immediately cancel the steroids, order a stat Echocardiogram, and push IV loop diuretics",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-16",
+      "type": "informationNode",
+      "position": {
+        "x": 512.490392742448,
+        "y": 1143.465679411915
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Dyspnea is a symptom, not a diagnosis. While this patient has a history of sarcoidosis (which can cause lung disease), you must evaluate the entire clinical picture. Jugular venous distention, orthopnea, pitting lower extremity edema, and Kerley-B lines on a chest radiograph are the classic tetrad of congestive heart failure. Treating volume-overloaded heart failure with IV fluids and high-dose steroids (which cause fluid retention) will rapidly exacerbate the hydrostatic pressure in the pulmonary capillaries, drowning the patient in their own fluids.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/925ade13-9911-41df-867a-2282d7ff50ce.jpeg",
+            "filename": "925ade13-9911-41df-867a-2282d7ff50ce.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-17",
+      "type": "terminationNode",
+      "position": {
+        "x": 513.7553505412764,
+        "y": 1448.875231918805
+      },
+      "data": {
+        "title": "Terminal Outcome: The Overflow",
+        "content": "Final Outcome: Failure / Iatrogenic Respiratory Failure\n\nThe Flaw: Ignoring objective physical exam findings (JVD, pitting edema) and imaging data (Kerley-B lines, cardiomegaly) that contradicted your initial assumption.\n\nIdentified Weakness: Differentiating cardiac vs. pulmonary causes of dyspnea.\n\nActionable Improvement: When a patient presents with dyspnea, always systematically check the \"pump, pipes, and tissue.\" Remember that a normal BNP excludes a diagnosis of CHF; if you are unsure, pull the biomarker.",
+        "conceptTag": "Diagnostic Anchoring & Iatrogenic Volume Overload",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-18",
+      "type": "decisionNode",
+      "position": {
+        "x": 1039.698873898483,
+        "y": 1292.3562234646602
+      },
+      "data": {
+        "title": "Diastolic Heart Failure",
+        "content": "You document \"Diastolic Heart Failure\" based on his history of sarcoidosis, knowing sarcoidosis can cause a restrictive cardiomyopathy. The cardiology attending reviews your note and stops you in the hall.\n\n\"Dr. Smith, you noted diastolic dysfunction here. But the echo shows an EF of 35%. Walk me through your mechanical reasoning.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/6d6ee7c2-484e-4911-9649-e0afb275f452.jpeg",
+            "filename": "6d6ee7c2-484e-4911-9649-e0afb275f452.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-19",
+      "type": "choiceNode",
+      "position": {
+        "x": 1050.1828839684624,
+        "y": 1854.767554998318
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Double-Down",
+        "content": "Argue that the sarcoid granulomas stiffened the heart, decreasing compliance and causing problems with relaxation and filling, which is the definition of diastolic failure.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-20",
+      "type": "choiceNode",
+      "position": {
+        "x": 1493.6192761622558,
+        "y": 1854.767554998318
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Correction",
+        "content": "Pause and re-evaluate the physics. \"You are right. Diastolic dysfunction typically has a normal ejection fraction. An EF < 45% means a loss of contractile strength. This is Systolic Dysfunction.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 1837.7976180429393,
+        "y": 2474.0199114730312
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "There is a critical difference between treating the symptoms of heart failure and treating the pathology of heart failure. Loop diuretics are excellent for acute symptom relief by pulling off fluid, but they are not effective long-term due to nephrogenic adaptations. Digoxin acts as a positive inotrope and can reduce hospitalizations in severe systolic dysfunction, but it does not improve mortality. To actually extend a patient's life, you must block the neurohormonal pathways (renin-angiotensin-aldosterone system and sympathetic nervous system) that cause toxic cardiac remodeling. Furthermore, an EF < 35% is highly arrhythmogenic.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/1082a037-6b53-432d-a8ea-de8c802f047c.jpeg",
+            "filename": "1082a037-6b53-432d-a8ea-de8c802f047c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-22",
+      "type": "terminationNode",
+      "position": {
+        "x": 1841.9676430602012,
+        "y": 2816.745355425757
+      },
+      "data": {
+        "title": "Terminal Outcome: The Revolving Door",
+        "content": "The Flaw: Prescribing a medication regimen focused purely on hemodynamics and symptom relief while neglecting proven mortality-lowering therapies and device indications.\n\nIdentified Weakness: Chronic heart failure pharmacology and ICD placement criteria.\n\n\nActionable Improvement: Memorize the foundational triad of mortality-lowering drugs for HFrEF: Beta-blockers , ACE-inhibitors/ARBs , and Spironolactone/Eplerenone. Additionally, strictly flag any patient with an EF < 35% for an ICD evaluation to prevent fatal arrhythmias.",
+        "conceptTag": "Neurohormonal Blockade & Mortality Reduction",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-23",
+      "type": "informationNode",
+      "position": {
+        "x": 855.3447557785333,
+        "y": 2234.6147330726744
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Ejection fraction is the great divider in heart failure algorithms. While it is true that sarcoidosis can cause a restrictive cardiomyopathy leading to diastolic dysfunction, you must treat the patient in front of you, not just their past medical history. Diastolic dysfunction is defined as an impairment in the filling of the heart and typically presents with a normal ejection fraction. An echocardiogram showing an ejection fraction of 35% definitively indicates a loss of contractile strength—the hallmark of systolic dysfunction. Insisting on diastolic heart failure despite a low EF leads to fundamentally flawed, and often lethal, management choices—such as aggressively pushing IV fluids to \"help the stiff ventricle fill,\" which completely overwhelms an already failing pump",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/a2ab1610-73dd-43f7-8dd1-d154715abe88.jpeg",
+            "filename": "a2ab1610-73dd-43f7-8dd1-d154715abe88.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-24",
+      "type": "terminationNode",
+      "position": {
+        "x": 849.1013046088574,
+        "y": 2579.256748102549
+      },
+      "data": {
+        "title": "Terminal Outcome: The Filling Fallacy",
+        "content": "The Flaw: Ignoring the definitive diagnostic criteria of heart failure classification. An ejection fraction < 45% is the hallmark of systolic dysfunction, regardless of the underlying etiology.\n\nIdentified Weakness: Echocardiogram interpretation and distinguishing between the hemodynamics of HFrEF (systolic) and HFpEF (diastolic).\n\n\nActionable Improvement: Always classify heart failure based on the echocardiogram's ejection fraction first. Remember that right and left heart pressures are extremely delicate in systolic dysfunction; adding unnecessary volume to a weak pump will immediately cause pulmonary edema",
+        "conceptTag": "Diagnostic Anchoring & Volume Overload",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-25",
+      "type": "terminationNode",
+      "position": {
+        "x": 1357.9609287242733,
+        "y": 2284.6878543816674
+      },
+      "data": {
+        "title": "Identified Flaw: Inappropriate timing of mortality-lowering drugs.",
+        "content": "Your Choice: Administered Beta-blockers during an episode of acute decompensated heart failure.The Flaw: Conflating chronic management with acute resuscitation. The patient's heart was already failing to pump blood effectively forward, causing fluid to back up into his lungs (pulmonary edema). Beta-blockers decrease the heart's contractility and heart rate. Giving this to a heart that is acutely failing pushes the patient off the physiological cliff. The Correction: The immediate goal in acute decompensation is offloading the pressure and fluid. This requires supplemental oxygen, loop diuretics, and nitrates. Mortality-lowering drugs (ACE-i, Beta-blockers, Spironolactone) are initiated only after the patient is euvolemic and stable.",
+        "conceptTag": "Iatrogenic Shock / Worsening Pulmonary Edema",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2317.7923243364844,
+        "y": 2485.8792663147433
+      },
+      "data": {
+        "title": "The Mortality-Lowering Regimen",
+        "content": "You have built a hemodynamically optimal plan. ACE-inhibitors, Beta-blockers, and Spironolactone all specifically lower mortality in systolic dysfunction. Furthermore, recognizing that an EF < 35% in a dilated cardiomyopathy meets the strict indication for an AICD shows excellent clinical foresight.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/893731bc-9779-4eb9-85cb-1e056bb74819/7efb593f-2844-4416-a71a-51cad8bb400a.jpeg",
+            "filename": "7efb593f-2844-4416-a71a-51cad8bb400a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "id": "edge-choice-node-3",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-3"
+    },
+    {
+      "source": "choice-node-3",
+      "target": "decision-node-4",
+      "id": "xy-edge__choice-node-3-decision-node-4"
+    },
+    {
+      "id": "edge-choice-node-5",
+      "source": "decision-node-4",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-4",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "id": "edge-choice-node-9",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-9"
+    },
+    {
+      "source": "choice-node-9",
+      "target": "decision-node-10",
+      "id": "xy-edge__choice-node-9-decision-node-10"
+    },
+    {
+      "id": "edge-choice-node-11",
+      "source": "decision-node-10",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-11"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-10",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "decision-node-13",
+      "id": "xy-edge__choice-node-2-decision-node-13"
+    },
+    {
+      "id": "edge-choice-node-14",
+      "source": "decision-node-13",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-14"
+    },
+    {
+      "id": "edge-choice-node-15",
+      "source": "decision-node-13",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-15"
+    },
+    {
+      "source": "choice-node-15",
+      "target": "decision-node-4",
+      "id": "xy-edge__choice-node-15-decision-node-4"
+    },
+    {
+      "source": "choice-node-14",
+      "target": "information-node-16",
+      "id": "xy-edge__choice-node-14-information-node-16"
+    },
+    {
+      "source": "information-node-16",
+      "target": "termination-node-17",
+      "id": "xy-edge__information-node-16-termination-node-17"
+    },
+    {
+      "source": "choice-node-5",
+      "target": "decision-node-18",
+      "id": "xy-edge__choice-node-5-decision-node-18"
+    },
+    {
+      "id": "edge-choice-node-19",
+      "source": "decision-node-18",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-19"
+    },
+    {
+      "id": "edge-choice-node-20",
+      "source": "decision-node-18",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-20"
+    },
+    {
+      "source": "choice-node-20",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-20-decision-node-7"
+    },
+    {
+      "source": "choice-node-11",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-11-information-node-21"
+    },
+    {
+      "source": "information-node-21",
+      "target": "termination-node-22",
+      "id": "xy-edge__information-node-21-termination-node-22"
+    },
+    {
+      "source": "choice-node-19",
+      "target": "information-node-23",
+      "id": "xy-edge__choice-node-19-information-node-23"
+    },
+    {
+      "source": "information-node-23",
+      "target": "termination-node-24",
+      "id": "xy-edge__information-node-23-termination-node-24"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "termination-node-25",
+      "id": "xy-edge__choice-node-8-termination-node-25"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-12-information-node-26"
+    }
+  ],
+  "viewport": {
+    "x": -100.12272068677498,
+    "y": 180.78226546293251,
+    "zoom": 0.4249735639976316
+  }
+}

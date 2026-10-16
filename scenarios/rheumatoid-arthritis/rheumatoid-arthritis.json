@@ -1,0 +1,1120 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Morning Ache",
+        "content": "Patient Profile: Sarah, a 35-year-old woman.\n\n\nInitial State: She presents to your clinic with joint stiffness and pain in her hands and wrists that has progressively worsened over the last two months. She is exhausted, reporting fatigue and an unintentional 15-pound weight loss. During your interview, she emphasizes that her symptoms are most severe when she wakes up—with stiffness lasting well over an hour—and gradually improve in the afternoon. On physical exam, you note distinct swelling and tenderness at her metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints .",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/ab39fdf3-e1e4-46e6-a550-ecb1ceda60f5.jpeg",
+            "filename": "ab39fdf3-e1e4-46e6-a550-ecb1ceda60f5.jpeg"
+          }
+        ],
+        "isLocked": true,
+        "hideTopHandle": true
+      },
+      "draggable": false,
+      "measured": {
+        "width": 400,
+        "height": 306
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Initial Assessment & Bedside Manner",
+        "content": "Sarah is highly anxious. \"My grandmother had osteoarthritis, but she was 80,\" she says. \"Because I'm losing weight and so tired, my husband read online that this could be bone cancer. Is it?\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/eb2706d3-cb3f-417d-b056-f9387ace0ddc.jpeg",
+            "filename": "eb2706d3-cb3f-417d-b056-f9387ace0ddc.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Dismissive Reassurance",
+        "content": "Chuckle and tell her not to trust the internet. Reassure her that it is likely just early-onset osteoarthritis from typing too much, prescribe rest, and send her home.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Dismissive Reassurance",
+        "content": "You send Sarah home with a diagnosis of osteoarthritis. Over the next two years, the uninhibited T- and B-cell response in her joints causes massive pannus formation . The pannus aggressively destroys her adjacent cartilage and bone. She eventually presents to another physician with irreversible ulnar deviation of her fingers and severe swan neck deformities . She has permanently lost significant functional capacity in her hands.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/f6eaf243-a921-4cf2-8ea6-08178a43d9e0.jpeg",
+            "filename": "f6eaf243-a921-4cf2-8ea6-08178a43d9e0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Osteoarthritis (wear-and-tear) typically worsens with use throughout the day and classically involves the Distal Interphalangeal (DIP) joints. Rheumatoid Arthritis is an inflammatory synovitis that causes prolonged morning stiffness (> 1 hour) and classically involves the MCP and PIP joints, sparing the DIPs . Dismissing constitutional symptoms (weight loss, fatigue)  and the specific joint distribution leads to a catastrophic delay in treatment.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 248
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Pannus Progression",
+        "content": "Final Outcome: Failure / Delayed Diagnosis and Irreversible Damage\n\nThe Flaw: Failing to recognize the classic diagnostic criteria for RA (morning stiffness > 1 hour, MCP/PIP involvement) and dismissing the patient's valid concerns.\n\nActionable Improvement: Memorize the mechanical vs. inflammatory joint pain paradigms. Inflammatory pain is worse in the morning and improves with use.",
+        "conceptTag": "Diagnostic Anchoring & Irreversible Joint Destruction",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 352
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Oncologic Alarm",
+        "content": "Validate her fear. Because she has constitutional symptoms (weight loss, fatigue), immediately order a full-body CT scan and refer her to oncology to rule out a malignancy.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Alarm Remedy",
+        "content": "The insurance company rejects your prior authorization for the full-body CT scan, stating that bilateral hand pain does not warrant pan-scanning for cancer.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/fd19b280-cf90-4dac-8726-b836d1ea74c7.jpeg",
+            "filename": "fd19b280-cf90-4dac-8726-b836d1ea74c7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Diagnostic Stubbornness",
+        "content": "You bypass insurance, forcing Sarah to pay out-of-pocket for the full-body CT scan to hunt for a tumor.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Diagnostic Stubbornness",
+        "content": "Sarah pays thousands of dollars out-of-pocket for the scan. It returns completely negative for malignancy. By the time you finally circle back to an autoimmune workup months later, she has suffered through severe, unmanaged pain, and her baseline hand X-rays now show early periarticular bony erosions. You violated the principle of diagnostic parsimony, inflicting severe financial toxicity and delaying disease-modifying treatment.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/6a5a9198-e10c-4fc7-87c4-dc4437a8bbb0.jpeg",
+            "filename": "6a5a9198-e10c-4fc7-87c4-dc4437a8bbb0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: The Financial Toxicity",
+        "content": "Final Outcome: Failure / Iatrogenic Financial Harm & Delayed Treatment\n\nThe Flaw: Refusing to pivot a differential diagnosis based on a classic clinical presentation and forcing unnecessary, expensive testing.\n\nActionable Improvement: Recognize the classic RA presentation. Start with targeted, high-yield tests (RF, anti-CCP, CRP, ESR, hand/wrist XR) before jumping to \"zebra\" diagnoses like occult malignancy.",
+        "conceptTag": "Diagnostic Parsimony & Financial Toxicity",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 352
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You review the clinical criteria, realize that symmetric PIP/MCP swelling with morning stiffness is a hallmark of RA, and order the correct localized X-rays and autoantibody labs (RF, anti-CCP) instead .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Autoimmune Suspicion",
+        "content": "Empathize with her fear, explicitly reassuring her that her specific joint pattern points away from cancer. Explain that morning stiffness lasting > 1 hour, combined with MCP and PIP swelling, is the classic presentation of an inflammatory autoimmune process . You order Rheumatoid Factor (RF), anti-CCP antibodies, ESR, CRP, and baseline radiography of her hands and wrists",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Objective Empathy",
+        "content": "You successfully de-escalated her anxiety with objective clinical reasoning. Anti-CCP is highly specific for rheumatoid arthritis, and baseline X-rays are crucial for tracking disease progression.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/38965f7d-83c7-44fb-9acb-3bacc5057e4e.jpeg",
+            "filename": "38965f7d-83c7-44fb-9acb-3bacc5057e4e.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Monotherapy Trap",
+        "content": "Since her disease is early, you prescribe daily NSAIDs (Ibuprofen) for pain control and tell her to follow up in six months.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Unprotected DMARD",
+        "content": "You correctly recognize the need to stop disease progression. You prescribe Methotrexate immediately. You tell her to take it and send her home without any other medications.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Monotherapy Trap",
+        "content": "Sarah feels great on the high-dose NSAIDs. Her pain is masked. However, beneath the surface, Th1 cells are releasing interferon-$\\gamma$ to activate macrophages, and her synovial plasma cells continue to produce antibodies against her joints . Six months later, she returns. Despite her pain being \"controlled,\" her repeat X-rays show severe joint space narrowing and permanent periarticular bony erosions .",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/c7e14e20-7286-4fca-a541-2dc6d4df2394.jpeg",
+            "filename": "c7e14e20-7286-4fca-a541-2dc6d4df2394.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "NSAIDs and glucocorticoids provide excellent symptomatic control, but they do absolutely nothing to stop the underlying autoimmune destruction of the joint. In Rheumatoid Arthritis, Disease-Modifying Antirheumatic Drugs (DMARDs) like Methotrexate must be initiated to prevent, stop, or retard disease-associated damage .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 248
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Silent Erosion",
+        "content": "Final Outcome: Failure / Progression of Autoimmune Disease\n\nThe Flaw: Failing to initiate a DMARD (Methotrexate) upon confirming an RA diagnosis.\n\nActionable Improvement: Never treat RA with NSAIDs or steroids as monotherapy for long-term management. DMARDs are mandatory to save the joints.",
+        "conceptTag": "Disease Modification vs. Symptom Control",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 352
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 3459.3364492785413,
+        "y": 835.9885726019575
+      },
+      "data": {
+        "title": "The Standard of Care",
+        "content": "You successfully treated both the underlying pathophysiology (preventing cartilage destruction) and the patient's acute suffering.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/5510b215-a6a0-4055-9e64-ff6140bf3369.jpeg",
+            "filename": "5510b215-a6a0-4055-9e64-ff6140bf3369.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Toxic Escalation",
+        "content": "Methotrexate is an immunosuppressant and disease-modifier, not an acute analgesic. Increasing the dose to toxic levels provides zero immediate pain relief for Sarah. Instead, she presents to the ER a week later with severe oral ulcers, macrocytic anemia, and fulminant hepatotoxicity (classic side-effects of high-dose Methotrexate) . You have poisoned your patient due to a fundamental misunderstanding of pharmacological kinetics.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/59eb29da-752e-4df6-b0e8-0097e10251b5.jpeg",
+            "filename": "59eb29da-752e-4df6-b0e8-0097e10251b5.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Disease-Modifying Antirheumatic Drugs (DMARDs) like Methotrexate alter the underlying disease process by retarding associated damage, but they take weeks to months to achieve clinical efficacy. They are not acute analgesics. Escalating an immunosuppressant to toxic doses in an attempt to force immediate pain relief displays a fundamental misunderstanding of pharmacokinetics. Acute RA flares must be bridged with fast-acting anti-inflammatories (NSAIDs or glucocorticoids) for symptomatic control while waiting for the DMARD response .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 248
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The Routine Clearance",
+        "content": "You clear Sarah for surgery. In the OR, the anesthesiologist pushes paralytics and hyperextends her neck to visualize her vocal cords. Because you did not screen for atlantoaxial subluxation, the manipulation of her neck causes a catastrophic spinal cord compression . Sarah wakes up from her successful gallbladder surgery with hyporeflexia and irreversible quadriplegia .",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/17f8c75e-084d-493c-8465-23a52ac9c9f0.jpeg",
+            "filename": "17f8c75e-084d-493c-8465-23a52ac9c9f0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Hepatic Hit",
+        "content": "Final Outcome: Fatal Deficit / Drug Toxicity\n\nThe Flaw: Using a long-acting DMARD as an acute analgesic and overdosing the patient into hepatotoxicity.\n\nActionable Improvement: Memorize the bridge protocol. Always initiate NSAIDs or short-course steroids for immediate symptom control while waiting for DMARDs (Methotrexate) to take effect .",
+        "conceptTag": "Pharmacokinetics & Bridge Therapy",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 352
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Intubation Injury",
+        "content": "Final Outcome: Fatal Deficit / Iatrogenic Paralysis\n\nThe Flaw: Failing to screen a chronic RA patient for cervical spine instability prior to general anesthesia/intubation.\n\n\nActionable Improvement: Any patient with long-standing Rheumatoid Arthritis must have a cervical spine X-ray to rule out atlantoaxial subluxation before undergoing procedures that require manipulation of the neck .",
+        "conceptTag": "Surgical Clearance & Silent Subluxation",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 352
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Rheumatoid Arthritis frequently causes inflammation and destruction of the transverse ligament of the atlas in the cervical spine, leading to atlantoaxial subluxation. This is often asymptomatic. During general anesthesia, the anesthesiologist must manipulate and hyperextend the neck to insert the endotracheal tube. If the atlantoaxial joint is unstable, this manipulation can drive the dens of the axis directly into the spinal cord.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 248
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Pharmacological Bridge (Time: 1 Week Later)",
+        "content": "Sarah's labs return. Her ESR and CRP are markedly elevated . Her Rheumatoid Factor (an IgM antibody targeting the Fc portion of IgG) is positive, and her anti-CCP is highly positive . Her baseline hand X-rays show diffuse osteopenia but no erosions yet.You diagnose her with Rheumatoid Arthritis. She is currently in tears due to the severe pain in her hands.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/45b6596e-72c4-4547-863c-bff5ca95206e.jpeg",
+            "filename": "45b6596e-72c4-4547-863c-bff5ca95206e.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 3691.9816244058625,
+        "y": 430.8240304470579
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Standard of Care",
+        "content": "You prescribe Methotrexate, explaining it is the initial Disease-Modifying Antirheumatic Drug (DMARD) used to retard disease-associated damage . You simultaneously prescribe a short course of oral glucocorticoids and NSAIDs, explaining these will provide immediate symptomatic control while you wait weeks for the Methotrexate to take effect .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The DMARD Remedy",
+        "content": "Sarah calls the clinic three days later, sobbing. \"I've been taking the Methotrexate, but my hands still hurt so badly I can't hold my coffee mug. The medicine isn't working!\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/fb7c736c-5e58-440b-8cdb-dc8221fab177.jpeg",
+            "filename": "fb7c736c-5e58-440b-8cdb-dc8221fab177.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2397.035193918221,
+        "y": 1200.8004918818015
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Toxic Escalation",
+        "content": "You tell her that her disease must be incredibly aggressive. You drastically increase her Methotrexate dose to force an acute analgesic effect.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize Methotrexate takes several weeks to reach therapeutic efficacy. You apologize for not providing bridge therapy and immediately call in a prescription for NSAIDs/glucocorticoids for symptomatic control while waiting for the DMARD response .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3459.4216672655525,
+        "y": 1184.5953366180868
+      },
+      "data": {
+        "title": "The Pre-Operative Clearance (Time: 5 Years Later)",
+        "content": "Sarah is now 40 years old. Her RA has been well-controlled on Methotrexate and a TNF-inhibitor (Adalimumab) . She comes to your clinic because she is scheduled for an elective laparoscopic cholecystectomy (gallbladder removal) next week requiring general anesthesia and intubation. She needs you to sign off on her pre-operative clearance.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/548da91c-ee23-4f48-93c6-bdd23de28510.jpeg",
+            "filename": "548da91c-ee23-4f48-93c6-bdd23de28510.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Routine Clearance",
+        "content": "You listen to her heart and lungs, note her stable vitals, and sign the clearance paperwork. She is young and her cardiovascular risk is low.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Cervical Precaution",
+        "content": "You recognized a silent, deadly complication of chronic RA. The neck X-ray is required to rule out atlantoaxial ligament laxity before any procedure requiring intubation. The X-ray shows stability, and you safely clear her for surgery.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 300
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Diagnostic parsimony is critical. When a patient presents with classic criteria for an autoimmune etiology—such as symmetric morning stiffness lasting > 1 hour and specific PIP/MCP joint involvement —blindly hunting for an unlikely malignancy with expensive, high-radiation imaging violates the principle of \"do no harm\" (both physically and financially). Rheumatoid arthritis is diagnosed based on clinical presentation and targeted laboratory studies (RF, anti-CCP, ESR, CRP) alongside localized radiography , not whole-body pan-scanning.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 248
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 4008.8301977182196,
+        "y": 1890.5502054188637
+      },
+      "data": {
+        "title": "The Cervical Precaution",
+        "content": "You recognized a silent, deadly complication of chronic RA. The neck X-ray is required to rule out atlantoaxial ligament laxity before any procedure requiring intubation. The X-ray shows stability, and you safely clear her for surgery.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/71974c48-4339-4007-9a4c-c389ec95ca49/e53535e4-ab53-4cd7-ab8e-94108a4e7970.jpeg",
+            "filename": "e53535e4-ab53-4cd7-ab8e-94108a4e7970.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 328
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": -128.08515261491323,
+    "y": 1140.046075557256,
+    "zoom": 0.5522362770227481
+  }
+}

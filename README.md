@@ -27,34 +27,65 @@ We are issuing an open call to the global medical education community. We need s
 * **Health Information, Billing, & Revenue Cycle**
 * **Quality, Safety, Compliance, & Hospital Operations**
 
+# Clinical Scenarios
+
+There are currently **19 scenarios**. Contributions are welcome — see [How to Contribute](#contributing) below.
+
+## Scenarios
+
+| Scenario | Topic | Focus | Decisions | Endings |
+|---|---|---|---|---|
+| [Case Study: Early Deterioration and Conflicting AI Signals](scenarios/unit1-recognizing-risks) | unit1-recognizing-risks | Navigate a realistic clinical scenario involving patient Mr. Allen to learn about automation bias, over-reliance, and workflow integration. | 5 | 7 |
+| [The Drowning Heart](scenarios/heart-failure) | Heart Failure | acute and chronic management of Heart Failure | 6 | 4 |
+| [The 40-Week Clock](scenarios/prenatal-care) | prenatal care | screening windows and preventative protocols | 4 | 3 |
+| [The Missing Milestone](scenarios/primary-amenorrhea) | primary amenorrhea | Evaluation and diagnosis | 7 | 7 |
+| [Time is Brain](scenarios/ischemic-stroke) | ischemic stroke | acute management of an ischemic stroke | 4 | 5 |
+| [The Growing Pains](scenarios/pediatric-developmental-milestones) | pediatric developmental milestones | Evaluation and parent education | 4 | 4 |
+| [The Golden Hourglass](scenarios/neonatal-jaundice) | neonatal jaundice | Diagnosis and management | 4 | 5 |
+| [The Breathless Traveler](scenarios/pulmonology-and-emergency-triage) | pulmonology and emergency triage | Pulmonary Embolism (PE) | 5 | 5 |
+| [The Morning Ache](scenarios/rheumatoid-arthritis) | Rheumatoid Arthritis | Rheumatology | 5 | 5 |
+| [The 48-Hour Window](scenarios/substance-withdrawal) | substance withdrawal | Psychiatry and Addiction Medicine | 5 | 5 |
+| [The Waddell Impact](scenarios/emergency-care-surgery) | Emergency care/Surgery | Multi-system trauma | 5 | 5 |
+| [The Peripheral Shadow](scenarios/lung-cancer) | Lung cancer | Oncology | 5 | 5 |
+| [The Black Eschar](scenarios/sinusitis) | Sinusitis | ENT | 5 | 5 |
+| [The Restaurant Reaction](scenarios/anaphylaxis) | Anaphylaxis | Allergy and Immunology | 5 | 5 |
+| [The Winter Crisis](scenarios/sickle-cell-anemia) | Sickle cell anemia | Hematology | 5 | 5 |
+| [The Daycare Diarrhea Dilemma](scenarios/diarrhea) | Diarrhea | Infectious disease/GI | 5 | 5 |
+| [The Vascular Toll](scenarios/diabetes-mellitus) | Diabetes Mellitus | Endocrinology | 5 | 5 |
+| [The Ring-Enhancing Dilemma](scenarios/hiv) | HIV | Infectious disease | 5 | 5 |
+| [The Gradient Collapse](scenarios/electrolytes-and-drug-interaction) | Electrolytes and drug interaction | Pharmacology/Multi-systems | 5 | 5 |
+
+## What's in each scenario folder
+
+```
+scenarios/<scenario-name>/
+├── <scenario-name>.json   # the scenario graph: nodes, edges, viewport
+├── README.md              # the scenario told as a story, with a flowchart
+└── images/                # images shown in the scenario
+```
+
+The JSON file is a graph of nodes connected by edges. Each node has a `type`:
+
+| Node type | What it is |
+|---|---|
+| `informationNode` | A story page: what is happening to the patient. The first page has `hideTopHandle: true`. |
+| `decisionNode` | A decision point where the learner chooses what to do. |
+| `choiceNode` | One option at a decision, labelled `A`, `B`, `C`… and marked `correct` or `misstep`. |
+| `terminationNode` | An ending: `checkpoint` (a concept learned) or `fail` (try again). |
+
+<a id="contributing"></a>
 ## 🛠️ How to Contribute
 
 You do not need to be a software developer to contribute! We are looking for **clinical logic and scenario narratives**. 
 
 ### 1. Propose a New Scenario (Submit an Issue)
-The easiest way to contribute is by opening an Issue. Navigate to the **Issues** tab and select the `New Clinical Scenario` template. You will be asked to provide:
-* **Target Audience:** (e.g., ICU Nurses, Triage Physicians, Medical Coders)
-* **Core AI Concept:** (e.g., Automation Bias, Alarm Fatigue, Algorithmic Opacity)
-* **The Narrative Arc:** A brief description of the clinical setup.
-* **The Critical Decision Node:** What must the learner decide?
-* **The Rationale Prompt:** What specific justification are we demanding from the learner?
+The easiest way to contribute is by opening an Issue.
 
 ### 2. Collaborate on Node-Mapping
 For accepted scenarios, we will collaborate in the discussion threads to map out the "Correct Pathways," "Recovery Loops" (where learners safely see the consequences of minor errors), and "Terminal Fail-States" (where severe clinical or safety breaches occur).
 
 ### 3. Review and Refine
 Help us peer-review existing scenario drafts to ensure they meet the highest standards of evidence-based practice and accurately reflect localized or international clinical guidelines.
-
-## 📄 Example Contribution
-
-Here is an example of what a successful scenario contribution looks like:
-
-> **Department:** Emergency Medicine
-> **Concept:** Triage and Automation Bias
-> **Node 1 (Setup):** Manage the arrival of a trauma victim from a multi-car accident.
-> **Node 2 (AI Input):** An AI triage tool suggests "Moderate Risk" based on initial electronic vitals.
-> **Node 3 (Decision):** The clinician detects abdominal distension. Do they override the AI to move the patient to surgery, or wait for secondary imaging as suggested by the AI?
-> **Rationale Assessment:** *"You prioritized the automated triage score over your physical assessment of abdominal swelling. Defend your reasoning regarding clinical stewardship and the consequences of automation bias in high-pressure environments."*
 
 ## 📚 About the Platform
 
