@@ -78,34 +78,14 @@ The JSON file is a graph of nodes connected by edges. Each node has a `type`:
 
 You do not need to be a software developer to contribute! We are looking for **clinical logic and scenario narratives**. 
 
-### Suggest a scenario or report a problem
+### 1. Propose a New Scenario (Submit an Issue)
+The easiest way to contribute is by opening an Issue.
 
-Open an **issue** to:
+### 2. Collaborate on Node-Mapping
+For accepted scenarios, we will collaborate in the discussion threads to map out the "Correct Pathways," "Recovery Loops" (where learners safely see the consequences of minor errors), and "Terminal Fail-States" (where severe clinical or safety breaches occur).
 
-- propose a new scenario topic, or volunteer to write one
-- report a clinical inaccuracy, outdated guideline, typo or broken image
-- suggest a better choice, explanation or ending for an existing scenario
-
-Please include the scenario name and, for clinical corrections, a reference to the source guideline.
-
-### Add a new scenario
-
-1. Fork this repository and create a branch.
-2. Add a new folder under `scenarios/`, named in lowercase with hyphens (for example `septic-shock/`).
-3. Inside it, add:
-   - `<folder-name>.json`: the scenario graph, following the structure of the existing scenarios
-   - `README.md`: an overview and the story told in order, like the existing READMEs
-   - `images/`: any images the scenario uses, listed under the node's `data.images`
-4. Add a row for your scenario to the [Scenarios](#scenarios) table.
-5. Open a **pull request** describing the scenario, its learning goals and the sources you used.
-
-### Guidelines
-
-- **No real patient data.** All cases must be fictional or fully de-identified.
-- **Images must be yours or openly licensed.** Note the source and license in the scenario README.
-- **Every path should end.** Each choice must lead somewhere, and every branch should finish in a checkpoint or a fail ending.
-- **Explain the misses.** A fail ending should say what went wrong and what the better choice would have been.
-- **Cite your sources.** Base clinical content on current guidelines and list them in the README.
+### 3. Review and Refine
+Help us peer-review existing scenario drafts to ensure they meet the highest standards of evidence-based practice and accurately reflect localized or international clinical guidelines.
 
 ## 📚 About the Platform
 
