@@ -1,0 +1,1110 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Peripheral Shadow",
+        "content": "Patient Profile: Mr. Arthur Pendelton, a 65-year-old male.\nInitial State: He presents to the outpatient clinic with a progressively worsening cough and significant fatigue over the last 6 months. He notes a recent episode of hemoptysis (blood-streaked sputum) and a 12-pound unintentional weight loss . He has a 40 pack-year smoking history. Physical examination is notable for distinct finger clubbing. You order a routine chest radiograph, which reveals a solitary, eccentric pulmonary nodule measuring 11 mm in the right upper lobe.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Nodule Triage (Diagnostic Sequencing)",
+        "content": "Mr. Pendelton is extremely anxious upon hearing the word \"nodule\" and asks if he needs to go straight to surgery. You need to determine the very first step in evaluating this incidental solitary pulmonary nodule.",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Premature Biopsy",
+        "content": "Because the nodule is > 8 mm and has an eccentric (malignant) feature, you immediately consult interventional radiology to perform a CT-guided percutaneous needle biopsy to confirm the cancer.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Premature Biopsy",
+        "content": "You send Mr. Pendelton for the biopsy. During the procedure, the biopsy needle punctures the visceral pleura, causing a massive tension pneumothorax. He requires emergency chest tube placement and a prolonged ICU stay. Days later, you locate his old medical records, which show the exact same 11 mm nodule present on a scan from five years ago. It was a benign, calcified granuloma. You subjected the patient to a life-threatening complication for a lesion that required absolutely zero intervention.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/7ce11aa8-0b74-402e-8867-cd9a2a427bcd.jpeg",
+            "filename": "7ce11aa8-0b74-402e-8867-cd9a2a427bcd.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "While an 11 mm eccentric nodule is highly suspicious for malignancy, jumping straight to a biopsy for an incidental solitary pulmonary nodule (SPN) is a dangerous violation of the diagnostic algorithm. The initial step must always be to compare the current image to prior chest X-rays. If the nodule was present on a scan from three years ago and has not changed in size, it is overwhelmingly likely to be a benign granuloma or hamartoma, requiring no further intervention. Lung biopsies carry a significant risk of iatrogenic pneumothorax and hemorrhage.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Unnecessary Collapse",
+        "content": "Final Outcome: Failure / Iatrogenic Pneumothorax\n\nThe Flaw: Skipping the most critical, non-invasive first step of the SPN algorithm: comparing to prior imaging.\n\nActionable Improvement: Never biopsy a newly discovered pulmonary nodule without first exhausting efforts to find and compare old imaging to prove interval growth.",
+        "conceptTag": "Diagnostic Algorithms & Iatrogenic Risk",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Advanced Scan",
+        "content": "You immediately order a full-body Positron Emission Tomography (PET) scan to check for metastasis before doing anything else.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Imaging Remedy",
+        "content": "You order the PET scan. The radiologist rejects the order, noting that standard criteria for evaluating a new nodule have not been met yet.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/5673f9bb-468e-4aee-8e9a-4130a6f3a3e9.jpeg",
+            "filename": "5673f9bb-468e-4aee-8e9a-4130a6f3a3e9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Ego Trap",
+        "content": "You angrily call the radiologist and demand they push the PET scan through, arguing that your clinical suspicion for cancer overrides their administrative protocols.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Ego Trap",
+        "content": "You pull rank and force the PET scan. The scan shows mild hypermetabolic uptake in the nodule. Convinced it is cancer, you send him for surgical resection. The pathologist analyzes the removed lobe and finds a completely benign, slightly inflamed infectious granuloma that had been there for a decade. By ignoring the radiologist and the standard algorithm, you authorized the surgical removal of a healthy piece of lung.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/f82b5a10-9be1-4d37-b254-ad7762b004d4.jpeg",
+            "filename": "f82b5a10-9be1-4d37-b254-ad7762b004d4.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: The False Positive Panic",
+        "content": "Final Outcome: Failure / Unnecessary Surgical Resection\n\nThe Flaw: Using an advanced metabolic scan without first establishing anatomical chronicity via old X-rays.\n\nActionable Improvement: Follow the stepwise approach. Old X-rays first. If new/growing, then CT chest. Only then do you calculate probability for PET vs. Biopsy .",
+        "conceptTag": "Resource Utilization & Diagnostic Hubris",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You review the guidelines, cancel the PET scan, and request the patient's old chest X-rays to establish a baseline comparison first. Merge to Node 2.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Historical Baseline",
+        "content": "You pause, reassure the patient, and instruct your staff to retrieve his prior chest X-rays from a pneumonia admission three years ago to evaluate for any interval change.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Historical Baseline",
+        "content": "You successfully obtain Mr. Pendelton's old X-rays. They show his lungs were completely clear three years ago. This is a new, growing 11 mm lesion. A subsequent chest CT confirms a highly suspicious lesion.\n\nBefore the biopsy can be scheduled, Mr. Pendelton's wife brings him into the emergency department. He is profoundly lethargic, confused, and complaining of severe constipation and diffuse abdominal pain.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/50db2303-78db-42e2-af06-8463951caba3.jpeg",
+            "filename": "50db2303-78db-42e2-af06-8463951caba3.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Metastatic Assumption",
+        "content": "You assume the lung cancer has metastasized to his brain, causing the confusion. You immediately order an MRI of the brain and consult radiation oncology for whole-brain radiation.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Dismissive Empathy",
+        "content": "You hold his wife's hand and gently explain that severe fatigue and confusion are just a normal, sad part of advanced cancer progression. You recommend discharging him home with hospice care.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Metastatic Assumption",
+        "content": "You send Mr. Pendelton for a brain MRI, which takes hours. While he is in the scanner, his unmonitored calcium level climbs to 16.0 mg/dL. The severe hypercalcemia drastically shortens his QT interval. He develops a fatal ventricular arrhythmia in the MRI tube and cannot be resuscitated. You missed a completely reversible metabolic emergency because you anchored on metastasis.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/301eef0f-4e81-493d-b0f7-a815fda3352b.jpeg",
+            "filename": "301eef0f-4e81-493d-b0f7-a815fda3352b.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "While brain metastases are a real complication of lung cancer, an acute onset of severe lethargy, confusion, and systemic symptoms (like constipation and abdominal pain) in a patient with a lung mass must immediately raise suspicion for a paraneoplastic syndrome. Squamous cell carcinoma of the lung frequently secretes Parathyroid Hormone-related Peptide (PTHrP), acting as a PTH receptor agonist and causing severe hypercalcemia. Hypercalcemia presents with \"stones, bones, groans (abdominal pain/constipation), and psychiatric overtones (confusion).\"",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Calcium Crisis",
+        "content": "Final Outcome: Fatal / Unmanaged Hypercalcemic Crisis\n\n\nThe Flaw: Assuming neurological symptoms in a cancer patient are strictly due to brain metastasis without ruling out critical metabolic derangements (hypercalcemia via PTHrP).  \n\nActionable Improvement: Always check a BMP/Calcium level in a lung cancer patient presenting with altered mental status.",
+        "conceptTag": "Paraneoplastic Syndromes & Diagnostic Anchoring",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 2875.477121003681,
+        "y": 828.077199590103
+      },
+      "data": {
+        "title": "The Metabolic Investigation",
+        "content": "You successfully avoided diagnostic anchoring. Instead of blaming \"brain mets,\" you identified a highly treatable, life-threatening paraneoplastic syndrome.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/14d7931f-1032-412b-988c-5f70e3a09c1d.jpeg",
+            "filename": "14d7931f-1032-412b-988c-5f70e3a09c1d.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Paternalistic Dismissal",
+        "content": "You discharge him to hospice. Within 24 hours, his untreated hypercalcemia causes a comatose state, leading to cardiac arrest. When the hospice intake nurse reviews the chart and sees that no basic labs were drawn despite an acute mental status change, you face a massive malpractice lawsuit for failure to diagnose and treat a standard paraneoplastic complication.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/d72868ff-b457-4ad0-9d46-c96cc8ca7ba7.jpeg",
+            "filename": "d72868ff-b457-4ad0-9d46-c96cc8ca7ba7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Dismissing an acute, dramatic change in a patient's baseline as \"normal disease progression\" without a medical workup is severe clinical negligence. Family members are the most accurate historians regarding a patient's baseline. Ignoring their objective timeline out of paternalism destroys the therapeutic alliance and guarantees missed diagnoses of reversible conditions (like UTIs, hypercalcemia, or drug toxicity).",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The False Comfort",
+        "content": "Thomas trusts your advice and does not get screened. Three years later, at age 58, he develops a cough and weight loss. A chest X-ray reveals a massive, centrally located tumor that has already invaded his mediastinum and metastasized to his liver. It is completely inoperable. Your failure to apply the standard screening criteria cost him his only window for a curative resection",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/c013dca2-bf3c-4b88-b1f8-5a53bb130853.jpeg",
+            "filename": "c013dca2-bf3c-4b88-b1f8-5a53bb130853.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Preventable Demise",
+        "content": "Final Outcome: Fatal / Malpractice & Ethical Violation\n\nThe Flaw: Medical gaslighting; ignoring a family member's accurate history and failing to work up acute delirium in an oncology patient.\n\nActionable Improvement: Never assume acute confusion is terminal decline without checking basic labs (CBC, BMP, Calcium, Urinalysis) first.",
+        "conceptTag": "Medical Gaslighting & Reversible Delirium",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Missed Window",
+        "content": "Final Outcome: Failure / Missed Preventative ScreeningThe Flaw: Misunderstanding the USPSTF lung cancer screening guidelines and providing false reassurance to a high-risk patient.Actionable Improvement: Memorize the 50-80, 20, 15 rule: Age 50-80, $\\ge 20$ pack-years, currently smoking or quit within 15 years requires an annual low-dose CT scan .",
+        "conceptTag": "Preventative Medicine & Screening Guidelines",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Lung cancer screening guidelines are highly specific and designed to catch asymptomatic cancers early. Screening with a low-dose CT scan of the chest is explicitly indicated in patients 50-80 years of age who have a $\\ge 20$ pack-year smoking history AND either currently smoke or have quit within the past 15 years . Thomas meets all criteria (55yo, 25 pack-years, quit 10 years ago). Waiting for symptoms like hemoptysis guarantees that the cancer will be in an advanced, often incurable stage upon diagnosis.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Acute Deterioration (Paraneoplastic Syndrome)",
+        "content": "You have successfully intubated Leo. His oxygen saturations improve to 99%. With the airway secure, you move to the secondary survey.\n\nYou expose his left leg. He has a displaced fracture of the distal femur. The nurse checks his foot and calls out, \"Distal pedal pulses are palpable.\" However, as you observe the back of the knee, you notice a massive, firm hematoma that is visibly and rapidly expanding.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/1a253ea4-0398-4091-897b-60248cf76cc5.jpeg",
+            "filename": "1a253ea4-0398-4091-897b-60248cf76cc5.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 2968.8821311223633,
+        "y": 419.74810823046164
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Metabolic Investigation",
+        "content": "You recognize his symptoms (lethargy, confusion, constipation) as classic signs of a metabolic emergency, specifically hypercalcemia. You immediately order a basic metabolic panel (BMP) and ionized calcium level, knowing that Squamous Cell Carcinoma of the lung can secrete PTHrP.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The Hospice Remedy (Ethics)",
+        "content": "Mr. Pendelton's wife is furious. \"He was doing crossword puzzles yesterday!\" she yells. \"This isn't a slow decline; something is acutely wrong with him right now!\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/5a92b020-dcf2-4743-b1fe-f91b6627cc67.jpeg",
+            "filename": "5a92b020-dcf2-4743-b1fe-f91b6627cc67.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2397.035193918221,
+        "y": 1200.8004918818015
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Paternalistic Dismissal",
+        "content": "You tell her she is in denial about his prognosis. You refuse to order labs and discharge him to home hospice.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize she is right. Acute confusion is delirium, not normal disease progression. You apologize for your dismissiveness and immediately order stat lab work, discovering a critically high calcium level.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3154.0426690079694,
+        "y": 1192.5067096299413
+      },
+      "data": {
+        "title": "The Family Screening (Preventative Ethics)",
+        "content": "Mr. Pendelton is treated with aggressive IV fluids and bisphosphonates for his hypercalcemia. A biopsy confirms Squamous Cell Carcinoma, and he is scheduled for staging.\n\nHis younger brother, Thomas, is visiting him in the hospital. Thomas is 55 years old. He smoked 1 pack a day for 25 years but quit completely 10 years ago. Thomas is terrified by his brother's diagnosis and asks you, \"Doc, should I be getting my lungs checked? I feel perfectly fine, but I smoked for a long time.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/116f4fe0-d9f2-488e-809a-24e24af1df95.jpeg",
+            "filename": "116f4fe0-d9f2-488e-809a-24e24af1df95.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The False Comfort",
+        "content": "You tell Thomas, \"Because you quit over 5 years ago, your lungs have healed. You only need a screening if you start coughing up blood or losing weight.\"",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Evidence-Based Guideline",
+        "content": "You explain that despite having quit, his age (55) and his 25 pack-year history place him at high risk. You strongly recommend he follow up with his primary care doctor immediately to schedule an annual low-dose computerized tomography (CT) scan of the chest .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Interprofessional collaboration is crucial in oncology. Radiologists act as gatekeepers to prevent unnecessary, high-radiation, and expensive testing. A PET scan is a staging tool or an evaluation tool for intermediate-probability nodules, but it is completely useless—and often yields false positives—if the nodule's baseline chronicity hasn't been established. Forcing a test out of ego rather than following the diagnostic algorithm leads to systemic waste and patient harm.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 3911.125090802369,
+        "y": 1998.2911237602118
+      },
+      "data": {
+        "title": "The Evidence-Based Guideline",
+        "content": "You flawlessly navigated the diagnostic workup for a solitary pulmonary nodule, recognized and managed a life-threatening paraneoplastic syndrome, and applied the exact preventative screening guidelines to save the patient's brother from the same fate.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/54e5667a-1fed-4dbe-809e-d0bb4aa50607/cbeb4b40-fdbf-4787-9b0b-b927a51d1ce7.jpeg",
+            "filename": "cbeb4b40-fdbf-4787-9b0b-b927a51d1ce7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": 87.56966948089143,
+    "y": 649.8756004985319,
+    "zoom": 0.4652248288515114
+  }
+}

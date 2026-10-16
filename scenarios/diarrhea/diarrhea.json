@@ -1,0 +1,1105 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Daycare Diarrhea Dilemma",
+        "content": "Patient Profile: Leo, a 3-year-old male.\nInitial State: Leo is brought to the pediatric urgent care clinic by his parents. He has experienced 2 days of frequent, watery diarrhea (5-6 bowel movements per day). He attends daycare twice a week, where several other children have had similar symptoms . He has no fever and no blood in his stool. On physical exam, he appears fatigued. He has sunken eyes, poor skin turgor, and a delayed capillary refill, indicating moderate dehydration .",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/cba0027b-d4f8-4fab-9f4f-ebab67940b19.jpeg",
+            "filename": "cba0027b-d4f8-4fab-9f4f-ebab67940b19.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Initial Triage (Fluid Resuscitation)",
+        "content": "You must establish the initial management plan for this acute, likely infectious, diarrhea.",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Fluid Dismissal",
+        "content": "You reassure the parents that this is a self-limiting viral infection. You discharge him immediately with no specific instructions, telling them to just let it run its course.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Fluid Dismissal",
+        "content": "You send Leo home without oral rehydration protocols. Over the next 12 hours, his watery diarrhea continues. Because his intravascular volume is already depleted (indicated by his delayed capillary refill), his blood pressure plummets. He becomes completely unresponsive at home. By the time EMS arrives, he is in profound hypovolemic shock. He suffers ischemic acute tubular necrosis (kidney failure) due to severe, untreated dehydration.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/f7106dc9-49cf-48d5-919a-f208f28f5842.jpeg",
+            "filename": "f7106dc9-49cf-48d5-919a-f208f28f5842.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Acute diarrhea is the second leading cause of childhood mortality worldwide, primarily due to catastrophic fluid loss. While the infectious etiology (like Rotavirus, common in daycare) may be self-limiting, the resulting dehydration is not. Leo presented with clear, objective signs of dehydration (sunken eyes, poor skin turgor, delayed capillary refill) . Discharging him without initiating aggressive oral or intravenous rehydration fails to treat the most immediate, life-threatening complication of his illness.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Dry Collapse",
+        "content": "Final Outcome: Fatal Deficit / Hypovolemic Shock\n\nThe Flaw: Failing to recognize objective signs of dehydration and omitting mandatory supportive rehydration therapy.\n\n\nActionable Improvement: Supportive care with oral rehydration (or IV rehydration if severe) is the absolute cornerstone of treating acute diarrhea . Always treat the fluid loss first.",
+        "conceptTag": "Supportive Care & Hypovolemic Shock",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Overzealous Workup",
+        "content": "You decide you need to know exactly what bug is causing this. You order a comprehensive stool panel (Ova & Parasite, C. difficile toxin, bacterial culture) and keep him in the clinic waiting for the results before treating.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Workup Remedy",
+        "content": "The pediatric nurse looks at your order for the massive stool panel. \"Doctor, he only has watery diarrhea for two days with no fever or blood. Do we really need to run a full infectious panel right now instead of just getting him to drink an electrolyte solution?\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/cc9ed7b4-897d-408c-8ee3-002ef32597e9.jpeg",
+            "filename": "cc9ed7b4-897d-408c-8ee3-002ef32597e9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Diagnostic Stubbornness",
+        "content": "You tell the nurse not to question you. You force Leo to stay in the clinic for hours waiting to produce a stool sample, delaying his rehydration therapy.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Stoic Defiance",
+        "content": "You force the child to wait for the stool studies. Because he is continually losing fluid through diarrhea and is receiving no oral rehydration, his mild dehydration progresses to severe dehydration. He becomes lethargic and hypotensive in the waiting room, requiring an emergency rapid response and central line placement for IV resuscitation. You caused iatrogenic harm by delaying simple, supportive care.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/59060199-2178-4994-a95c-840c0b2d4b7e.jpeg",
+            "filename": "59060199-2178-4994-a95c-840c0b2d4b7e.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: The Waiting Room Crash",
+        "content": "Final Outcome: Failure / Iatrogenic Clinical Deterioration\n\nThe Flaw: Prioritizing unnecessary laboratory testing over immediate, standard-of-care supportive rehydration.\n\n\nActionable Improvement: Do not order advanced stool studies in healthy, well-appearing individuals with acute watery diarrhea. Hydration comes first.",
+        "conceptTag": "Diagnostic Parsimony & Delayed Resuscitation",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You recall the guidelines. You cancel the advanced stool studies, recognizing they are not routinely required for acute diarrhea without red flags. You switch your focus to Oral Rehydration therapy.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Optimal Protocol",
+        "content": "You recognize the primary threat is dehydration. You immediately initiate Oral Rehydration therapy (the preferred modality) and explain to the parents that there is no need for advanced stool studies in a well-appearing child without red-flag symptoms .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Optimal Protocol",
+        "content": "You correctly prioritized supportive care and avoided unnecessary, expensive testing for acute, uncomplicated watery diarrhea.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/af4c45f1-caa9-4769-ac63-b4c1254f9c19.jpeg",
+            "filename": "af4c45f1-caa9-4769-ac63-b4c1254f9c19.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Pharmacological Blockade",
+        "content": "You want to stop the bloody diarrhea immediately. You prescribe Loperamide (an anti-motility agent) to slow his gut down and stop the bowel movements.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Bedside Dismissal",
+        "content": "The mother is crying, asking if she caused this by giving him dairy earlier in the week. You roll your eyes, say \"Dairy doesn't cause bloody diarrhea, obviously,\" and walk out to order labs without comforting her.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Pharmacological Blockade",
+        "content": "You prescribe the Loperamide. The medication paralyzes Leo's bowels. The Shigella bacteria, no longer being flushed out by diarrhea, rapidly invades his intestinal walls. His colon massively dilates as the infection becomes trapped. He develops toxic megacolon, which perforates and spills feces directly into his sterile peritoneal cavity. He dies from overwhelming intra-abdominal sepsis.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/bbaee617-3545-4263-8be2-a5059828dead.jpeg",
+            "filename": "bbaee617-3545-4263-8be2-a5059828dead.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Exudative/inflammatory diarrhea, characterized by frequent, small-volume, bloody stools, indicates a disrupted and inflamed mucosa, often caused by invasive bacteria like Shigella, Salmonella, or Campylobacter . Using an anti-motility agent (like loperamide) in this setting is strictly contraindicated. Slowing the gut motility traps the invasive bacteria and their toxins inside the intestines. This actively prolongs infectious diarrhea (specifically Shigella-induced gastroenteritis) and can precipitate fatal complications like toxic megacolon .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Silent Megacolon",
+        "content": "Final Outcome: Fatal / Iatrogenic Toxic Megacolon\n\nThe Flaw: Prescribing an anti-motility agent for invasive, inflammatory (bloody) diarrhea.\n\nActionable Improvement: Never use loperamide or bismuth salicylate in patients with high fever or bloody diarrhea. Anti-motility agents may prolong the illness.",
+        "conceptTag": "Pharmacological Contraindications & Toxin Retention",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 2875.477121003681,
+        "y": 828.077199590103
+      },
+      "data": {
+        "title": "The Red Flag Recognition",
+        "content": "You correctly identified the shift from uncomplicated watery diarrhea to complicated inflammatory diarrhea, triggering the correct diagnostic workup.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/b0d73a86-6171-44e7-b05f-9954d5c348dd.jpeg",
+            "filename": "b0d73a86-6171-44e7-b05f-9954d5c348dd.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Security Threat",
+        "content": "The mother leaves with Leo. Because they do not have a medical background, they assume they just need to push water. They do not know about the risks of severe bacterial enteritis. Over the next two days, Leo's Shigella infection spreads to his bloodstream. He goes into septic shock at home. By the time they arrive at a different emergency room, his organs are failing. You face severe disciplinary action for effectively abandoning a highly vulnerable patient.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/f91914df-d229-490f-9ebd-f865a0772541.jpeg",
+            "filename": "f91914df-d229-490f-9ebd-f865a0772541.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Pediatric medicine requires treating the parents as much as the child. Dismissing a parent's valid anxiety regarding a sudden, terrifying symptom (bloody diarrhea) destroys trust. Allowing a child with an acute, high-fever, inflammatory gastroenteritis to leave the hospital because you refuse to apologize for poor bedside manner is an ethical failure that directly endangers the patient's life.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The Supportive Anchor",
+        "content": "You withhold the antibiotics. The Shigella bacteria, unchecked by any pharmacological intervention, breaches the mucosal barrier of his intestines entirely. The bacteria enter his systemic circulation. He develops severe gram-negative bacteremia, progressing rapidly to septic shock. His blood pressure collapses despite maximum IV fluid resuscitation, and he requires intubation and pressor support in the ICU.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/9f560f01-c48b-43ea-8c01-8727b0fbbe17.jpeg",
+            "filename": "9f560f01-c48b-43ea-8c01-8727b0fbbe17.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Prideful Departure",
+        "content": "Final Outcome: Failure / Ethical Violation & Patient Harm\n\nThe Flaw: Prioritizing physician ego over parental communication, resulting in an unstable patient losing access to care.\n\nActionable Improvement: Always validate parental concerns. A 30-second explanation builds the trust necessary to keep a sick child in the hospital.",
+        "conceptTag": "Bedside Manner & Patient Abandonment",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Sepsis Threshold",
+        "content": "Final Outcome: Severe Morbidity / Untreated Bacteremia\n\n\nThe Flaw: Failing to escalate therapy to antibiotics when a bacterial etiology causes severe, refractory symptoms .  \n\nActionable Improvement: Know the exceptions to the \"supportive care only\" rule. Severe, bloody, bacterial diarrhea unresponsive to hydration requires targeted antibiotic therapy .",
+        "conceptTag": "Antibiotic Indications & Invasive Enteritis",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "While supportive care (rehydration) is the primary treatment for the vast majority of diarrheal illnesses, there is a strict clinical threshold where supportive care is no longer sufficient. Antibiotics are explicitly indicated for bacterial etiologies causing moderate or severe diarrhea that is not responsive to rehydration . Withholding antibiotics from a toxic-appearing child with a confirmed, severe invasive Shigella infection out of an overabundance of caution regarding antibiotic stewardship allows the bacteria to overwhelm the host.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Exudative Shift (Interprofessional Communication)",
+        "content": "Leo goes home and tolerates the oral rehydration well. However, three days later, his parents bring him back. His clinical picture has completely changed.He now has a high fever of $39.5^{\\circ}C$ $(103.1^{\\circ}F)$, severe abdominal cramping, and he is passing frequent, small-volume, bloody stools . This represents a shift to an exudative/inflammatory diarrhea.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/cc3a58fd-7e03-4e54-af6e-1c36ba89be80.jpeg",
+            "filename": "cc3a58fd-7e03-4e54-af6e-1c36ba89be80.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 2968.8821311223633,
+        "y": 419.74810823046164
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Red Flag Recognition",
+        "content": "You recognize the high fever, severe pain, and bloody diarrhea as strict indications for laboratory evaluation . You admit him for IV rehydration and order a comprehensive stool culture, warning the parents he likely contracted an invasive bacteria like Shigella from daycare.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The Communication Remedy",
+        "content": "You step into the hallway. The charge nurse stops you. \"Doctor, the mother is packing up her son's things. She feels judged and says she is taking him to a different hospital because you won't explain what is happening.\"",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2397.035193918221,
+        "y": 1200.8004918818015
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Ego Trap",
+        "content": "You tell the nurse, \"Let her leave. I don't have time for anxious parents who don't understand medicine.\" You discharge the patient Against Medical Advice (AMA).",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize your arrogance damaged the therapeutic alliance. You re-enter the room, apologize sincerely, and explain that daycare is a major risk factor for bugs like Shigella, reassuring her that she did nothing wrong. She agrees to stay.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3154.0426690079694,
+        "y": 1192.5067096299413
+      },
+      "data": {
+        "title": "The Refractory Pathogen (Final Management)",
+        "content": "Leo is admitted to the pediatric ward. His stool cultures return positive for Shigella, confirming an exudative/inflammatory etiology .  Despite 24 hours of aggressive IV rehydration and electrolyte repletion , Leo is deteriorating. He has severe, unrelenting bloody diarrhea, his fever remains at $39.8^{\\circ}C$, and he looks toxic\nYou review his outpatient maintenance medications.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/59928a2a-6ad4-4957-a5f6-836373bc868b/3c1ebc82-98f9-4f5f-a275-dd3cf3fc4967.jpeg",
+            "filename": "3c1ebc82-98f9-4f5f-a275-dd3cf3fc4967.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Supportive Anchor",
+        "content": "You firmly believe that all diarrheal illnesses are self-limiting. You refuse to prescribe antibiotics, stating that they might cause C. difficile, and you insist on continuing supportive IV fluids only.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Targeted Eradication",
+        "content": "You recognize that he has a moderate-to-severe bacterial etiology that is explicitly not responsive to rehydration alone. You prescribe a targeted antibiotic to eradicate the Shigella .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Acute diarrhea does not routinely require laboratory evaluation unless specific clinical red flags are present (e.g., high fever, bloody diarrhea, severe abdominal pain, immunocompromise) . Delaying the most critical intervention—oral rehydration —to hunt for a specific viral or bacterial name in a stable child is a severe triage error.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 3911.125090802369,
+        "y": 1998.2911237602118
+      },
+      "data": {
+        "title": "The Targeted Eradication",
+        "content": "You flawlessly managed a complex pediatric gastrointestinal presentation. You started with the correct conservative oral rehydration, accurately recognized the clinical shift to an inflammatory etiology requiring advanced studies, and correctly applied the strict indication for antibiotic therapy when supportive care failed. Leo recovers fully.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": -718.1159273948269,
+    "y": -423.6462206478461,
+    "zoom": 0.49864047771004405
+  }
+}

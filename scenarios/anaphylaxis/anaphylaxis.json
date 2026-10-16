@@ -1,0 +1,1120 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Restaurant Reaction",
+        "content": "Patient Profile: Leo, a 15-year-old male.\nInitial State: Leo is rushed into the emergency department by his parents. He is visibly gasping for air and his face is covered in a raised, erythematous rash. His mother screams that they were at a seafood restaurant, and within an hour of eating, he started choking. His medical history is significant for asthma and a severe allergic reaction to peanuts and shellfish .  Vitals: Blood Pressure $85/50$ mmHg, Pulse $130/min$, Respirations $28/min$, Oxygen Saturation 89% on room air.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/ecdd0de8-06ae-4f6f-a9ed-13314a59379f.jpeg",
+            "filename": "ecdd0de8-06ae-4f6f-a9ed-13314a59379f.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Initial Triage (The Epinephrine Decision)",
+        "content": "Leo is experiencing a rapid-onset, life-threatening systemic allergic reaction . He meets the diagnostic criteria by involving at least two organ systems: skin/mucosa (urticaria/swollen lips) and respiratory (dyspnea/wheezes) . Furthermore, his hypotension and tachycardia indicate cardiovascular involvement . You must initiate immediate pharmacological intervention.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/a91e9be9-ca29-46cb-ac74-23031a46dbda.jpeg",
+            "filename": "a91e9be9-ca29-46cb-ac74-23031a46dbda.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Adjunctive Anchor",
+        "content": "Because his airway is still partially open, you decide to start with IV Diphenhydramine (an antihistamine) and IV Methylprednisolone (a glucocorticoid) to calm the immune response, holding off on Epinephrine to avoid stressing his heart.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Adjunctive Anchor",
+        "content": "You push the IV steroids and antihistamines. Over the next ten minutes, the medications slowly circulate, but they do nothing to halt the immediate mucosal edema in Leo's throat. His airway swells completely shut. He loses consciousness due to hypoxia and profound hypotensive shock. By the time you realize your error and call for the crash cart to establish a surgical airway, he progresses into cardiac arrest.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/83639a82-5220-4782-a272-586d00e44ee0.jpeg",
+            "filename": "83639a82-5220-4782-a272-586d00e44ee0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Anaphylaxis is a Type I hypersensitivity reaction where massive mast cell and basophil activation leads to a catastrophic release of inflammatory mediators . This causes rapid airway obstruction and cardiovascular collapse. Glucocorticoids and antihistamines have a significantly slower onset of action and should only be used as adjunctive therapy to epinephrine . They do not possess the immediate, life-saving vasoconstrictive or bronchodilatory properties required to reverse anaphylactic shock. Withholding epinephrine in anaphylaxis is a lethal medical error.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Closed Airway",
+        "content": "Final Outcome: Fatal / Anaphylactic Shock & Airway Obstruction\n\nThe Flaw: Utilizing slow-onset adjunctive medications as first-line therapy instead of the mandatory IM Epinephrine.\n\n\nActionable Improvement: Intramuscular (IM) Epinephrine is always the first-line therapy for anaphylaxis . Never delay it for steroids or antihistamines.",
+        "conceptTag": "Pharmacokinetics & Delayed Resuscitation",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Suboptimal Route",
+        "content": "You correctly order Epinephrine, but you instruct the nurse to administer it via the Subcutaneous (SubQ) route, as you believe it will be less painful for the pediatric patient.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Route Remedy (Interprofessional Communication)",
+        "content": "The triage nurse pauses with the syringe. \"Doctor, the standard protocol for anaphylactic shock is the Intramuscular (IM) route, usually in the lateral thigh. Subcutaneous absorption can be highly unpredictable in shock. Do you want me to switch to IM?\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/36884a52-f28f-4cb5-9032-2c438256b4ce.jpeg",
+            "filename": "36884a52-f28f-4cb5-9032-2c438256b4ce.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Ego Trap",
+        "content": "You snap at the nurse for questioning your orders in an emergency. You demand she administer the injection subcutaneously into his arm immediately.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Ego Trap",
+        "content": "The nurse reluctantly gives the subcutaneous injection. Because Leo is hypotensive ($85/50$), there is virtually no capillary blood flow in his subcutaneous tissue. The epinephrine sits pooled under his skin, completely unabsorbed. His anaphylaxis progresses unimpeded. His cardiovascular system collapses, and he codes in the trauma bay while the life-saving drug remains trapped millimeters below his epidermis. ",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/4d2728c8-908a-4a93-8f7a-5367606d873d.jpeg",
+            "filename": "4d2728c8-908a-4a93-8f7a-5367606d873d.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: The Unabsorbed Rescue",
+        "content": "inal Outcome: Fatal / Failure of Drug Delivery\n\nThe Flaw: Utilizing an incorrect route of administration (SubQ) that prevents drug absorption during shock, and dismissing a critical safety catch from the nursing staff.\n\n\nActionable Improvement: Always use the IM route for Epinephrine in anaphylaxis. Respect the interprofessional safety net.",
+        "conceptTag": "Pharmacokinetics & Professional Arrogance",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize the nurse is absolutely correct. Shock causes peripheral vasoconstriction, rendering subcutaneous absorption useless. You thank the nurse for the safety catch and change the order to IM Epinephrine.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Optimal Protocol",
+        "content": "You ensure his airway, breathing, and circulation are intact. You immediately order Intramuscular (IM) Epinephrine as your absolute first-line therapy .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Optimal Protocol",
+        "content": "You correctly recognized that IM Epinephrine is the preferred route of administration and the only acceptable first-line treatment for anaphylaxis . Proceed to Node 2.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/e0f4d602-0840-4095-9316-64b487bcadd2.jpeg",
+            "filename": "e0f4d602-0840-4095-9316-64b487bcadd2.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Beta-Blocker Trap",
+        "content": "You assume the epinephrine's $\\beta_1$ agonism caused dangerous tachycardia. To protect his heart, you order a rapid push of IV Metoprolol (a beta-blocker) to slow his heart rate and reduce the myocardial oxygen demand.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Clinical Robot",
+        "content": "You immediately order a stat ECG and troponins. When Leo's mother frantically grabs your arm and asks if her son is having a heart attack, you ignore her entirely, tell her to step out of the way, and stare at the monitor.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Beta-Blocker Trap",
+        "content": "You push the IV Metoprolol. The drug immediately binds and blocks all of Leo's beta receptors. The epinephrine in his system now exclusively stimulates the alpha-1 receptors. His blood vessels clamp down violently, sending his blood pressure skyrocketing momentarily before his blocked heart fails against the massive afterload. Concurrently, the loss of beta-2 stimulation causes his lungs to spasm shut. He enters a lethal, medication-induced cardiac arrest.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/f90377f7-af7a-4d95-b552-0681a543e7d7.jpeg",
+            "filename": "f90377f7-af7a-4d95-b552-0681a543e7d7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Administering a beta-blocker to a patient in active anaphylaxis is a catastrophic pharmacological error. Epinephrine saves lives in anaphylaxis through $\\alpha_1$ (vasoconstriction), $\\beta_1$ (increased chronotropy/inotropy), and $\\beta_2$ (bronchodilation) agonism . If you introduce a beta-blocker, you completely strip away the $\\beta_1$ and $\\beta_2$ effects. This leads to unopposed $\\alpha_1$ agonism, causing extreme, unmitigated systemic vasoconstriction, paradoxical bronchospasm, and immediate cardiovascular collapse. ",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Unopposed Alpha",
+        "content": "Final Outcome: Fatal / Iatrogenic Receptor Blockade\n\nThe Flaw: Administering a beta-blocker during an epinephrine-dependent anaphylactic event, causing unopposed alpha agonism.\n\nActionable Improvement: Never give beta-blockers during anaphylaxis. If chest pain occurs, consider Kounis syndrome (allergic angina/ACS) and treat with nitrates or calcium channel blockers if indicated, but never beta-blockers .",
+        "conceptTag": "Receptor Pharmacology & Iatrogenic Collapse",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 2875.477121003681,
+        "y": 828.077199590103
+      },
+      "data": {
+        "title": "The Emergent Dual-Therapy",
+        "content": "You correctly recognized that medical therapy alone is useless because the necrotic tissue has no blood supply. Invasive fungal disease requires both Amphotericin B and emergent surgical debridement.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/9f60beff-9775-4949-aa98-bb9da42b7624.jpeg",
+            "filename": "9f60beff-9775-4949-aa98-bb9da42b7624.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Authoritarian Escalation",
+        "content": "In pediatrics and emergency medicine, the patient and their guardians are a single unit. While a physician must maintain control of a code situation, utilizing security to forcibly remove a terrified parent who simply asked a question is an egregious violation of medical ethics and bedside manner. It completely destroys the trust required for long-term patient education and follow-up.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/f2bb5754-5dd0-4d52-a817-defc7a5f576a.jpeg",
+            "filename": "f2bb5754-5dd0-4d52-a817-defc7a5f576a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Security drags the screaming mother into the hallway. You successfully manage Leo's transient Kounis syndrome, and he stabilizes. However, the psychological damage is permanent. The parents refuse to let you speak to them, sign Leo out Against Medical Advice (AMA) the moment he is extubated, and file a formal grievance with the medical board for traumatic, unprofessional conduct. Because they leave abruptly, Leo receives no discharge education on triggers.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The Reactive Discharge",
+        "content": "Anaphylaxis is a lifelong, life-threatening condition. The foundation of long-term prognosis and prevention relies entirely on avoiding triggers and comprehensive patient education . Discharging a patient who just experienced anaphylactic shock without a prescription for a rescue epinephrine autoinjector is an act of medical malpractice. Oral steroids and antihistamines will not save them if they are exposed again in the community.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/b2ac942c-790d-4713-ab2e-eff81259eaf3.jpeg",
+            "filename": "b2ac942c-790d-4713-ab2e-eff81259eaf3.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Fractured Trust",
+        "content": "Final Outcome: Clinical Success / Catastrophic Ethical Failure\n\nThe Flaw: Utilizing authoritarian force rather than basic clinical empathy to manage a terrified family member.\n\nActionable Improvement: Ten seconds of clear, empathetic communication during a crisis saves hours of conflict and preserves the therapeutic alliance.",
+        "conceptTag": "Bedside Manner & The Therapeutic Alliance",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Unarmed Return",
+        "content": "Final Outcome: Fatal / Negligent Discharge Planning\n\n\nThe Flaw: Failing to prescribe an epinephrine autoinjector and omitting strict patient education/trigger avoidance .  \n\nActionable Improvement: Every patient who experiences anaphylaxis MUST be discharged with an EpiPen, instructions on its use, and a referral to an allergist.",
+        "conceptTag": "Preventative Medicine & Patient Education",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "You send Leo home without an EpiPen or strict trigger-avoidance education . Three weeks later, he accidentally consumes cross-contaminated food at a school bake sale. His throat closes within minutes. Because he has no rescue epinephrine on hand, the school nurse is powerless. He dies before the paramedics arrive. Your failure to arm your patient with life-saving prevention tools resulted in a completely avoidable death.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Cardiac Complication (Bedside Manner & Pathophysiology)",
+        "content": "Leo receives the IM Epinephrine. The $\\beta_2$ agonism successfully results in bronchodilation, and the $\\alpha_1$ agonism successfully decreases his mucosal edema . His breathing improves dramatically.  However, five minutes later, Leo clutches his chest, sweating profusely. \"My chest is burning! It feels like an elephant is sitting on me!\" he cries.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/ee7420d4-aed1-407b-a585-d6ea3089232c.jpeg",
+            "filename": "ee7420d4-aed1-407b-a585-d6ea3089232c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 2968.8821311223633,
+        "y": 419.74810823046164
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Empathetic Clinician",
+        "content": "You order a stat ECG and troponins. You look directly at the mother and say, \"The allergic reaction can cause a spasm in the blood vessels of his heart, a rare condition called Kounis syndrome . We are checking his heart right now and treating him for it.\"",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The Communication Remedy",
+        "content": "The mother is hysterical, believing you are ignoring her because her son is dying. She physically steps between you and the bed, screaming for answers.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/d2dff14a-efd8-447a-9d66-876eb86b6035.jpeg",
+            "filename": "d2dff14a-efd8-447a-9d66-876eb86b6035.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2398.7122466993237,
+        "y": 1230.987441941652
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Authoritarian Escalation",
+        "content": "You yell at her for interfering with patient care and order hospital security to physically drag her out of the trauma bay.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize your hyper-focus destroyed the room's calm. You take 10 seconds to stop, make eye contact, validate her fear, and briefly explain that you are investigating allergic angina (Kounis syndrome) . She exhales, nods, and steps back to let you work.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3154.0426690079694,
+        "y": 1192.5067096299413
+      },
+      "data": {
+        "title": "The Discharge (Preventative Medicine)",
+        "content": "Leo's ECG normalizes, and his troponins are negative. His Kounis syndrome was a transient allergic angina that resolved as the anaphylaxis was treated . After 12 hours of observation, he is stable and ready to go home.  \n\nYou must write his discharge orders and counsel the family.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/c55683a1-4c09-436a-ad47-fe91f20e21a3.jpeg",
+            "filename": "c55683a1-4c09-436a-ad47-fe91f20e21a3.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Reactive Discharge",
+        "content": "You prescribe a 5-day taper of oral prednisone and an over-the-counter antihistamine. You tell him that since he survived this attack, his immune system might be stronger next time, but he should generally try to avoid seafood.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Preventative Standard",
+        "content": "You prescribe an epinephrine autoinjector (EpiPen). You sit down and provide strict patient education on how to use it. You counsel him that he must absolutely avoid his triggers (peanuts and shellfish) and refer him to an outpatient allergist .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Intramuscular (IM) epinephrine is the preferred route of administration for anaphylaxis. During anaphylactic shock, the patient is hypotensive, and the body shunts blood away from the skin and subcutaneous tissues to protect vital organs. Injecting epinephrine subcutaneously deposits the drug into an avascular space where it cannot be absorbed into the systemic circulation. Letting ego override a standard-of-care protocol reminder from a nurse guarantees treatment failure.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 3911.125090802369,
+        "y": 1998.2911237602118
+      },
+      "data": {
+        "title": "The Firm Education",
+        "content": "You flawlessly managed a highly volatile Type I Hypersensitivity reaction. You correctly utilized IM Epinephrine as your first-line agent, navigated the rare complication of Kounis syndrome without falling into pharmacological traps, and executed the standard-of-care prevention protocols to keep the patient safe long-term.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/7b58c15e-cccf-4fa9-9b4d-b872e41b83a7/21152828-0ece-4d89-82ac-96822c78b4ba.jpeg",
+            "filename": "21152828-0ece-4d89-82ac-96822c78b4ba.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": -1163.4337451438982,
+    "y": -463.76915831203405,
+    "zoom": 0.5962841547195761
+  }
+}

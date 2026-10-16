@@ -1,0 +1,1015 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 972.2974420652206,
+        "y": 55.33597966868069
+      },
+      "data": {
+        "title": "The Golden Hourglass",
+        "content": "Patient Profile: Baby Mateo, a 2-week-old male.\nInitial State: Mateo is brought into the pediatric clinic by his mother, Elena, who is tearful and exhausted. She notes that Mateo has developed a yellowish discoloration of his skin that has progressed from his head down to his toes, and the whites of his eyes (sclera) are yellow. He was born at term and has been exclusively breastfed.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/9d8c2618-99dc-4ed4-a2e5-73c367051eae.jpeg",
+            "filename": "9d8c2618-99dc-4ed4-a2e5-73c367051eae.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 981.8283063183148,
+        "y": 425.6601842339645
+      },
+      "data": {
+        "title": "The Threshold Interpretation",
+        "content": "You immediately order a neonatal bilirubin panel. The labs return showing a Total Bilirubin of 18~mg/dL and a Direct (conjugated) Bilirubin of 0.8~mg/dL.\nElena sees the lab slip and panics. \"My sister's baby had jaundice, but it went away in a few days. Is my baby's liver failing?\" You must interpret the fractionated bilirubin and counsel her appropriately.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/759892bc-66ab-4b82-add4-f8338aa7d06b.jpeg",
+            "filename": "759892bc-66ab-4b82-add4-f8338aa7d06b.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 629.560411547715,
+        "y": 775.3435568987123
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Alarmist",
+        "content": "Validate her fear of liver failure. Because his total bilirubin is so high, tell her you suspect Extrahepatic Biliary Atresia and order a stat surgical consultation.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-3",
+      "type": "choiceNode",
+      "position": {
+        "x": 1127.7384160632464,
+        "y": 774.211334161177
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "wrong",
+        "title": "The Dismissive Reassurance",
+        "content": "Tell her to take a deep breath. Explain that physiologic jaundice occurs in up to 50% of neonates and that she should just take him home and put his crib near a sunny window.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-4",
+      "type": "choiceNode",
+      "position": {
+        "x": 1739.138694332308,
+        "y": 762.889106785824
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Empathic Detective",
+        "content": "Hold her hand and reassure her that his liver is not failing, pointing out that his \"direct\" bilirubin is completely normal. However, gently explain that jaundice persisting beyond 10-14 days is considered \"pathologic\" and requires you to investigate why his indirect levels are so high",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-5",
+      "type": "informationNode",
+      "position": {
+        "x": 428.963596487453,
+        "y": 1184.7052579958727
+      },
+      "data": {
+        "title": "The Alarmist",
+        "content": "You send Mateo to the pediatric surgery ward. The surgeons review your labs, immediately cancel the consult, and report you to the attending for gross misinterpretation of basic hepatobiliary labs. The mother, having spent hours believing her baby needed a liver transplant, loses all trust in you.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/5db9ccc6-79b5-4b75-9cff-88c41563a571.jpeg",
+            "filename": "5db9ccc6-79b5-4b75-9cff-88c41563a571.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-6",
+      "type": "informationNode",
+      "position": {
+        "x": 430.74163818845125,
+        "y": 1536.0576817939718
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Understanding the difference between direct (conjugated) and indirect (unconjugated) hyperbilirubinemia is the most critical juncture in neonatal jaundice. Extrahepatic biliary atresia is a structural blockage that causes a buildup of conjugated (direct) bilirubin. Mateo's direct bilirubin is 0.8mg/dL, which is entirely normal. His jaundice is driven entirely by indirect bilirubin (17.2mg/dL). By misinterpreting the fractionated lab results, you subjected a newborn to an unnecessary surgical workup and caused the mother profound psychological trauma.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-7",
+      "type": "terminationNode",
+      "position": {
+        "x": 437.4845095135929,
+        "y": 1918.0952825226336
+      },
+      "data": {
+        "title": "Terminal Outcome: The Surgical Trap",
+        "content": "The Flaw: Conflating indirect (unconjugated) and direct (conjugated) hyperbilirubinemia etiologies.Actionable Improvement: Always subtract the direct bilirubin from the total bilirubin. If the direct bilirubin is <2~mg/dL or < 20% of the total, the etiology is unconjugated (e.g., hemolysis, breast milk jaundice)",
+        "conceptTag": "Fractionated Bilirubin & Iatrogenic Panic",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-8",
+      "type": "informationNode",
+      "position": {
+        "x": 924.9863542978953,
+        "y": 1187.1783381430814
+      },
+      "data": {
+        "title": "The Dismissive Reassurance",
+        "content": "You send Mateo home. Over the next 48 hours, his indirect bilirubin creeps above 20 mg/dL. Because the unconjugated bilirubin is highly lipid-soluble, it crosses the immature blood-brain barrier. It irreversibly deposits in his basal ganglia, pons, and cerebellum. Mateo develops high-pitched crying, hypertonia, and seizures. He suffers permanent, devastating neurological damage known as Kernicterus",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/a46f781b-d000-4eb9-bbf4-278cf02a2244.jpeg",
+            "filename": "a46f781b-d000-4eb9-bbf4-278cf02a2244.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 925.9907544716045,
+        "y": 1533.530507405221
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "While physiologic jaundice is incredibly common, it has strict temporal and quantitative boundaries. It typically occurs between days 3 and 5 and begins to fall thereafter. Any jaundice that persists beyond 10-14 days, or features a total serum bilirubin > 12 mg/dL in a term infant, is definitively pathologic and requires a workup. Furthermore, a level of 18 mg/dL is dangerously close to the 20 mg/dL threshold that causes irreversible brain damage.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-10",
+      "type": "informationNode",
+      "position": {
+        "x": 1675.4112691556368,
+        "y": 1153.0390934858935
+      },
+      "data": {
+        "title": "The Empathic Detective",
+        "content": "You successfully de-escalated maternal panic by ruling out liver failure (biliary atresia), while correctly recognizing that a 14-day duration and a level of 18 mg/dL mandates a full pathologic workup.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/4ca83d11-4dd0-423a-b171-52c65427ba97.jpeg",
+            "filename": "4ca83d11-4dd0-423a-b171-52c65427ba97.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 958.0348842116186,
+        "y": 1922.7840659726776
+      },
+      "data": {
+        "title": "Terminal Outcome: The Fading Gold",
+        "content": "Final Outcome: Fatal / Irreversible Kernicterus\n\nThe Flaw: Dismissing pathologic red flags (age > 14 days, TSB > 12) as benign physiologic jaundice.\n\nActionable Improvement: Memorize the 6 criteria for pathologic jaundice. A Total Bilirubin of 18 mg/dL is an immediate indication for intervention, not observation.",
+        "conceptTag": "Pathologic Criteria & Neurological Toxicity",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 1847.213442037511,
+        "y": 1884.9730266713211
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "misstep",
+        "title": "The Feeding Failure Confusion",
+        "content": "You tell Elena this is \"Breastfeeding Failure Jaundice.\" You advise her that she isn't producing enough milk, which is why he can't excrete the bilirubin.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-14",
+      "type": "choiceNode",
+      "position": {
+        "x": 2323.8517211232925,
+        "y": 1879.3147911382234
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Dual Therapy",
+        "content": "Diagnose Breast Milk Jaundice. Explain that her breast milk contains substances that temporarily slow his liver's ability to process bilirubin. Reassure her she does not need to stop breastfeeding. However, because his level is 18 mg/dL, you initiate phototherapy to safely break down the bilirubin",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-16",
+      "type": "decisionNode",
+      "position": {
+        "x": 1658.1211059849836,
+        "y": 2273.2194009510604
+      },
+      "data": {
+        "title": "The Feeding Failure Confusion",
+        "content": "Elena looks devastated and defensive. \"But he is gaining weight perfectly and has 8 dirty diapers a day! How can I be failing?\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/32caf959-c3f4-49ed-9d6c-1d527989f4b9.jpeg",
+            "filename": "32caf959-c3f4-49ed-9d6c-1d527989f4b9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-17",
+      "type": "informationNode",
+      "position": {
+        "x": 2475.0251207020046,
+        "y": 2270.08884117213
+      },
+      "data": {
+        "title": "The Dual Therapy",
+        "content": "You correctly distinguished between breastfeeding failure and breast milk jaundice, supported maternal bonding, and initiated the correct evidence-based treatment for his high bilirubin level",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/e132decd-b0b3-4a42-aedd-74e6b7679c1c.jpeg",
+            "filename": "e132decd-b0b3-4a42-aedd-74e6b7679c1c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-18",
+      "type": "choiceNode",
+      "position": {
+        "x": 1563.6340351261674,
+        "y": 2642.762461491228
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Starvation Accusation",
+        "content": "Instead of apologizing and correcting your terminology, you double down. You dismiss Elena's report of his weight gain and 8 wet diapers a day. You tell her she is in denial about her low milk supply and admit the baby to the floor for aggressive IV fluid hydration and mandatory formula supplementation to \"flush out\" the bilirubin.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-19",
+      "type": "choiceNode",
+      "position": {
+        "x": 2079.4400073326533,
+        "y": 2631.5897689524595
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Diagnosis Remedy",
+        "content": "You realize you conflated two different entities. Breastfeeding failure causes jaundice due to reduced intake and dehydration . You quickly apologize, explaining you meant \"Breast Milk Jaundice,\" which happens even when the baby is feeding perfectly.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "decision-node-20",
+      "type": "decisionNode",
+      "position": {
+        "x": 2482.3881083392985,
+        "y": 2653.2159071460883
+      },
+      "data": {
+        "title": "The Light Prescription (Time: +2 Hours)",
+        "content": "You successfully initiate phototherapy, as blue-light therapy is indicated when bilirubin levels are >15-20 mg/dL regardless of the cause.The neonatal nurse is setting up the UV lights over Mateo's bassinet and asks how you want the infant prepped for the therapy.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/3e97d50b-6e39-43e6-a331-394e7138e807.jpeg",
+            "filename": "3e97d50b-6e39-43e6-a331-394e7138e807.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 1368.6994174757529,
+        "y": 3071.1890244871024
+      },
+      "data": {
+        "title": "The Starvation Accusation",
+        "content": "You admit Mateo. Elena spends the night sobbing in the hospital room, convinced she has been starving her newborn. Mateo is subjected to the pain of an unnecessary IV line for fluid resuscitation. The next morning, the attending physician rounds, reviews the admission weight (which shows excellent growth since birth), the robust diaper count, and immediately halts your orders. The attending realizes Mateo has classic Breast Milk Jaundice, where no intervention like stopping breastfeeding is needed. You are pulled into the hallway and severely reprimanded for ignoring objective clinical data and inflicting extreme, iatrogenic psychological trauma on a new mother to protect your ego.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/575a6739-e4a4-4770-baed-c88c59fda285.jpeg",
+            "filename": "575a6739-e4a4-4770-baed-c88c59fda285.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-22",
+      "type": "informationNode",
+      "position": {
+        "x": 1362.754155017138,
+        "y": 3495.5575826158615
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Differentiating between the two breast-related jaundices is not just an issue of semantics; it dictates entirely different clinical pathways. Breast feeding failure is a hydration and intake problem caused by insufficient breast milk consumption. This reduced oral intake results in inadequate quantities of bowel movements to excrete bilirubin from the body, presenting with weight loss and dry diapers. Conversely, Breast milk jaundice occurs because the infant liver is not mature enough to process lipids in the milk; these babies are perfectly hydrated and growing. Ignoring a mother's accurate report of excellent diaper counts and weight gain to aggressively treat a dehydration issue that does not exist is a profound failure of clinical observation and bedside empathy.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-23",
+      "type": "terminationNode",
+      "position": {
+        "x": 1350.440684096844,
+        "y": 3864.491303793677
+      },
+      "data": {
+        "title": "Terminal Outcome: The Shattered Confidence",
+        "content": "Final Outcome: Failure / Iatrogenic Psychological Trauma & Unnecessary Intervention\n\nThe Flaw: Conflating an intake/dehydration problem (Breastfeeding Failure) with a metabolic processing issue (Breast Milk Jaundice), and dismissing objective clinical evidence (weight gain, diapers) that contradicted your initial bias.\n\nActionable Improvement: Always trust the objective data. If a baby is gaining weight and stooling appropriately, they do not have breastfeeding failure jaundice. Furthermore, remember that in true Breast Milk Jaundice, the mother does not need to stop breastfeeding.",
+        "conceptTag": "Diagnostic Anchoring & Medical Gaslighting",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "checkpoint"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-24",
+      "type": "choiceNode",
+      "position": {
+        "x": 2440.3788077647464,
+        "y": 3054.3931724565973
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Bonding Protocol",
+        "content": "Instruct the nurse to let the mother hold Mateo bare-chested under the lights so they can maintain skin-to-skin contact, ensuring maximum light exposure to his face and back.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-25",
+      "type": "informationNode",
+      "position": {
+        "x": 2235.5951059514073,
+        "y": 3445.439252482977
+      },
+      "data": {
+        "title": "The Exposure Trap",
+        "content": "Mateo is held under the intense blue lights for 24 hours. While his bilirubin levels drop beautifully, the continuous UV exposure causes severe, irreversible retinal damage. Furthermore, the lack of a diaper exposes his testicles to potential gonadal mutation. By neglecting the basic safety protocols of a common pediatric therapy, you inflicted permanent, life-altering harm on a newborn.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/e5897cf0-3b8e-4fef-9ab5-31cc267a114a.jpeg",
+            "filename": "e5897cf0-3b8e-4fef-9ab5-31cc267a114a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2233.9495889973905,
+        "y": 3810.061567404388
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Phototherapy is a highly effective treatment that converts toxic unconjugated bilirubin into water-soluble isomers that can be excreted. However, prolonged exposure to intense UV blue-light carries severe risks. Allowing an infant to undergo phototherapy without strict protective barriers exposes their highly sensitive tissues to direct radiation.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-27",
+      "type": "terminationNode",
+      "position": {
+        "x": 2237.092892598901,
+        "y": 4130.994241869697
+      },
+      "data": {
+        "title": "Terminal Outcome: The Blinding Light",
+        "content": "Final Outcome: Fatal Deficit / Iatrogenic Retinal Damage\n\nThe Flaw: Administering phototherapy without protective eye and genital shielding.\n\n\nActionable Improvement: Memorize the complications of phototherapy: retinal damage, gonadal mutation, dehydration, and bronze baby syndrome (if given for direct hyperbilirubinemia) . Always order strict eye masks and diaper coverage.",
+        "conceptTag": "Iatrogenic Complications & Treatment Safety",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-28",
+      "type": "choiceNode",
+      "position": {
+        "x": 3111.7078719487017,
+        "y": 3045.7589712366353
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Shield Protocol",
+        "content": "Instruct the nurse to place Mateo in the bassinet naked to maximize skin exposure, but strictly order the application of opaque eye shields and a diaper to cover his genitals.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 2938.1055662590315,
+        "y": 3459.598715346724
+      },
+      "data": {
+        "title": "The Shield Protocol",
+        "content": "You successfully managed a dangerous hyperbilirubinemia presentation. You diagnosed the precise etiology, supported the mother's feeding choices, and flawlessly executed the treatment protocol while mitigating all iatrogenic risks.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/e3ece72e-7dd6-4ce5-b4c5-f76c364363c4.jpeg",
+            "filename": "e3ece72e-7dd6-4ce5-b4c5-f76c364363c4.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-30",
+      "type": "decisionNode",
+      "position": {
+        "x": 1993.612893372677,
+        "y": 1487.4169984907717
+      },
+      "data": {
+        "title": "The Feeding Diagnosis",
+        "content": "Mateo is admitted for monitoring. You order a Coombs' test, which returns negative, ruling out immune-mediated hemolytic disorders (like ABO incompatibility). His hemoglobin is normal. Elena mentions Mateo is feeding wonderfully, gaining weight, and having plenty of wet and dirty diapers.You correctly narrow the diagnosis down to Breast Milk Jaundice, which typically presents between the 4th and 7th day of life and can cause indirect bilirubin to rise as high as 27 mg/dL during the 3rd week.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/624ff9c6-a5cc-4846-99f0-4e7544682c41.jpeg",
+            "filename": "624ff9c6-a5cc-4846-99f0-4e7544682c41.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-32",
+      "type": "choiceNode",
+      "position": {
+        "x": 2791.7524123830494,
+        "y": 1878.815149974198
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "wrong",
+        "title": "The Formula Mandate",
+        "content": "Diagnose Breast Milk Jaundice. Tell Elena that because her milk is causing the jaundice, she must immediately and permanently stop breastfeeding to protect his brain.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-33",
+      "type": "informationNode",
+      "position": {
+        "x": 3165.2730921907705,
+        "y": 2248.102857485565
+      },
+      "data": {
+        "title": "The Formula Mandate",
+        "content": "Elena is heartbroken but follows your orders. She switches to formula, and her breast milk supply completely dries up. Mateo's jaundice resolves, but you have permanently severed their breastfeeding journey. When her outpatient pediatrician reviews the hospital records, they are appalled that you mandated the cessation of breastfeeding for a condition that explicitly requires \"no intervention needed\" regarding maternal milk supply.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6513c5af-9c3b-4962-ae77-c3361d692507/fb3cc917-7b2f-4788-8d64-acd1710c6f04.jpeg",
+            "filename": "fb3cc917-7b2f-4788-8d64-acd1710c6f04.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3601.3625185974142,
+        "y": 2582.323580216712
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Breast Milk Jaundice is a benign, transient condition caused by the immature infant liver struggling to process lipids in the breast milk. It is not a contraindication to breastfeeding. While stopping breastfeeding will cause bilirubin levels to fall rapidly, if breastfeeding continues, the levels will still fall slowly and safely on their own. Ordering a mother to terminate breastfeeding entirely for this condition is medically obsolete and violates patient autonomy.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-35",
+      "type": "terminationNode",
+      "position": {
+        "x": 3594.0278224196236,
+        "y": 2938.477413838372
+      },
+      "data": {
+        "title": "Terminal Outcome: The Unnecessary Severance",
+        "content": "Final Outcome: Failure / Poor Bedside Manner & Incorrect Protocol\n\nThe Flaw: Mandating an extreme lifestyle and nutritional change for a benign, self-resolving condition.",
+        "conceptTag": "Maternal Autonomy & Outdated Protocols",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "checkpoint"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "id": "edge-choice-node-3",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-3"
+    },
+    {
+      "id": "edge-choice-node-4",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-4"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-5",
+      "id": "xy-edge__choice-node-2-information-node-5"
+    },
+    {
+      "source": "information-node-5",
+      "target": "information-node-6",
+      "id": "xy-edge__information-node-5-information-node-6"
+    },
+    {
+      "source": "information-node-6",
+      "target": "termination-node-7",
+      "id": "xy-edge__information-node-6-termination-node-7"
+    },
+    {
+      "source": "choice-node-3",
+      "target": "information-node-8",
+      "id": "xy-edge__choice-node-3-information-node-8"
+    },
+    {
+      "source": "information-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__information-node-8-information-node-9"
+    },
+    {
+      "source": "choice-node-4",
+      "target": "information-node-10",
+      "id": "xy-edge__choice-node-4-information-node-10"
+    },
+    {
+      "source": "information-node-9",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-9-termination-node-11"
+    },
+    {
+      "source": "choice-node-14",
+      "target": "information-node-17",
+      "id": "xy-edge__choice-node-14-information-node-17"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "decision-node-16",
+      "id": "xy-edge__choice-node-13-decision-node-16"
+    },
+    {
+      "id": "edge-choice-node-18",
+      "source": "decision-node-16",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-18"
+    },
+    {
+      "id": "edge-choice-node-19",
+      "source": "decision-node-16",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-19"
+    },
+    {
+      "source": "choice-node-19",
+      "target": "information-node-17",
+      "id": "xy-edge__choice-node-19-information-node-17"
+    },
+    {
+      "source": "information-node-17",
+      "target": "decision-node-20",
+      "id": "xy-edge__information-node-17-decision-node-20"
+    },
+    {
+      "source": "choice-node-18",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-18-information-node-21"
+    },
+    {
+      "id": "edge-choice-node-24",
+      "source": "decision-node-20",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-24"
+    },
+    {
+      "id": "edge-choice-node-28",
+      "source": "decision-node-20",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-28"
+    },
+    {
+      "source": "information-node-21",
+      "target": "information-node-22",
+      "id": "xy-edge__information-node-21-information-node-22"
+    },
+    {
+      "source": "information-node-22",
+      "target": "termination-node-23",
+      "id": "xy-edge__information-node-22-termination-node-23"
+    },
+    {
+      "source": "choice-node-24",
+      "target": "information-node-25",
+      "id": "xy-edge__choice-node-24-information-node-25"
+    },
+    {
+      "source": "information-node-25",
+      "target": "information-node-26",
+      "id": "xy-edge__information-node-25-information-node-26"
+    },
+    {
+      "source": "choice-node-28",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-28-information-node-29"
+    },
+    {
+      "source": "information-node-26",
+      "target": "termination-node-27",
+      "id": "xy-edge__information-node-26-termination-node-27"
+    },
+    {
+      "source": "information-node-10",
+      "target": "decision-node-30",
+      "id": "xy-edge__information-node-10-decision-node-30"
+    },
+    {
+      "source": "decision-node-30",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-13",
+      "id": "xy-edge__decision-node-30choice-0-choice-node-13"
+    },
+    {
+      "source": "decision-node-30",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-14",
+      "id": "xy-edge__decision-node-30choice-1-choice-node-14"
+    },
+    {
+      "id": "edge-choice-node-32",
+      "source": "decision-node-30",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-32"
+    },
+    {
+      "source": "choice-node-32",
+      "target": "information-node-33",
+      "id": "xy-edge__choice-node-32-information-node-33"
+    },
+    {
+      "source": "information-node-33",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-33-information-node-34"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-35",
+      "id": "xy-edge__information-node-34-termination-node-35"
+    }
+  ],
+  "viewport": {
+    "x": -770.2540040460967,
+    "y": -1202.3907581075564,
+    "zoom": 0.5480961750488967
+  }
+}

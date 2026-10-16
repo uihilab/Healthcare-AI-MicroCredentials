@@ -1,0 +1,953 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 745.4050433394518,
+        "y": -266.5022361845242
+      },
+      "data": {
+        "title": "Time is Brain",
+        "content": "Patient Profile: Mr. Arthur Davies, a 55-year-old male.\n\n\nInitial State: He presents to the emergency department for difficulty with speech and weakness in the right upper extremity. He has a medical history of atrial fibrillation, hypertension, hyperlipidemia, and type 2 diabetes mellitus. He smokes approximately 1 pack of cigarettes daily. His wife states he was last known to be neurologically normal exactly 2 hours prior to presentation.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/302867bd-5d8e-4485-b3aa-c0ccfcd1271c.jpeg",
+            "filename": "302867bd-5d8e-4485-b3aa-c0ccfcd1271c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 750.4244838187349,
+        "y": 52.56358541658824
+      },
+      "data": {
+        "title": "The Golden Hour Triage (Time: +5 Minutes)",
+        "content": "You evaluate Mr. Davies in the trauma bay. Physical examination is notable for 2/5 power in the right upper extremity and severe word-finding difficulty. He looks terrified, and his wife is crying, asking if he is going to die.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/df6f0788-1181-4986-b545-50b8ed51b6fa.jpeg",
+            "filename": "df6f0788-1181-4986-b545-50b8ed51b6fa.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 464.75,
+        "y": 385
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Comprehensive Historian",
+        "content": "Sit down, hold the wife's hand, and spend the next 20 minutes gathering a meticulous family history, surgical history, and social history to build rapport before moving him to the scanner.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-3",
+      "type": "choiceNode",
+      "position": {
+        "x": 958.75,
+        "y": 381
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The MRI Reflex",
+        "content": "Reassure the wife briefly. Order a stat MRI of the brain because you know an MRI can aid in assessing infarct volume for further management.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-4",
+      "type": "choiceNode",
+      "position": {
+        "x": 1432.75,
+        "y": 375
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Acute Protocol",
+        "content": "Quickly but calmly explain to the wife, \"He is showing signs of a stroke, and we have a very narrow window to treat him. We are moving him right now.\" You immediately order a stat non-contrast head CT and a stat fingerstick blood glucose",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-5",
+      "type": "informationNode",
+      "position": {
+        "x": 1622.4700684153574,
+        "y": 776.5177894831306
+      },
+      "data": {
+        "title": "The Acute Protocol",
+        "content": "A non-contrast head CT must be performed first to exclude an intracerebral hemorrhage. Furthermore, checking blood glucose immediately is critical in all suspected stroke patients, as hypoglycemia can perfectly mimic a stroke.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/7e703849-007b-4aca-85b2-73d032f7d63d.jpeg",
+            "filename": "7e703849-007b-4aca-85b2-73d032f7d63d.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-6",
+      "type": "informationNode",
+      "position": {
+        "x": 259.6496010560306,
+        "y": 766.9328978952216
+      },
+      "data": {
+        "title": "The Comprehensive Historian",
+        "content": "You spend precious time gathering a pristine history. By the time you get Mr. Davies to the CT scanner and wait for the results, 4.5 hours have passed since his last known normal. You have officially pushed him outside the window for intravenous tPA. The stroke evolves. He suffers permanent right-sided paralysis and profound aphasia that could have been mitigated with rapid intervention.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/5ec1533c-7965-477c-b363-b132df95cced.jpeg",
+            "filename": "5ec1533c-7965-477c-b363-b132df95cced.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-7",
+      "type": "informationNode",
+      "position": {
+        "x": 259.27789002156214,
+        "y": 1102.3327707635112
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Bedside manner is crucial, but in acute neurology, \"time is brain.\" After 5 minutes of profound hypoxia, irreversible neuronal damage occurs. The administration window for intravenous tPA (alteplase) is strictly limited to 3-4.5 hours from the last known normal time. Spending 20 minutes on non-essential history during the acute presentation burns through the most critical therapeutic window in medicine. Empathy in an emergency is demonstrated through rapid, competent, and decisive action, paired with clear, concise communication.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-8",
+      "type": "terminationNode",
+      "position": {
+        "x": 258.1888790234523,
+        "y": 1416.4523807165936
+      },
+      "data": {
+        "title": "Terminal Outcome: The Closed Window",
+        "content": "Final Outcome: Failure / Preventable Neurological Deficit\n\nThe Flaw: Prioritizing non-acute data gathering over life-saving, time-sensitive imaging protocols.\n\n\nActionable Improvement: In a \"code stroke,\" immediately establish the \"last known normal\" time, perform a rapid NIH Stroke Scale (evaluating level of consciousness, motor drift, language/aphasia, etc. ), get a fingerstick glucose, and move directly to the CT scanner.",
+        "conceptTag": "Stroke Triage & Time-to-Intervention",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-9",
+      "type": "decisionNode",
+      "position": {
+        "x": 747.8265027318286,
+        "y": 779.8393455836067
+      },
+      "data": {
+        "title": "The MRI Reflex",
+        "content": "The MRI tech calls you. \"Doc, the MRI is going to take at least 45 minutes to set up and run, and he has a pacemaker we haven't cleared yet.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/afc3df28-e424-4130-8c84-7a11f944399b.jpeg",
+            "filename": "afc3df28-e424-4130-8c84-7a11f944399b.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-10",
+      "type": "choiceNode",
+      "position": {
+        "x": 1345.869341897229,
+        "y": 1072.4716093909672
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy",
+        "content": "You realize MRI is too slow for acute triage. You cancel the MRI and immediately reroute him for a stat non-contrast head CT.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-11",
+      "type": "decisionNode",
+      "position": {
+        "x": 1698.0328355618612,
+        "y": 1096.7081573839212
+      },
+      "data": {
+        "title": "Syndrome Localization",
+        "content": "The non-contrast head CT results are back: there is no evidence of an intracranial hemorrhage. His fingerstick glucose is 110 mg/dL. Based on his 2/5 power in the right upper extremity and Broca's aphasia, you need to localize the lesion.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/2c87dff0-381e-4bad-8496-a29598ddb7a3.jpeg",
+            "filename": "2c87dff0-381e-4bad-8496-a29598ddb7a3.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1648.4386762536592,
+        "y": 1426.3538717961485
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The ACA diagnosis",
+        "content": "Diagnose an Anterior Cerebral Artery (ACA) stroke and prep for tPA.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2172.184424613328,
+        "y": 1429.8926944202003
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The MCA Diagnosis",
+        "content": "Diagnose a Left Middle Cerebral Artery (MCA) stroke, specifically involving the superior division in the dominant hemisphere.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 1970.3727901093876,
+        "y": 1802.026979399257
+      },
+      "data": {
+        "title": "The MCA Diagnosis",
+        "content": "You correctly identified that contralateral weakness in the face and upper limb, combined with Broca's aphasia, localizes to the superior division of the MCA in the dominant hemisphere.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/ae91cc19-4b75-4f04-ba4d-698605607278.jpeg",
+            "filename": "ae91cc19-4b75-4f04-ba4d-698605607278.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-15",
+      "type": "informationNode",
+      "position": {
+        "x": 1442.1533582423579,
+        "y": 1793.0868519517342
+      },
+      "data": {
+        "title": "The ACA diagnosis",
+        "content": "You document an ACA territory infarct. The attending neurologist reviews your note, evaluates the patient's severe aphasia and arm weakness, and immediately corrects your localization. While the patient still receives treatment, your fundamental failure to map basic cortical signs (Broca's area, upper extremity motor cortex ) to their vascular supply (MCA) severely damages your credibility with the neurology team.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-16",
+      "type": "informationNode",
+      "position": {
+        "x": 1446.4659401408887,
+        "y": 2131.402228464236
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Understanding vascular territories is the bedrock of vascular neurology. Different occlusions cause highly predictable, distinct physical exam findings. An Anterior Cerebral Artery (ACA) stroke typically presents with contralateral weakness and sensory loss predominantly in the lower extremity . Mr. Davies presented with right upper extremity weakness and aphasia.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-17",
+      "type": "terminationNode",
+      "position": {
+        "x": 1443.5785621536916,
+        "y": 2445.7950964444112
+      },
+      "data": {
+        "title": "Terminal Outcome: The Anatomical Mismatch",
+        "content": "Final Outcome: Suboptimal / Critical Knowledge Gap\n\nThe Flaw: Misidentifying the Middle Cerebral Artery (MCA) syndrome as an Anterior Cerebral Artery (ACA) syndrome.\n\nActionable Improvement: Memorize the homunculus. MCA = face and arm. ACA = leg",
+        "conceptTag": "Vascular Neuroanatomy & Lesion Localization",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "checkpoint"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-18",
+      "type": "decisionNode",
+      "position": {
+        "x": 2427.630780493912,
+        "y": 2123.3856756262167
+      },
+      "data": {
+        "title": "The tPA Checkpoint (Time: +45 Minutes)",
+        "content": "You have diagnosed a left MCA ischemic stroke. He is 2 hours and 45 minutes from his last known normal , placing him squarely in the 3-4.5 hour tPA window. However, the nurse calls out his vital signs: his blood pressure is persistently 195/115 mmHg.You need to obtain consent from his wife to administer tPA (alteplase), but she is hesitating because she read online that \"clot busters cause brain bleeding.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/fe706baa-3de9-43fb-a20e-75ecba5b23e9.jpeg",
+            "filename": "fe706baa-3de9-43fb-a20e-75ecba5b23e9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-19",
+      "type": "choiceNode",
+      "position": {
+        "x": 2097.3493887065665,
+        "y": 2465.305273032479
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Coercive Push",
+        "content": "Tell the wife firmly, \"If you don't sign this right now, he is going to be a vegetable. We don't have time for internet research.\" You push the tPA immediately to save his brain.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-20",
+      "type": "choiceNode",
+      "position": {
+        "x": 2573.189213088058,
+        "y": 2461.6592324135972
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "wrong",
+        "title": "The Vitals Oversight",
+        "content": "Empathize with her fears, explain that while intracerebral hemorrhage is a complication, the risk of permanent paralysis is higher without it. She consents. You order the tPA to be pushed immediately.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-21",
+      "type": "choiceNode",
+      "position": {
+        "x": 3057.6372889586523,
+        "y": 2428.5271569284187
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Correct Sequence",
+        "content": "Validate her fear of bleeding, explaining the risks and benefits clearly. Secure consent. Then, immediately order IV antihypertensives (like labetalol or nicardipine) to lower his blood pressure. Once his BP drops below 185/110 mmHg, you administer the tPA.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-22",
+      "type": "informationNode",
+      "position": {
+        "x": 2869.980841430699,
+        "y": 2802.993626474873
+      },
+      "data": {
+        "title": "The Correct Sequence",
+        "content": "ou flawlessly navigated a high-stress ethical conversation with the family while strictly adhering to the pharmacological contraindications of fibrinolytic therapy.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/633015de-f2e5-4fb0-b8e3-a4e3748072e5.jpeg",
+            "filename": "633015de-f2e5-4fb0-b8e3-a4e3748072e5.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-23",
+      "type": "terminationNode",
+      "position": {
+        "x": 1893.5491709714,
+        "y": 2867.3631591733697
+      },
+      "data": {
+        "title": "Failure / Ethical Violation & Iatrogenic Harm",
+        "content": "The Flaw: Utilizing medical coercion and extreme hyperbole to force consent, completely destroying the therapeutic alliance. Furthermore, in your anger, you completely ignored an absolute contraindication to tPA administration.\n\nActionable Improvement: In high-stress situations, bedside manner must remain professional. \"Shared MDM (Medical Decision Making) in these cases\" is essential, especially considering that TNK/tPA carries severe risks.",
+        "conceptTag": "Medial ethics and autonomy ",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-24",
+      "type": "terminationNode",
+      "position": {
+        "x": 2391.056373938771,
+        "y": 3485.810474282923
+      },
+      "data": {
+        "title": "Terminal Outcome: The Red Conversion",
+        "content": "Final Outcome: Fatal / Iatrogenic Intracerebral Hemorrhage\n\n\nThe Flaw: Administering tPA to a patient with a blood pressure > 185/110 mmHg.\n\nActionable Improvement: Always check the contraindication checklist. If a stroke patient is hypertensive above the threshold, you must medically manage the blood pressure first before pushing the thrombolytic.",
+        "conceptTag": "Thrombolytic Contraindications & Hemorrhagic Conversion",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-25",
+      "type": "informationNode",
+      "position": {
+        "x": 2376.2259899824767,
+        "y": 2856.2841566985717
+      },
+      "data": {
+        "title": "The Vitals Oversight",
+        "content": "You administer the tPA while his blood pressure remains at 195/115. The medication breaks down the clot, restoring blood flow to the ischemic, weakened blood vessels in his brain. The extreme hypertensive pressure ruptures the fragile, necrotic capillary beds. Mr. Davies suddenly loses consciousness and begins to seize. A stat repeat head CT shows a massive intracerebral hemorrhage—a direct, fatal complication of ignoring the blood pressure parameters.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/f913433e-fb13-4313-9317-381e971c1924.jpeg",
+            "filename": "f913433e-fb13-4313-9317-381e971c1924.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2374.276871124517,
+        "y": 3164.345141176229
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Intravenous tPA is a powerful, high-risk medication. You must mentally run through the strict contraindications before every single administration. Persistent hypertension, defined as a systolic blood pressure > 185 mmHg or a diastolic blood pressure > 110 mmHg, is an absolute contraindication for tPA administration. Administering a systemic thrombolytic when the cerebral vasculature is under that much sheer stress dramatically increases the risk of blowing a vessel.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-27",
+      "type": "choiceNode",
+      "position": {
+        "x": 923.3868167866843,
+        "y": 1089.0945814957154
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Diagnostic Stubbornness",
+        "content": "Instead of canceling the MRI when the tech warns you about the delay, you refuse to switch modalities. You page Cardiology stat to clear the pacemaker and order the MRI tech to keep the patient in the queue, arguing that an MRI is strictly superior for visualizing the exact volume of the infarct.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 836.3363809060162,
+        "y": 1467.4006529986837
+      },
+      "data": {
+        "title": "The Diagnostic Stubbornness",
+        "content": "You wait 40 minutes for the on-call cardiologist to arrive and interrogate the pacemaker. Once cleared, the MRI takes another 45 minutes to acquire. By the time the beautiful, high-resolution images are read—confirming a massive left MCA territory infarct—the patient is 4 hours and 15 minutes from his last known normal. Factoring in the time required to mix the tPA and manage his blood pressure, the strict 4.5-hour window slams shut. You are forced to rely solely on medical management with aspirin and a statin. Mr. Davies survives, but suffers permanent, severe right-sided hemiplegia and expressive aphasia that could have been prevented.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/6675f71e-8125-42ed-8fba-f2aeeae6f86f/233fe34b-5863-462b-9208-0bbd1d9763fe.jpeg",
+            "filename": "233fe34b-5863-462b-9208-0bbd1d9763fe.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 805.3390026107118,
+        "y": 1814.4069953374287
+      },
+      "data": {
+        "title": "Leeson",
+        "content": "In the hyperacute phase of a stroke, the primary goal of imaging is not to visualize the ischemic tissue; it is to definitively rule out an intracerebral hemorrhage  so you can safely administer tPA. A non-contrast head CT takes 60 seconds and accomplishes this perfectly.\n\nWhile it is true that an MRI/MRA provides superior visualization of the actual infarct volume, waiting for it—especially when navigating safety hurdles like un-cleared pacemakers—is a catastrophic clinical error. Perfection is the enemy of the good in stroke triage. You must act on the fastest available modality to secure the 3-to-4.5-hour tPA window.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-30",
+      "type": "terminationNode",
+      "position": {
+        "x": 698.9614647486331,
+        "y": 2169.1749175251966
+      },
+      "data": {
+        "title": "Terminal Outcome: The Perfect Scan, The Dead Brain",
+        "content": "Final Outcome: Failure / Missed Thrombolytic Window\n\nThe Flaw: Delaying acute, life-saving pharmacological management to obtain a \"superior\" but vastly slower imaging modality.\n\n\nActionable Improvement: Memorize the strict imaging indication for a \"code stroke\": A stat non-contrast head CT must be performed immediately to exclude hemorrhage. Never delay tPA administration for an MRI if the head CT is clear.",
+        "conceptTag": "Triage Modalities & Time Toxicity",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "id": "edge-choice-node-3",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-3"
+    },
+    {
+      "id": "edge-choice-node-4",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-4"
+    },
+    {
+      "source": "choice-node-4",
+      "target": "information-node-5",
+      "id": "xy-edge__choice-node-4-information-node-5"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-6",
+      "id": "xy-edge__choice-node-2-information-node-6"
+    },
+    {
+      "source": "information-node-6",
+      "target": "information-node-7",
+      "id": "xy-edge__information-node-6-information-node-7"
+    },
+    {
+      "source": "information-node-7",
+      "target": "termination-node-8",
+      "id": "xy-edge__information-node-7-termination-node-8"
+    },
+    {
+      "source": "choice-node-3",
+      "target": "decision-node-9",
+      "id": "xy-edge__choice-node-3-decision-node-9"
+    },
+    {
+      "id": "edge-choice-node-10",
+      "source": "decision-node-9",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-10"
+    },
+    {
+      "source": "choice-node-10",
+      "target": "information-node-5",
+      "id": "xy-edge__choice-node-10-information-node-5"
+    },
+    {
+      "source": "information-node-5",
+      "target": "decision-node-11",
+      "id": "xy-edge__information-node-5-decision-node-11"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-11",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-11",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "information-node-15",
+      "id": "xy-edge__choice-node-12-information-node-15"
+    },
+    {
+      "source": "information-node-15",
+      "target": "information-node-16",
+      "id": "xy-edge__information-node-15-information-node-16"
+    },
+    {
+      "source": "information-node-16",
+      "target": "termination-node-17",
+      "id": "xy-edge__information-node-16-termination-node-17"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-18",
+      "id": "xy-edge__information-node-14-decision-node-18"
+    },
+    {
+      "id": "edge-choice-node-19",
+      "source": "decision-node-18",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-19"
+    },
+    {
+      "id": "edge-choice-node-20",
+      "source": "decision-node-18",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-20"
+    },
+    {
+      "id": "edge-choice-node-21",
+      "source": "decision-node-18",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-21"
+    },
+    {
+      "source": "choice-node-19",
+      "target": "termination-node-23",
+      "id": "xy-edge__choice-node-19-termination-node-23"
+    },
+    {
+      "source": "choice-node-21",
+      "target": "information-node-22",
+      "id": "xy-edge__choice-node-21-information-node-22"
+    },
+    {
+      "source": "choice-node-20",
+      "target": "information-node-25",
+      "id": "xy-edge__choice-node-20-information-node-25"
+    },
+    {
+      "source": "information-node-25",
+      "target": "information-node-26",
+      "id": "xy-edge__information-node-25-information-node-26"
+    },
+    {
+      "source": "information-node-26",
+      "target": "termination-node-24",
+      "id": "xy-edge__information-node-26-termination-node-24"
+    },
+    {
+      "id": "edge-choice-node-27",
+      "source": "decision-node-9",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-27"
+    },
+    {
+      "source": "information-node-29",
+      "target": "termination-node-30",
+      "id": "xy-edge__information-node-29-termination-node-30"
+    },
+    {
+      "source": "information-node-28",
+      "target": "information-node-29",
+      "id": "xy-edge__information-node-28-information-node-29"
+    },
+    {
+      "source": "choice-node-27",
+      "target": "information-node-28",
+      "id": "xy-edge__choice-node-27-information-node-28"
+    }
+  ],
+  "viewport": {
+    "x": 206.43034183345605,
+    "y": -80.80860483327376,
+    "zoom": 0.31831428743234397
+  }
+}

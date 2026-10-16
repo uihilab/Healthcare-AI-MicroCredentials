@@ -1,0 +1,1115 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The 48-Hour Window",
+        "content": "Patient Profile: Arthur, a 69-year-old male.\n\n\nInitial State: Arthur presented to the emergency department two days ago with sudden, severe epigastric pain and was admitted for acute pancreatitis . He has been kept NPO (nothing by mouth) and maintained on IV fluids. Now, exactly 48 hours into his admission, the floor nurse pages you urgently. Arthur is profoundly agitated, disoriented, and experiencing severe autonomic instability (tachycardia and sweating). He is screaming that there are \"spiders crawling on the walls\".",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/7051f817-311d-4dc7-87c2-f0f59328dda6.jpeg",
+            "filename": "7051f817-311d-4dc7-87c2-f0f59328dda6.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Agitation Protocol (Ethics & Triage)",
+        "content": "The nurse is frustrated. \"He’s combative and must have snuck cocaine or meth into his room,\" she says. \"We need to tie him down before he hurts someone.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/d8b5fb6b-ba14-429d-aebb-28495c0d7207.jpeg",
+            "filename": "d8b5fb6b-ba14-429d-aebb-28495c0d7207.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Punitive Restraint",
+        "content": "Agree with the nurse’s suspicion of illicit stimulant use. Order 4-point physical restraints to protect the staff and leave him to calm down without medication.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Punitive Restraint",
+        "content": "You tie Arthur to the bed. He continues to thrash violently against the restraints while his untreated alcohol withdrawal escalates. Because long-term alcohol use leads to a massive downregulation of inhibitory GABA channels and an upregulation of excitatory NMDA channels , his uninhibited nervous system spirals into overdrive. He suffers a massive, fatal tonic-clonic seizure followed by cardiovascular collapse. [",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/63e3f117-a151-4cbd-b064-b806b115d3ed.jpeg",
+            "filename": "63e3f117-a151-4cbd-b064-b806b115d3ed.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Substance use is typically denied or underreported, meaning patients admitted for unrelated medical issues (like pancreatitis) will suddenly go into withdrawal when cut off from their supply. Alcohol withdrawal is life-threatening. By 48-96 hours, patients can develop Delirium Tremens (DTs), characterized by severe autonomic instability, disorientation, and hallucinations. Furthermore, even if he was intoxicated on stimulants like cocaine or amphetamines, you must never physically restrain highly agitated patients without chemical sedation, as struggling against restraints rapidly causes fatal rhabdomyolysis",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Autonomic Collapse",
+        "content": "Final Outcome: Fatal / Unmanaged Delirium Tremens\n\nThe Flaw: Yielding to stigma and using physical restraints instead of identifying the timeline for alcohol withdrawal and utilizing benzodiazepines.\n\nActionable Improvement: Always calculate the \"Time Since Last Drink.\" At 48 hours, tactile/visual hallucinations and autonomic instability dictate immediate IV Benzodiazepines (Lorazepam/Diazepam).",
+        "conceptTag": "Withdrawal Timelines & Restraint Contraindications",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Empirical Antipsychotic",
+        "content": "You aren't sure what he took, but you need to stop the hallucinations. You order a large IV dose of Haloperidol (an antipsychotic) to chemically sedate him.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Sedation Remedy",
+        "content": "You push the Haloperidol. While it slightly blunts his hallucinations, it lowers his seizure threshold. Because you have not treated the underlying GABA/NMDA imbalance, Arthur begins to seize .",
+        "images": [],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Incorrect Reversal",
+        "content": "You panic and assume the seizure is a toxic reaction to a benzodiazepine he might have taken at home. You push Flumazenil.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Diagnostic Stubbornness",
+        "content": "You push the Flumazenil. It violently strips any remaining inhibitory activity from his GABA receptors. Arthur's brain loses all regulatory ability, locking him into a continuous, unbreakable state of status epilepticus. His respiratory muscles paralyze, and he suffers permanent anoxic brain injury.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/82e57d24-56ab-4803-8c37-8985c5b151b6.jpeg",
+            "filename": "82e57d24-56ab-4803-8c37-8985c5b151b6.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: Status Epilepticus",
+        "content": "Final Outcome: Fatal Deficit / Iatrogenic Status Epilepticus\n\n\nThe Flaw: Administering Flumazenil (a pro-convulsant in dependent patients) to an actively seizing patient .\n\nActionable Improvement: DO NOT treat benzodiazepine overdose with flumazenil generally, and absolutely never use it during an undifferentiated seizure.",
+        "conceptTag": "Pharmacological Reversal & Seizure Thresholds",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize Haloperidol does not prevent alcohol withdrawal seizures. You immediately push IV Lorazepam (a benzodiazepine) to abort the tonic-clonic seizure and stabilize his GABA receptors.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Autoimmune Suspicion",
+        "content": "Stop the nurse. Explain that he has been hospitalized and NPO for exactly 48 hours. This timeline, combined with visual/tactile hallucinations and autonomic instability, points perfectly to Alcohol Withdrawal progressing toward Delirium Tremens (DTs) or withdrawal seizures. You immediately order a symptom-triggered Benzodiazepine taper (Lorazepam).",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Objective Empathy",
+        "content": "You successfully advocated for your patient, avoiding the stigma of \"sneaking drugs\" by applying the precise pharmacological timeline of alcohol withdrawal. Benzodiazepines are the gold standard to prevent life-threatening cardiovascular collapse and seizures.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/78062d1d-5c01-4ba3-b362-19aedc423527.jpeg",
+            "filename": "78062d1d-5c01-4ba3-b362-19aedc423527.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Glucose First Error",
+        "content": "Because his blood sugar is critically low, you order a rapid IV push of Dextrose, planning to order his vitamins tomorrow morning.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Incomplete Cocktail",
+        "content": "You order IV Fluids and a Multivitamin, but you forget to specifically request Thiamine.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Glucose First Error",
+        "content": "You push the IV Dextrose. Without Thiamine to process the glucose, Arthur's neurons suffer acute metabolic failure. The next morning, you find him awake but exhibiting profound ataxia, nystagmus, and severe anterograde amnesia. You successfully treated his withdrawal, but your improper sequencing of his IV fluids condemned him to irreversible Korsakoff Psychosis.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/c65d2c60-85de-4e18-825f-ff6056b134eb.jpeg",
+            "filename": "c65d2c60-85de-4e18-825f-ff6056b134eb.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "In chronic alcoholics, thiamine (Vitamin B1) stores are notoriously depleted. Thiamine is a mandatory co-factor for the metabolic breakdown of glucose. If you administer a massive load of Dextrose to a thiamine-deficient patient, the brain cannot process the glucose, causing immediate, catastrophic cellular damage to the mammillary bodies. This iatrogenically induces Wernicke's Encephalopathy.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Metabolic Co-factors & Iatrogenic Encephalopathy",
+        "content": "Final Outcome: Fatal Deficit / Iatrogenic Wernicke-Korsakoff Syndrome\n\nThe Flaw: Administering IV Dextrose before replenishing Thiamine in a chronic alcoholic.\n\n\nActionable Improvement: Memorize the protocol sequence for alcohol intoxication/withdrawal: Thiamine, Magnesium, Multivitamin, Dextrose. Thiamine always precedes the sugar.",
+        "conceptTag": "Metabolic Co-factors & Iatrogenic Encephalopathy",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 3459.3364492785413,
+        "y": 835.9885726019575
+      },
+      "data": {
+        "title": "The Standard of Care",
+        "content": "You correctly identified that in chronic alcoholism, Thiamine must be replenished to facilitate glucose metabolism and protect the brain.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/b8917b54-6f6e-4a2d-aec7-622ecf85b3e0.jpeg",
+            "filename": "b8917b54-6f6e-4a2d-aec7-622ecf85b3e0.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Ego Trip",
+        "content": "You push the Dextrose without the Thiamine. Over the next 24 hours, Arthur develops severe Wernicke's Encephalopathy. When the attending physician reviews the chart and sees that you explicitly rejected the pharmacist's recommendation for Thiamine, you are brought before the medical ethics committee for gross negligence and unprofessional conduct.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/8d868d0e-abed-43b8-a604-521c8a2096b4.jpeg",
+            "filename": "8d868d0e-abed-43b8-a604-521c8a2096b4.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Clinical pharmacists are the ultimate safety net for medication and metabolic protocols. Ignoring a direct query regarding a standard-of-care protocol out of ego is a dangerous professional failure. The treatment for alcohol withdrawal and chronic intoxication strictly requires Thiamine.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The Incorrect Antagonist",
+        "content": "You send Arthur home with oral Naloxone. Because it undergoes massive first-pass metabolism and is completely inactive when taken orally, it does absolutely nothing to curb his neurochemical cravings. Within three days, the cravings overwhelm him. He relapses, begins drinking heavily again, and is readmitted two weeks later with a severe recurrence of acute necrotizing pancreatitis.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/8cef74bf-984e-4d65-add9-d6ed79475753.jpeg",
+            "filename": "8cef74bf-984e-4d65-add9-d6ed79475753.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Prideful Error",
+        "content": "Final Outcome: Failure / Professional Negligence & Harm\n\nThe Flaw: Allowing ego to override standard interprofessional safety checks, resulting in patient harm.\n\nActionable Improvement: Always listen to the pharmacy. The \"Banana Bag\" (Thiamine, Folate, Multivitamin, Dextrose)  is a non-negotiable standard for a reason.",
+        "conceptTag": "Interprofessional Collaboration & Protocol Adherence",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Inactive Pill",
+        "content": "Final Outcome: Failure / Ineffective Pharmacology & RelapseThe Flaw: Confusing Naloxone (inactive orally, used for acute overdose) with Naltrexone (active orally, used for craving maintenance) .Actionable Improvement: Memorize the \"N\" drugs. Naloxone = Acute Nasal/IV rescue. Naltrexone = Long-Term craving blocker.",
+        "conceptTag": "Pharmacokinetics & Addiction Maintenance",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Understanding the pharmacokinetic differences between Naloxone and Naltrexone is highly testable. Naloxone is an opioid receptor antagonist used strictly for acute opioid overdose reversal ; furthermore, naloxone is not active when taken orally (which is why it is combined with buprenorphine in Suboxone to prevent IV abuse) . Naltrexone is the opioid antagonist used to assist in blocking cravings for both opioids and alcohol in the long term .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Nutritional Resuscitation (Time: +1 Hour)",
+        "content": "The Lorazepam successfully stabilizes Arthur. He is resting but heavily depleted. His labs return showing severe hypoglycemia and profound malnutrition, standard for chronic alcoholism. You need to write his IV resuscitation orders for the night.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/f3a4fb0c-9dca-4717-a1df-08a5c2f213d9.jpeg",
+            "filename": "f3a4fb0c-9dca-4717-a1df-08a5c2f213d9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 3691.9816244058625,
+        "y": 430.8240304470579
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Standard of Care",
+        "content": "You explicitly order IV Thiamine to be administered first, followed by Dextrose, Magnesium, and a Multivitamin.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The Missing Vitamin Remedy",
+        "content": "The clinical pharmacist pages you immediately. \"Doctor, you ordered fluids and a multivitamin for this alcohol withdrawal patient, but you didn't include IV Thiamine or Dextrose. Do you want to add them to the protocol?\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/5c514f09-2be3-49f8-8ad4-75af8e21db95.jpeg",
+            "filename": "5c514f09-2be3-49f8-8ad4-75af8e21db95.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2405.850434845234,
+        "y": 1247.0805067486192
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Ego Trip",
+        "content": "You get defensive and tell the pharmacist not to question your orders. You refuse to add the Thiamine and just order the Dextrose.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You thank the pharmacist for the safety catch, recognize the necessity of Thiamine in chronic alcoholism, and add Thiamine followed by Dextrose to his IV orders.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3459.4216672655525,
+        "y": 1184.5953366180868
+      },
+      "data": {
+        "title": "The Long-Term Addiction Management (Time: Discharge Day)",
+        "content": "Arthur has recovered from his acute DTs and his pancreatitis has resolved. During discharge counseling, he breaks down. \"I don't want to drink anymore,\" he says. \"But the cravings are so strong. Is there a pill that can make the cravings stop?\"\nYou want to prescribe a medication to support his sobriety.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/4695a750-3a79-4992-938b-bc8a7f54e05f.jpeg",
+            "filename": "4695a750-3a79-4992-938b-bc8a7f54e05f.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Incorrect Antagonist",
+        "content": "You prescribe oral Naloxone, explaining that it will block the receptors in his brain and stop his alcohol cravings.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Craving Blocker",
+        "content": "You prescribe oral Naltrexone. You explain that it is an opioid antagonist used to assist in blocking cravings for both opioids and alcohol . You pair this with a referral for individual and group psychotherapy.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Flumazenil is a competitive GABAa antagonist used strictly for benzodiazepine intoxication . However, it is extremely dangerous because it can abruptly precipitate seizures, particularly if the patient is benzodiazepine dependent or already seizing . Pushing a GABA antagonist into a patient actively having a GABA-depleted alcohol withdrawal seizure is pouring gasoline on a fire",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 3944.640483618863,
+        "y": 1912.1847736288933
+      },
+      "data": {
+        "title": "The Craving Blocker",
+        "content": "You flawlessly managed a life-threatening acute withdrawal syndrome, perfectly sequenced his metabolic resuscitation, and correctly identified the long-term pharmacological support needed to maintain his sobriety.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/4b6bd568-3278-490e-8fc5-6578937fec84/b36b3889-5c4a-4f61-8131-6df87d3b65e8.jpeg",
+            "filename": "b36b3889-5c4a-4f61-8131-6df87d3b65e8.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": -1905.2374138653263,
+    "y": -809.6115164381617,
+    "zoom": 0.7100536792717146
+  }
+}

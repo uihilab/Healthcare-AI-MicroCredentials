@@ -1,0 +1,719 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 1207.8291339760844,
+        "y": -2083.225334415941
+      },
+      "data": {
+        "title": "The 40-Week Clock",
+        "content": "Patient Profile: Maria, a 26-year-old G1P0 female.\nInitial State: She presents to the clinic for her first prenatal visit. She is estimated to be approximately 8 weeks gestation. She notes increased fatigue and occasional nausea. She is a recent immigrant with no immunization records and does not recall her vaccination history.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/d2978ace-ab42-40a1-bf50-e76c1d0f26e9.jpeg",
+            "filename": "d2978ace-ab42-40a1-bf50-e76c1d0f26e9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1209.514183660129,
+        "y": -1755.9966886771615
+      },
+      "data": {
+        "title": "The Initial Workup",
+        "content": "You perform a physical exam and confirm the pregnancy. You need to order her initial laboratory workup and manage her preventative care, keeping in mind her unknown vaccination status.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/b4f7386b-e79a-495f-8ec1-9e5d17602d94.jpeg",
+            "filename": "b4f7386b-e79a-495f-8ec1-9e5d17602d94.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 1120.9135882816333,
+        "y": -1381.4288686374741
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Aggressive Immunity Approach",
+        "content": "ince her vaccination status is unknown, immediately administer the MMR (measles, mumps, and rubella) vaccine along with the inactivated influenza vaccine to protect the fetus. Order a standard prenatal lab panel.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-3",
+      "type": "choiceNode",
+      "position": {
+        "x": 1746.7832924054808,
+        "y": -1452.1627599000844
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Protocol Approach",
+        "content": "Prescribe prenatal vitamins with iron. Order a comprehensive lab panel including blood type and screen, CBC, HBsAg, Syphilis, HIV, Chlamydia, a urine culture, and a Rubella titer. Administer the inactivated influenza vaccine, but withhold the MMR vaccine.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "decision-node-4",
+      "type": "decisionNode",
+      "position": {
+        "x": 1530.560417570233,
+        "y": -1116.074557083144
+      },
+      "data": {
+        "title": "The First Trimester Screen (Time: 12 Weeks Gestation)",
+        "content": "Maria returns for her subsequent visit. Her fundal height is at the pubic symphysis, correlating perfectly with 12 weeks. You need to offer screening for fetal aneuploidy.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/draft/aa093e31-7b5d-4629-a74e-68f7b38e0713.jpg",
+            "filename": "aa093e31-7b5d-4629-a74e-68f7b38e0713.jpg"
+          },
+          {
+            "url": "/api/uploads/scenarios/draft/7f5614a7-0ea6-4214-b47c-9a1dff5e07cf.jpg",
+            "filename": "7f5614a7-0ea6-4214-b47c-9a1dff5e07cf.jpg"
+          },
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/8a3719ee-d334-4b0c-9c0d-efc97ebf0956.jpeg",
+            "filename": "8a3719ee-d334-4b0c-9c0d-efc97ebf0956.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-6",
+      "type": "terminationNode",
+      "position": {
+        "x": 686.7842049611805,
+        "y": -359.3892273835286
+      },
+      "data": {
+        "title": "Terminal Outcome: The Viral Vector",
+        "content": "The Flaw: Administering a live-attenuated vaccine (MMR) to a pregnant patient.\n\nActionable Improvement: Memorize the vaccine contraindications in pregnancy. Inactivated vaccines (Flu, Tdap) are safe and recommended. Live vaccines (MMR, Varicella, live-attenuated intranasal flu) are strictly contraindicated.",
+        "conceptTag": "Teratogenic Exposures & Live Vaccines",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1260.9673495614286,
+        "y": -351.1138794264018
+      },
+      "data": {
+        "title": "The Premature Panel",
+        "content": "The lab rejects your order for the Quadruple Screen.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/97a5146d-a634-4374-8159-45df566e7ee3.jpeg",
+            "filename": "97a5146d-a634-4374-8159-45df566e7ee3.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1240.8383434320558,
+        "y": 37.61135745007217
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The System Override",
+        "content": "Override the lab review and reorder the screening tests",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-9",
+      "type": "choiceNode",
+      "position": {
+        "x": 1691.09544278628,
+        "y": 40.04744928388948
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy",
+        "content": "You review the testing timeline, cancel the Quadruple Screen, and order the nuchal translucency ultrasound with PAPP-A instead.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-10",
+      "type": "informationNode",
+      "position": {
+        "x": 980.0362269499933,
+        "y": -1042.8120494952461
+      },
+      "data": {
+        "title": "The Aggressive Immunity Approach",
+        "content": "You administer the MMR vaccine in the clinic. Because it is a live-attenuated vaccine, the rubella virus crosses the placenta and infects the developing fetus during the highly vulnerable first trimester. Weeks later, an ultrasound reveals severe fetal cardiac anomalies and growth restriction consistent with congenital rubella syndrome. By violating the absolute contraindication of live vaccines in pregnancy, you caused irreversible iatrogenic fetal harm.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-11",
+      "type": "informationNode",
+      "position": {
+        "x": 782.3567146163067,
+        "y": -706.2919334550386
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Immunological management during pregnancy requires strict differentiation between live-attenuated and inactivated vaccines. While pregnant women are highly vulnerable to influenza and should receive the inactivated influenza vaccine, the MMR vaccine is a live-attenuated virus. Administering a live vaccine during pregnancy poses a direct theoretical risk of transmitting the virus to the fetus, potentially causing congenital rubella syndrome (which leads to deafness, cataracts, and cardiac defects). The correct protocol for a patient with unknown immune status is to draw a Rubella titer during the initial prenatal labs. If she is not immune, you counsel her to avoid exposure during pregnancy and administer the MMR vaccine immediately postpartum.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1482.0555358288568,
+        "y": -741.74808154613
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "misstep",
+        "title": "The Premature Panel",
+        "content": "Order a Quadruple Screen (AFP, hCG, estriol, and inhibin) to check for Down syndrome and neural tube defects.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2107.1455086803494,
+        "y": -757.3514296014358
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Window-Appropriate Screen",
+        "content": "Order an ultrasound for nuchal translucency and a maternal blood draw for PAPP-A and free beta-hCG.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "decision-node-14",
+      "type": "decisionNode",
+      "position": {
+        "x": 2206.6967114997647,
+        "y": -379.443174891563
+      },
+      "data": {
+        "title": "The Third Trimester Transition (Time: 26 Weeks Gestation)",
+        "content": "Maria is now in her late second trimester. Her initial labs from week 8 showed her blood type is O-negative (Rh negative). She has no history of gestational diabetes, and her pre-pregnancy BMI was 22 (normal)",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/c8823946-1a87-445f-b46d-957708417649.jpeg",
+            "filename": "c8823946-1a87-445f-b46d-957708417649.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-15",
+      "type": "choiceNode",
+      "position": {
+        "x": 2210.6878393242814,
+        "y": -2.6689429106332314
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Selective Screen",
+        "content": "Since she lacks high-risk factors for gestational diabetes (normal BMI, no prior history), skip the glucose challenge test. Focus purely on her Rh status and administer Rh immunoglobulin.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 2777.3539577141005,
+        "y": -1.6851475662064623
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Universal Checkpoint",
+        "content": "Order a 1-hour glucose challenge test. Separately, order a repeat type and screen, and administer Rh immunoglobulin",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-17",
+      "type": "informationNode",
+      "position": {
+        "x": 2015.4911695435003,
+        "y": 365.2241542494687
+      },
+      "data": {
+        "title": "The Selective Screen",
+        "content": "You send Maria home with her Rh immunoglobulin but no glucose screening. Over the next ten weeks, her undetected gestational diabetes causes prolonged fetal hyperglycemia. The fetus responds with hyperinsulinemia, acting as a powerful growth factor. At 39 weeks, Maria goes into labor. Because the fetus has grown silently macrosomic (excessively large), the head delivers but the anterior shoulder becomes impacted behind the maternal pubic symphysis (shoulder dystocia). The delivery becomes a catastrophic obstetrical emergency, resulting in a severe brachial plexus injury to the infant",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/d347194f-0d69-480c-8c64-9235f117669f.jpeg",
+            "filename": "d347194f-0d69-480c-8c64-9235f117669f.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 2002.2402807358694,
+        "y": 698.5745287308878
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Prenatal screening protocols are divided into \"risk-based\" and \"universal\" categories. While early screening for gestational diabetes (at the first prenatal visit) is reserved for patients with explicit high-risk factors (BMI > 30 kg/m^2, prior history), the screening window at 24-28 weeks is universal. All pregnant patients, regardless of their baseline risk factors, must undergo the 1-hour glucose challenge test during this timeframe because the diabetogenic hormones produced by the placenta peak during the late second and early third trimesters.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-19",
+      "type": "terminationNode",
+      "position": {
+        "x": 2005.8025511952944,
+        "y": 1022.3011718126259
+      },
+      "data": {
+        "title": "Terminal Outcome: The Silent Macrosomia",
+        "content": "Final Outcome: Failure / Undiagnosed GDM leading to Obstetrical Emergency\n\nThe Flaw: Conflating the criteria for early high-risk screening with the criteria for routine universal screening at 24-28 weeks.\n\nActionable Improvement: Memorize the strict 24-28 week checklist: 1-hour glucose challenge (universal), repeat type and screen, and administration of Rh immunoglobulin for Rh-negative mothers.",
+        "conceptTag": "Universal Screening vs. Risk-Based Screening",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-20",
+      "type": "informationNode",
+      "position": {
+        "x": 1041.5573879352294,
+        "y": 419.99608715833165
+      },
+      "data": {
+        "title": "The System Override",
+        "content": "You pull rank, call the lab director, and force them to run the Quadruple Screen on the 12-week sample. Because the physiological levels of AFP and estriol are naturally nowhere near their second-trimester baselines, the computer algorithm flags the results as critically abnormal, indicating a massive, high-risk probability for Edwards Syndrome (Trisomy 18). You deliver this devastating news to Maria. Panicked and grieving, she consents to an immediate, urgent invasive diagnostic procedure based entirely on your faulty data. The procedure causes an iatrogenic premature rupture of membranes (PPROM). She loses the pregnancy. Weeks later, the microarray on the lost fetus returns: perfectly genetically normal.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/1718e2c1-d997-471f-9418-5ec2528d40d4.jpeg",
+            "filename": "1718e2c1-d997-471f-9418-5ec2528d40d4.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 1043.2970906760618,
+        "y": 730.4432219751786
+      },
+      "data": {
+        "title": "Lesson",
+        "content": "Laboratory rejections are often critical systemic safeguards, not administrative hurdles. Maternal serum screening tests are meticulously calibrated to specific gestational windows based on the physiological production timelines of fetal proteins and placental hormones. The Quadruple Screen (AFP, hCG, estriol, and inhibin) is strictly validated for the second trimester (15-22 weeks, optimally 16-18 weeks). Drawing these markers at 12 weeks guarantees a completely uninterpretable result or a catastrophic false positive. Overriding a lab's safety stop to force an inappropriate test creates a cascade of \"garbage in, garbage out\" data that often leads to dangerous, unnecessary, and highly invasive follow-up procedures.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-22",
+      "type": "terminationNode",
+      "position": {
+        "x": 1043.5431675746077,
+        "y": 1056.6362355051415
+      },
+      "data": {
+        "title": "Terminal Outcome: The False Alarm",
+        "content": "The Flaw: Overriding a systemic clinical safeguard to order a time-specific screening test entirely outside of its validated gestational window.Identified Weakness: Hubris, ignoring systemic safety checks, and a critical misunderstanding of maternal serum biomarker timelines.Actionable Improvement: Respect laboratory rejections—they are the final net catching diagnostic errors. Memorize the strict timeline division: First Trimester Screen (11-14 weeks: NT + PAPP-A + hCG) vs. Second Trimester Screen (16-18 weeks: Quad Screen). Never interpret maternal serum markers outside of their validated dating windows.",
+        "conceptTag": "Diagnostic Timelines & Iatrogenic Cascades",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-23",
+      "type": "informationNode",
+      "position": {
+        "x": 2607.3784607133803,
+        "y": 400.6484347278141
+      },
+      "data": {
+        "title": "The Universal Checkpoint",
+        "content": "Ultimate Success. You flawlessly navigated the 24-28 week testing window. Administering Rh immunoglobulin prevents maternal alloimmunization, and performing the universal glucose challenge ensures no silent metabolic complications threaten the late stages of the pregnancy.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/03d9b4c1-dda4-42e6-b8dc-11c41bda6e50/d1ad3acf-a05a-485d-a574-f320e01b6d51.jpeg",
+            "filename": "d1ad3acf-a05a-485d-a574-f320e01b6d51.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "id": "edge-choice-node-3",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-3"
+    },
+    {
+      "source": "choice-node-3",
+      "target": "decision-node-4",
+      "id": "xy-edge__choice-node-3-decision-node-4"
+    },
+    {
+      "source": "information-node-10",
+      "target": "information-node-11",
+      "id": "xy-edge__information-node-10-information-node-11"
+    },
+    {
+      "source": "information-node-11",
+      "target": "termination-node-6",
+      "id": "xy-edge__information-node-11-termination-node-6"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-4",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-12"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-12-decision-node-7"
+    },
+    {
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8",
+      "id": "xy-edge__decision-node-7choice-0-choice-node-8"
+    },
+    {
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-9",
+      "id": "xy-edge__decision-node-7choice-1-choice-node-9"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-10",
+      "id": "xy-edge__choice-node-2-information-node-10"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-4",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "decision-node-14",
+      "id": "xy-edge__choice-node-13-decision-node-14"
+    },
+    {
+      "source": "choice-node-9",
+      "target": "decision-node-14",
+      "id": "xy-edge__choice-node-9-decision-node-14"
+    },
+    {
+      "id": "edge-choice-node-15",
+      "source": "decision-node-14",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-15"
+    },
+    {
+      "id": "edge-choice-node-16",
+      "source": "decision-node-14",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-16"
+    },
+    {
+      "source": "choice-node-15",
+      "target": "information-node-17",
+      "id": "xy-edge__choice-node-15-information-node-17"
+    },
+    {
+      "source": "information-node-17",
+      "target": "information-node-18",
+      "id": "xy-edge__information-node-17-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "termination-node-19",
+      "id": "xy-edge__information-node-18-termination-node-19"
+    },
+    {
+      "source": "information-node-21",
+      "target": "termination-node-22",
+      "id": "xy-edge__information-node-21-termination-node-22"
+    },
+    {
+      "source": "information-node-20",
+      "target": "information-node-21",
+      "id": "xy-edge__information-node-20-information-node-21"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-20",
+      "id": "xy-edge__choice-node-8-information-node-20"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-23",
+      "id": "xy-edge__choice-node-16-information-node-23"
+    }
+  ],
+  "viewport": {
+    "x": -269.96089972358004,
+    "y": 1267.6818131223308,
+    "zoom": 0.6149980930516415
+  }
+}

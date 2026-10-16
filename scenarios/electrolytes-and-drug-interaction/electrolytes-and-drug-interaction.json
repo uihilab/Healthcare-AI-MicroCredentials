@@ -1,0 +1,1120 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Gradient Collapse",
+        "content": "Patient Profile: Arthur, a 64-year-old male.\nInitial State: Arthur is brought to the emergency department via EMS after collapsing at home. His wife reports he has been complaining of severe muscle weakness, cramping, and a \"fluttering\" chest over the last 24 hours . His medical history includes diabetic nephropathy (chronic kidney disease) and hypertension.  Vitals: Blood Pressure $105/60$ mmHg, Pulse $48/min$ and irregular, Respirations $18/min$.\nA stat electrocardiogram (ECG) reveals peaked T waves and widened QRS complexes . His rapid basic metabolic panel shows a critically high serum potassium of $7.6~mEq/L$. ",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/8cd1c752-b165-4dbe-9dd0-9bb682b18ed9.jpeg",
+            "filename": "8cd1c752-b165-4dbe-9dd0-9bb682b18ed9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Initial Triage (The Cardiac Shield)",
+        "content": "Arthur is experiencing life-threatening severe hyperkalemia with active cardiac dysfunction. You must initiate immediate pharmacological resuscitation before he decompensates into a fatal arrhythmia.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/6403a55c-054c-411d-a936-d6e60069cfdc.jpeg",
+            "filename": "6403a55c-054c-411d-a936-d6e60069cfdc.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Shifting Flaw",
+        "content": "You immediately order a rapid IV push of Insulin combined with Dextrose, along with Albuterol ($\\beta_2$-adrenergic agonist) nebulizers, to quickly drive the potassium back inside his cells and lower the serum levels.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Shifting Flaw",
+        "content": "You push the insulin and dextrose. While the medications circulate and slowly begin activating the $Na^+/K^+$ ATPase pumps, Arthur's myocardial membrane potential continues to degrade. His widened QRS complexes merge into his peaked T waves, forming a classic, terminal \"sine wave\" pattern on the monitor. He goes into ventricular fibrillation. Because his cardiac myocytes are profoundly depolarized by the potassium, defibrillation shocks are completely ineffective. He dies in the trauma bay.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/b15e3400-690f-4fab-8027-454cde37d295.jpeg",
+            "filename": "b15e3400-690f-4fab-8027-454cde37d295.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Severe hyperkalemia depolarizes the resting membrane potential of cardiac myocytes, leading to widened QRS complexes and eventual ventricular fibrillation. While Insulin/Glucose and $\\beta_2$-agonists correctly shift potassium into the cells , they take 15 to 30 minutes to begin working. In a patient with active ECG changes, the heart will arrest before the shift occurs. IV Calcium Gluconate must be given first; it does not lower potassium levels, but it immediately raises the threshold potential, rapidly stabilizing the myocardium and preventing lethal arrhythmias while you wait for the shifting agents to work .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Widening Sine Wave",
+        "content": "Final Outcome: Fatal / Iatrogenic Cardiac Arrest\n\nThe Flaw: Failing to stabilize the myocardial membrane with Calcium Gluconate prior to administering intracellular shifting agents.\n\n\nActionable Improvement: In hyperkalemia with ECG changes, the sequence is strict: 1) Stabilize the heart (IV Calcium Gluconate), 2) Shift the K+ (Insulin/Dextrose, Albuterol), 3) Remove the K+ (Furosemide, resins, or dialysis)",
+        "conceptTag": "Cardiac Electrophysiology & Resuscitation Sequencing",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Excretion Trap",
+        "content": "You order an oral dose of Sodium Polystyrene Sulfonate (a cation exchange resin) to bind the potassium in his gut and excrete it from his body, avoiding IV medications because of his kidney disease.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Resuscitation Remedy (Interprofessional)",
+        "content": "You enter the order for Sodium Polystyrene Sulfonate. The critical care nurse looks at the monitor, then at you. \"Doctor, his heart rate is dropping to 40 and his QRS is massive. That resin takes hours to clear potassium through the gut. We need to stabilize his myocardium right now with Calcium.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/befc91e2-8ffa-4358-a4ce-057e7c0ee874.jpeg",
+            "filename": "befc91e2-8ffa-4358-a4ce-057e7c0ee874.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Ego Trap",
+        "content": "You snap at the nurse, telling her that resins are the only way to actually remove the potassium from the body . You order her to administer the oral resin and wait.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Ego Trap",
+        "content": "The nurse reluctantly administers the oral resin. It enters Arthur's stomach, hours away from having any measurable effect on his serum potassium. Ten minutes later, Arthur's severe bradycardia degrades into a pulseless electrical activity (PEA) arrest. Despite aggressive CPR, the unopposed potassium in his blood prevents his heart from restarting. You lost the patient because you refused to admit a pharmacological error.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/3f5f0536-b0f2-4b36-8418-f9884c7c96c7.jpeg",
+            "filename": "3f5f0536-b0f2-4b36-8418-f9884c7c96c7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: The Delayed Exchange",
+        "content": "Final Outcome: Fatal / Negligent Resuscitation Delay\n\nThe Flaw: Utilizing a slow-onset medication for an immediate life-threat and dismissing interprofessional safety interventions.\n\nActionable Improvement: Never use exchange resins as monotherapy for acute, symptomatic hyperkalemia. Calcium must be given immediately.",
+        "conceptTag": "Pharmacokinetics & Professional Arrogance",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize you confused the long-term removal step with the immediate acute stabilization step. You thank the nurse for the rapid safety catch, cancel the resin, and order stat IV Calcium Gluconate followed by Insulin/Dextrose.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Optimal Protocol",
+        "content": "Before attempting to lower his potassium levels, you order an immediate, rapid push of IV Calcium Gluconate to stabilize the electrical gradient of his heart . Once the calcium is administered, you order the IV Insulin and Dextrose to shift the potassium.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Optimal Protocol",
+        "content": "You correctly recognized that stabilizing the cardiac membrane takes absolute precedence over lowering the serum potassium in a patient with active ECG changes.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/ca977431-6aaf-4468-a60a-bb287348c160.jpeg",
+            "filename": "ca977431-6aaf-4468-a60a-bb287348c160.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Rapid Correction Flaw",
+        "content": "You recognize the severe hyponatremia. To stop the seizures and save his brain, you order a massive, rapid, continuous infusion of 3% Hypertonic Saline to bring his serum sodium back to a normal level (135 mmol/L) within the next 4 hours.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Fluid Restriction Trap",
+        "content": "You diagnose euvolemic hyponatremia (likely psychogenic polydipsia) . Because he is seizing, you quickly order a strict free water restriction, telling the ICU nurse to give him absolutely no IV fluids so his body can correct the imbalance naturally.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Rapid Correction Flaw",
+        "content": "You rapidly push the 3% Hypertonic Saline until his sodium hits 135 mmol/L. The seizures stop, and Arthur initially wakes up. However, 48 hours later, he begins to develop profound dysarthria and dysphagia. The rapid fluid shift has stripped the myelin from his pontine neurons . He progresses to quadriplegia. He becomes permanently \"locked-in\"—fully conscious and awake, but completely paralyzed except for vertical eye movements. You caused an irreversible, catastrophic neurological injury.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/6e9c7e42-e435-4ece-834f-b4d21787958d.jpeg",
+            "filename": "6e9c7e42-e435-4ece-834f-b4d21787958d.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "When severe hyponatremia develops over time, the brain's neurons adapt by exporting organic osmolytes to prevent cellular swelling. If you rapidly infuse hypertonic saline to bring the serum sodium back to \"normal\" too quickly, the extracellular fluid becomes hypertonic relative to the adapted neurons. Water is violently sucked out of the brain cells, causing them to acutely shrink. This causes irreversible destruction of the myelin sheaths, classically in the pons—a condition known as Osmotic Demyelination Syndrome (formerly Central Pontine Myelinolysis) .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Locked-In Mind",
+        "content": "Final Outcome: Severe Morbidity / Iatrogenic Osmotic Demyelination Syndrome\n\nThe Flaw: Correcting chronic hyponatremia too rapidly with hypertonic saline.\n\nActionable Improvement: Never correct sodium faster than 0.5 mEq/L per hour (or a maximum of 8 mEq/L in 24 hours). Raise it just enough to stop the seizures, then correct the rest slowly.",
+        "conceptTag": "Osmotic Shifts & Iatrogenic Demyelination",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 2875.477121003681,
+        "y": 828.077199590103
+      },
+      "data": {
+        "title": "The Targeted Reversal",
+        "content": "You correctly treated the acute neurological emergency with hypertonic saline while adhering to the strict limits required to prevent catastrophic myelin damage.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/b63a491a-c374-4abb-b417-9c15fee776ef.jpeg",
+            "filename": "b63a491a-c374-4abb-b417-9c15fee776ef.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Paternalistic Dismissal",
+        "content": "You withhold the hypertonic saline. You push Lorazepam, but because the underlying cause (intracellular swelling) is not addressed, the seizures continue. Arthur's brain cells continue to pull in water from the hypoosmolar blood. His brain swells against the rigid confines of his skull. He develops Cushing's triad (bradycardia, hypertension, irregular breathing) and fatally herniates his brainstem through the foramen magnum.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/3ad8d46d-daeb-44ad-a451-b633a1d4fdc7.jpeg",
+            "filename": "3ad8d46d-daeb-44ad-a451-b633a1d4fdc7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "While free water restriction is the correct treatment for asymptomatic or mild euvolemic hyponatremia , it takes days to shift the serum concentration. Active seizures and coma define severe hyponatremia. The brain is actively swelling due to the hypoosmolar extracellular fluid. The only way to acutely reverse cerebral edema and stop the seizures is to administer 3% Hypertonic Saline . Refusing standard-of-care emergency therapy due to a misunderstanding of concentration gradients is a fatal error.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The Reactive Discharge",
+        "content": "Arthur goes home and resumes his prescribed medications. The TMP-SMX and the ACE inhibitor continue to synergistically block potassium excretion in his already compromised kidneys. Four days later, he suffers a massive recurrence of severe hyperkalemia. He collapses in his kitchen. Because you failed to identify and remove the offending pharmacological triggers, EMS cannot revive him",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/63736281-2a0c-434a-b75a-3f9db1447799.jpeg",
+            "filename": "63736281-2a0c-434a-b75a-3f9db1447799.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Swelling Cortex",
+        "content": "Final Outcome: Fatal / Unmanaged Cerebral Edema\n\nThe Flaw: Utilizing an asymptomatic treatment (water restriction) for a severe, life-threatening neurological emergency.\n\n\nActionable Improvement: Severe, symptomatic hyponatremia (seizures/coma) mandates the use of 3% Hypertonic Saline .",
+        "conceptTag": "Cerebral Edema & Triage Severity",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Poisoned Prescription",
+        "content": "Final Outcome: Fatal / Negligent Discharge & Drug Interaction\n\n\nThe Flaw: Failing to perform a medication reconciliation to identify drugs known to cause hyperkalemia (ACE inhibitors, TMP-SMX) .  \n\nActionable Improvement: Always investigate why an electrolyte abnormality occurred. TMP-SMX should be used with extreme caution in patients on ACE inhibitors or with underlying kidney disease.",
+        "conceptTag": "Pharmacological Interactions & Iatrogenic Recurrence",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Electrolyte emergencies rarely happen in a vacuum; they are frequently iatrogenic. In a patient with underlying renal insufficiency (diabetic nephropathy), combining an ACE inhibitor (which blocks aldosterone, leading to potassium retention) with Trimethoprim-Sulfamethoxazole (where Trimethoprim acts like a potassium-sparing diuretic by blocking ENaC channels in the collecting duct) is a well-known, highly dangerous combination . Discharging the patient back into the community on the exact same medications that caused his cardiac arrest is gross negligence.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Sodium Crisis",
+        "content": "Arthur's heart is stabilized, and his potassium shifts down to $5.5~mEq/L$. He is admitted to the ICU.Three hours later, his full metabolic panel returns. His serum sodium is critically low at $112~mmol/L$ (severe hyponatremia) . His wife notes he has been drinking gallons of water over the past week due to an unquenchable thirst. He is currently euvolemic on exam, but he suddenly develops a generalized tonic-clonic seizure in his bed.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/03b1310e-2b1c-4069-a99a-f169e79025cb.jpeg",
+            "filename": "03b1310e-2b1c-4069-a99a-f169e79025cb.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 2968.8821311223633,
+        "y": 419.74810823046164
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Targeted Reversal",
+        "content": "You recognize that active seizures indicate severe hyponatremia requiring immediate pharmacological intervention . You order a carefully calculated bolus of 3% Hypertonic Saline to raise his serum sodium by just enough to stop the seizures (approx. 4-6 mEq/L), strictly ensuring you do not correct the sodium by more than 8 mEq/L in a 24-hour period.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The Observation Remedy (Ethics/Communication)",
+        "content": "Arthur is actively seizing. The ICU nurse looks at you in disbelief. \"Doctor, free water restriction is for asymptomatic hyponatremia . He is having active neurological seizures from severe hyponatremia! He needs hypertonic saline now!\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/828b85bb-65b0-4086-8799-fdfb000649d9.jpeg",
+            "filename": "828b85bb-65b0-4086-8799-fdfb000649d9.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2397.035193918221,
+        "y": 1200.8004918818015
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Paternalistic Dismissal",
+        "content": "You tell the nurse, \"Giving him IV fluids when he is already water-intoxicated makes no physiological sense. Strap him down, give him Lorazepam, and restrict his water.\"",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize the severity of the symptoms completely changes the management algorithm. You quickly apologize, abandon the water restriction, and order a carefully controlled bolus of 3% Hypertonic Saline to break the seizure",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3154.0426690079694,
+        "y": 1192.5067096299413
+      },
+      "data": {
+        "title": "The Iatrogenic Trigger (Discharge Planning)",
+        "content": "Arthur recovers fully from his electrolyte disasters. His sodium is normal, and his potassium is stable at $4.5~mEq/L$.Before discharging him, you review his outpatient medication list to determine what triggered his initial hyperkalemic cardiac crisis. He has diabetic nephropathy, and his home medications include an Angiotensin Converting Enzyme (ACE) inhibitor for renal protection. Two weeks ago, his primary care doctor prescribed Trimethoprim-Sulfamethoxazole (TMP-SMX) for a suspected prostate/urinary infection.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/31be8b0e-5bc6-46ed-b21f-c880794175aa.jpeg",
+            "filename": "31be8b0e-5bc6-46ed-b21f-c880794175aa.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Reactive Discharge",
+        "content": "You tell Arthur his kidneys just \"had a bad week.\" You discharge him on all of his previous home medications—including the ACE inhibitor and the TMP-SMX—and tell him to avoid eating bananas and potatoes.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Pharmacological Detective",
+        "content": "You immediately recognize the lethal drug interaction. You explain that both ACE inhibitors and TMP-SMX independently cause potassium retention by disrupting aldosterone and potassium channels in the kidney . You discontinue the TMP-SMX, switch his antibiotic to a safer alternative, and arrange for close outpatient lab monitoring.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Sodium Polystyrene Sulfonate (Kayexalate) is a cation exchange resin that binds potassium in the gastrointestinal tract to lower total body potassium . However, its onset of action is 2 to 24 hours. Using a slow-acting gastrointestinal medication to treat an active, life-threatening cardiac dysrhythmia is a fatal misunderstanding of pharmacokinetics. Allowing physician ego to override a critical safety alert from a nurse virtually guarantees patient harm.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 3911.125090802369,
+        "y": 1998.2911237602118
+      },
+      "data": {
+        "title": "The Pharmacological Detective",
+        "content": "You flawlessly managed a complex dual-electrolyte disaster. You correctly prioritized cardiac stabilization in severe hyperkalemia, safely navigated the narrow therapeutic window of hypertonic saline to reverse cerebral edema, and identified a highly-testable iatrogenic drug interaction, preventing a fatal recurrence upon discharge.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/68713678-c90e-468a-9dc4-a632b6707e47/7442bcff-8488-49a4-b83d-6ac4f33dfa57.jpeg",
+            "filename": "7442bcff-8488-49a4-b83d-6ac4f33dfa57.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": -290.5041020121471,
+    "y": -74.66822832149433,
+    "zoom": 0.4084048502828833
+  }
+}

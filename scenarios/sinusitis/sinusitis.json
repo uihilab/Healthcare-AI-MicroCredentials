@@ -1,0 +1,1120 @@
+{
+  "nodes": [
+    {
+      "id": "information-node-0",
+      "type": "informationNode",
+      "position": {
+        "x": 993.1974720703097,
+        "y": -1623.3878196354258
+      },
+      "data": {
+        "title": "The Black Eschar",
+        "content": "Patient Profile: Marcus, a 58-year-old male.\nInitial State: Marcus is currently admitted to the medical intensive care unit for severe Diabetic Ketoacidosis (DKA). On hospital day 2, his blood glucose is slowly stabilizing, but he begins complaining of a new, severe right-sided facial pain, nasal congestion, and numbness over his right cheek. The nurse notes that his right eye appears slightly swollen and he has had a minor nosebleed . His temperature is 38.2°C.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/208fccaf-02bd-4de3-b814-7481e476c772.jpeg",
+            "filename": "208fccaf-02bd-4de3-b814-7481e476c772.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": true
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-1",
+      "type": "decisionNode",
+      "position": {
+        "x": 1002.4607134044816,
+        "y": -1274.5133861595257
+      },
+      "data": {
+        "title": "The Initial Triage (Diagnostic Modalities)",
+        "content": "You are called to the bedside to evaluate Marcus. The combination of facial pain, congestion, and fever points to a sinus issue, but his underlying diabetic state adds a layer of complexity.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/731aae00-de6b-4aba-aa89-069b07c026a2.jpeg",
+            "filename": "731aae00-de6b-4aba-aa89-069b07c026a2.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-2",
+      "type": "choiceNode",
+      "position": {
+        "x": 354,
+        "y": -896
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Routine Assumption",
+        "content": "You diagnose typical acute bacterial sinusitis. You prescribe oral Amoxicillin-clavulanate (the first-line antibiotic), recommend nasal saline irrigation, and tell the nurse to monitor his fever .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-3",
+      "type": "informationNode",
+      "position": {
+        "x": 155.99907521356684,
+        "y": -457.2456638901038
+      },
+      "data": {
+        "title": "The Routine Assumption",
+        "content": "You prescribe the Amoxicillin-clavulanate and leave the unit. Over the next 12 hours, the Mucormycosis rapidly invades Marcus's ethmoid and maxillary blood vessels, causing massive tissue infarction. The fungus erodes through the cribriform plate and enters his frontal lobe. By morning, Marcus is comatose with a blown right pupil. A stat CT reveals a massive cerebral abscess and cavernous sinus thrombosis . He passes away later that afternoon.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/c10da8ca-dd7c-4aa0-80a8-caa1feab8b42.jpeg",
+            "filename": "c10da8ca-dd7c-4aa0-80a8-caa1feab8b42.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-4",
+      "type": "informationNode",
+      "position": {
+        "x": 147.75307041521967,
+        "y": -74.6620222343557
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Immunosuppressed patients, particularly those with poorly controlled diabetes (like DKA), are at extreme risk for Invasive Fungal Rhinosinusitis, most commonly caused by Mucormycosis or Aspergillus . Acute bacterial sinusitis typically presents with localized pain and purulent discharge, but it rarely causes facial numbness or sudden orbital swelling. Mucormycosis grows rapidly and invades the vasculature, causing tissue ischemia and necrosis . Treating this vascular invasion with standard oral antibiotics is completely ineffective and allows the fungus to spread unchecked into the brain.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-5",
+      "type": "terminationNode",
+      "position": {
+        "x": 156.24082333804049,
+        "y": 376.8808943262863
+      },
+      "data": {
+        "title": "Terminal Outcome: The Cranial Breach",
+        "content": "Final Outcome: Fatal / Missed Invasive Fungal Disease\n\nThe Flaw: Assuming a routine bacterial infection in a highly immunosuppressed patient presenting with focal neurological deficits (numbness) and orbital signs.\n\n\nActionable Improvement: Any diabetic or immunosuppressed patient presenting with facial pain, numbness, or orbital swelling must be assumed to have Invasive Fungal Rhinosinusitis until proven otherwise via CT and nasal endoscopy .",
+        "conceptTag": "Immunocompromise & Vascular Invasion",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-6",
+      "type": "choiceNode",
+      "position": {
+        "x": 1208.263891954363,
+        "y": -888.6105785225449
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Outdated Image",
+        "content": "You want to confirm the presence of fluid in his sinuses before prescribing antibiotics. You order a standard plain radiograph (X-ray) of the paranasal sinuses.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-7",
+      "type": "decisionNode",
+      "position": {
+        "x": 1004.5342298406083,
+        "y": -472.788787456452
+      },
+      "data": {
+        "title": "The Imaging Remedy",
+        "content": "Two hours later, the plain radiograph is read by the radiologist as \"Indeterminant opacity in the right maxillary sinus; poor sensitivity limits evaluation.\" The nurse pages you to report that Marcus's right eye is now visibly bulging (proptosis) and he cannot move it laterally.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/e3f49d5f-9399-44d1-8911-ff2955234bc6.jpeg",
+            "filename": "e3f49d5f-9399-44d1-8911-ff2955234bc6.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-8",
+      "type": "choiceNode",
+      "position": {
+        "x": 1036.64186852734,
+        "y": -41.04200639415549
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Diagnostic Stubbornness",
+        "content": "You complain about the radiologist's \"vague\" read. You refuse to order the CT, insisting that an opacity is enough to diagnose acute sinusitis. You start him on IV Ceftriaxone and plan to re-evaluate in 24 hours.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-9",
+      "type": "informationNode",
+      "position": {
+        "x": 833.8658715217141,
+        "y": 388.4840415629927
+      },
+      "data": {
+        "title": "The Diagnostic Stubbornness",
+        "content": "You start the IV Ceftriaxone. Because the antibiotic has no effect on the invasive fungal hyphae, the mucormycosis continues to destroy the bone of the medial orbital wall. The infection invades the periorbital space, causing irreversible ischemic damage to the optic nerve. Marcus permanently loses his vision in the right eye, and the infection progresses to a fatal meningitis.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/ec0f066d-3a0f-47f5-82c6-d2082347aa05.jpeg",
+            "filename": "ec0f066d-3a0f-47f5-82c6-d2082347aa05.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-11",
+      "type": "terminationNode",
+      "position": {
+        "x": 818.3759071389738,
+        "y": 1095.2993764749967
+      },
+      "data": {
+        "title": "Terminal Outcome: The Orbital Breach",
+        "content": "Final Outcome: Fatal / Iatrogenic Blindness and Meningitis\n\nThe Flaw: Relying on an outdated, insensitive imaging modality (plain X-ray) and ignoring acute clinical deterioration.\n\nActionable Improvement: CT is the gold standard for sinus imaging. Never use plain films for suspected complicated sinusitis.",
+        "conceptTag": "Imaging Sensitivity & Diagnostic Delay",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-12",
+      "type": "choiceNode",
+      "position": {
+        "x": 1576.9129302131482,
+        "y": -89.20870438358816
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize plain radiographs have fallen out of favor due to their poor sensitivity. You acknowledge the worsening orbital signs, immediately order a stat CT of the sinuses, and consult ENT.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-13",
+      "type": "choiceNode",
+      "position": {
+        "x": 2199.7076344300144,
+        "y": -893.8056180490514
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Endoscopic Detective",
+        "content": "You recognize his severe facial pain, numbness, and orbital swelling in the setting of DKA as massive red flags. You immediately perform a bedside nasal exam with a speculum, looking for mucosal necrosis, and order a stat CT of the head and sinuses .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-14",
+      "type": "informationNode",
+      "position": {
+        "x": 2006.1471988704116,
+        "y": -476.7990744523547
+      },
+      "data": {
+        "title": "The Historical Baseline",
+        "content": "You correctly recognized that an immunocompromised patient with localizing orbital symptoms and facial numbness must be evaluated for invasive fungal disease. A CT is the imaging modality of choice, not a plain X-ray.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/0e0b4864-86ff-480d-b57b-4d7ad5e522ac.jpeg",
+            "filename": "0e0b4864-86ff-480d-b57b-4d7ad5e522ac.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-16",
+      "type": "choiceNode",
+      "position": {
+        "x": 1964.23346787415,
+        "y": 439.4140941049636
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Medical Monotherapy",
+        "content": "ou immediately start high-dose IV Amphotericin B to kill the fungus and aggressively manage his insulin to reverse his DKA. However, you advise the ENT to hold off on surgery because Marcus is currently too metabolically unstable for general anesthesia.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-17",
+      "type": "choiceNode",
+      "position": {
+        "x": 2471.9716609317056,
+        "y": 429.4123981377268
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "misstep",
+        "title": "The Fungal Ball Confusion",
+        "content": "You review the path report. You tell the ENT that since it's a fungus, it's likely just a \"Fungus Ball.\" You suggest scheduling an elective endoscopic removal for later in the week once his DKA is fully resolved.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-18",
+      "type": "informationNode",
+      "position": {
+        "x": 1767.7586177674525,
+        "y": 862.3823243140357
+      },
+      "data": {
+        "title": "The Medical Monotherapy",
+        "content": "You pump Marcus full of IV Amphotericin B. Unfortunately, because the black eschar in his nasal cavity has no blood supply, not a single drop of the antifungal medication reaches the leading edge of the infection. Sheltered within the necrotic tissue, the fungus continues to proliferate. It invades his cavernous sinus, causing a massive, fatal cavernous sinus thrombosis.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/3b65e756-4047-45cd-8c2c-4d802787c534.jpeg",
+            "filename": "3b65e756-4047-45cd-8c2c-4d802787c534.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-19",
+      "type": "informationNode",
+      "position": {
+        "x": 1761.2386163440792,
+        "y": 1214.9780160041034
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Mucormycosis is an angioinvasive fungus; it invades blood vessels, thromboses them, and causes the surrounding tissue to die (ischemic necrosis) . Because the tissue is dead and lacks active blood flow, intravenous medications (like Amphotericin B) cannot reach the fungus. Therefore, relying solely on medical therapy is a fatal error. The only way to stop the spread is through early, aggressive surgical debridement to physically cut out the dead tissue until bleeding, healthy margins are reached .",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-20",
+      "type": "terminationNode",
+      "position": {
+        "x": 1768.3502794212823,
+        "y": 1586.844520989209
+      },
+      "data": {
+        "title": "Terminal Outcome: The Ischemic Shield",
+        "content": "Final Outcome: Fatal / Lack of Source Control\n\nThe Flaw: Failing to recognize that systemic medications cannot penetrate avascular, necrotic tissue.\n\n\nActionable Improvement: Invasive fungal rhinosinusitis requires a triad of care: 1) Reverse immunosuppression, 2) IV Amphotericin B, AND 3) Early aggressive surgical debridement .",
+        "conceptTag": "Angioinvasion & Source Control",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-21",
+      "type": "informationNode",
+      "position": {
+        "x": 2875.477121003681,
+        "y": 828.077199590103
+      },
+      "data": {
+        "title": "The Emergent Dual-Therapy",
+        "content": "You correctly recognized that medical therapy alone is useless because the necrotic tissue has no blood supply. Invasive fungal disease requires both Amphotericin B and emergent surgical debridement.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/f6fd19ee-cdb9-42ad-9bf7-e5a6979a2409.jpeg",
+            "filename": "f6fd19ee-cdb9-42ad-9bf7-e5a6979a2409.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-26",
+      "type": "informationNode",
+      "position": {
+        "x": 2231.540322213877,
+        "y": 1595.1865637332646
+      },
+      "data": {
+        "title": "The Steroid Catastrophe",
+        "content": "You override the surgeon and push the IV steroids. The prednisone suppresses Marcus's remaining macrophages. Uninhibited by the immune system, the mucormycosis exhibits explosive, rampant growth. Within 6 hours, the fungus destroys his entire maxilla and invades the brain parenchyma. He dies a horrific, agonizing death due to a profound iatrogenic medical error.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/50387d6d-5e66-4321-a61b-2b81f789bcc7.jpeg",
+            "filename": "50387d6d-5e66-4321-a61b-2b81f789bcc7.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-28",
+      "type": "informationNode",
+      "position": {
+        "x": 2245.3067579081576,
+        "y": 2009.6966980497152
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Allergic Fungal Rhinosinusitis is an immune reaction to fungus, treated with endoscopic removal of polyps and a prednisone taper . Invasive Fungal Rhinosinusitis thrives in immunosuppressed patients (like those on steroids). Confusing these two distinct clinical entities and administering high-dose systemic corticosteroids to a patient with an active, invasive fungal infection completely destroys whatever remaining immune response they have, pouring gasoline on a lethal fire.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-29",
+      "type": "informationNode",
+      "position": {
+        "x": 3114.213094728272,
+        "y": 1978.2973803500513
+      },
+      "data": {
+        "title": "The False Comfort",
+        "content": "You stop the Amphotericin B to save his kidneys. Marcus is transferred out of the ICU. Four days later, the microscopic fungal hyphae left behind in the margins of his surgical wound begin to replicate wildly. Because he has no systemic antifungal protection, the mucormycosis rapidly invades his orbital apex and cavernous sinus. By the time the symptoms reappear, the disease is far too advanced for a second salvage surgery. He succumbs to the infection.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/f1ec183e-3d89-4b2a-876a-849853ba94cc.jpeg",
+            "filename": "f1ec183e-3d89-4b2a-876a-849853ba94cc.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-32",
+      "type": "terminationNode",
+      "position": {
+        "x": 2250.887025862488,
+        "y": 2405.386103603485
+      },
+      "data": {
+        "title": "Terminal Outcome: The Fungal Explosion",
+        "content": "Final Outcome: Fatal / Iatrogenic Immunosuppression\n\n\nThe Flaw: Confusing the treatment for Allergic Fungal Rhinosinusitis (steroids) with Invasive Fungal Rhinosinusitis (which requires the reversal of immunosuppression) .  \n+1\n\nActionable Improvement: Never give steroids to a patient with suspected invasive fungal disease.\n\nNode 3: The Post-Op Explanation (Ethics & Bedside Manner)\nMarcus is rushed to the OR. The ENT performs a radical maxillectomy and ethmoidectomy, successfully clearing all visible necrotic tissue. Marcus is recovering in the ICU. His DKA is resolved, and he is receiving continuous IV Amphotericin B.\n\nDuring rounds, Marcus's wife pulls you aside. She has been reading about Amphotericin B on her phone. \"The internet says this drug destroys the kidneys,\" she says anxiously. \"The surgeon said the operation was a success and they got all the dead tissue out. Since he is doing better, can't we stop this dangerous drug now to protect his kidneys?\"\n\nChoice A (The Premature Cessation): You agree that Amphotericin B is highly nephrotoxic. Since the surgeon achieved complete visual source control and Marcus is clinically stable, you discontinue the antifungal to preserve his renal function and switch him to nasal saline irrigations.\n\nOutcome: TERMINATION NODE. See Path 3 Debrief below.\n\nChoice B (The Firm Education): You validate her fear regarding the kidney toxicity, but gently and firmly explain the reality of the disease. You tell her that while the surgeon removed the visible dead tissue, microscopic fungal elements undoubtedly remain in the margins. You explain that stopping the Amphotericin B now would guarantee a fatal relapse, but assure her you will monitor his renal labs daily to manage the side effects safely.\n\nOutcome: Ultimate Success. You flawlessly navigated one of the deadliest emergencies in otolaryngology. You bypassed the useless plain films for a stat CT, recognized the critical need for simultaneous surgical and medical intervention, and successfully educated the family on the necessity of prolonged, high-risk pharmacology to ensure the patient's ultimate survival.\n\nPath 3: The Premature Cessation\n(Following Node 3: Choice A - Stopping Amphotericin B early)\n\nThe Lesson:\nSurgical debridement is required to remove the avascular, necrotic tissue that medications cannot penetrate. However, surgery alone is rarely curative because microscopic fungal hyphae invade the surrounding \"healthy-appearing\" tissue margins. Aggressive, prolonged systemic medical therapy with Amphotericin B is absolutely mandatory to eradicate these microscopic remnants . Stopping the antifungal therapy prematurely guarantees a rapid, often fatal recurrence.  \n\nConcept Tag: [Pharmacological Adherence & Microscopic Margins]\nTitle: Terminal Outcome: The Silent Return\nContent: You stop the Amphotericin B to save his kidneys. Marcus is transferred out of the ICU. Four days later, the microscopic fungal hyphae left behind in the margins of his surgical wound begin to replicate wildly. Because he has no systemic antifungal protection, the mucormycosis rapidly invades his orbital apex and cavernous sinus. By the time the symptoms reappear, the disease is far too advanced for a second salvage surgery. He succumbs to the infection. [SIMULATION END]\n\nDebrief & Diagnostics\nLearner Profile: Dr. Smith\n\nFinal Outcome: Fatal / Premature Cessation of Lifesaving Therapy\n\nThe Flaw: Prioritizing the avoidance of a manageable side effect (nephrotoxicity) over the treatment of a rapidly fatal underlying disease.\n\n\nActionable Improvement: Invasive fungal rhinosinusitis always requires a full, prolonged course of Amphotericin B post-operatively to eradicate microscopic disease. Side effects must be managed concurrently, not avoided by stopping the drug.",
+        "conceptTag": "Diagnostic Confusion & Iatrogenic Immunosuppression",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "termination-node-33",
+      "type": "terminationNode",
+      "position": {
+        "x": 3113.386086760108,
+        "y": 2777.249760169468
+      },
+      "data": {
+        "title": "Terminal Outcome: The Silent Return",
+        "content": "Final Outcome: Fatal / Premature Cessation of Lifesaving Therapy\n\nThe Flaw: Prioritizing the avoidance of a manageable side effect (nephrotoxicity) over the treatment of a rapidly fatal underlying disease.\n\n\nActionable Improvement: Invasive fungal rhinosinusitis always requires a full, prolonged course of Amphotericin B post-operatively to eradicate microscopic disease. Side effects must be managed concurrently, not avoided by stopping the drug.",
+        "conceptTag": "Pharmacological Adherence & Microscopic Margins",
+        "images": [],
+        "isLocked": false,
+        "terminationType": "fail"
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 357
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-34",
+      "type": "informationNode",
+      "position": {
+        "x": 3111.244135656452,
+        "y": 2422.126707258709
+      },
+      "data": {
+        "title": "The Lesson:",
+        "content": "Surgical debridement is required to remove the avascular, necrotic tissue that medications cannot penetrate. However, surgery alone is rarely curative because microscopic fungal hyphae invade the surrounding \"healthy-appearing\" tissue margins. Aggressive, prolonged systemic medical therapy with Amphotericin B is absolutely mandatory to eradicate these microscopic remnants . Stopping the antifungal therapy prematurely guarantees a rapid, often fatal recurrence.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-36",
+      "type": "decisionNode",
+      "position": {
+        "x": 2105.8912655535532,
+        "y": -59.95496240460387
+      },
+      "data": {
+        "title": "The Operative Strategy (Interprofessional Communication)",
+        "content": "You order the stat CT, which shows extensive unilateral opacification of the right maxillary and ethmoid sinuses with early bone erosion. The ENT surgeon arrives and performs a bedside nasal endoscopy. They discover a dark, black, necrotic eschar on the right middle turbinate.\n\nThe diagnosis of Invasive Fungal Rhinosinusitis (Mucormycosis) is confirmed via bedside biopsy",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/f84f73bb-0814-46d6-a4e4-070a38bddd70.jpeg",
+            "filename": "f84f73bb-0814-46d6-a4e4-070a38bddd70.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 3
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-37",
+      "type": "choiceNode",
+      "position": {
+        "x": 2968.8821311223633,
+        "y": 419.74810823046164
+      },
+      "data": {
+        "choiceDesignation": "C",
+        "choiceCategory": "correct",
+        "title": "The Emergent Dual-Therapy",
+        "content": "You understand the pathophysiology of the disease. You immediately start high-dose IV Amphotericin B, continue the DKA resuscitation, and explicitly clear Marcus for the operating room so the ENT can perform an emergent, aggressive surgical debridement of all necrotic tissue .",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-38",
+      "type": "decisionNode",
+      "position": {
+        "x": 2271.3428660094423,
+        "y": 857.0181786427892
+      },
+      "data": {
+        "title": "The Pathology Remedy",
+        "content": "The ENT surgeon stares at you in disbelief. \"Doctor, a fungus ball is a non-invasive cluster of tangled hyphae that doesn't cause mucosal necrosis or bone erosion. This patient has dead tissue and bone destruction. If we wait until next week, he will be dead tomorrow.\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/6d0109dd-f448-49af-9325-d696d8f2f25a.jpeg",
+            "filename": "6d0109dd-f448-49af-9325-d696d8f2f25a.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-39",
+      "type": "choiceNode",
+      "position": {
+        "x": 2397.035193918221,
+        "y": 1200.8004918818015
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Steroid Catastrophe",
+        "content": "You get defensive. You argue that it's probably Allergic Fungal Rhinosinusitis and insist that the correct treatment is actually to start a high-dose prednisone taper to calm the inflammation.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-40",
+      "type": "choiceNode",
+      "position": {
+        "x": 2822.9805222344844,
+        "y": 1191.5408108314482
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "Remedy Choice",
+        "content": "You realize you confused a benign Fungus Ball (mycetoma) with Invasive Fungal Rhinosinusitis. You immediately apologize, sign the surgical clearance, and push the IV Amphotericin B",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "decision-node-41",
+      "type": "decisionNode",
+      "position": {
+        "x": 3154.0426690079694,
+        "y": 1192.5067096299413
+      },
+      "data": {
+        "title": "The Post-Op Explanation (Ethics & Bedside Manner)",
+        "content": "Marcus is rushed to the OR. The ENT performs a radical maxillectomy and ethmoidectomy, successfully clearing all visible necrotic tissue. Marcus is recovering in the ICU. His DKA is resolved, and he is receiving continuous IV Amphotericin B.\n\nDuring rounds, Marcus's wife pulls you aside. She has been reading about Amphotericin B on her phone. \"The internet says this drug destroys the kidneys,\" she says anxiously. \"The surgeon said the operation was a success and they got all the dead tissue out. Since he is doing better, can't we stop this dangerous drug now to protect his kidneys?\"",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/43acd662-4d01-4bdd-b2e9-df3a2e86bc96.jpeg",
+            "filename": "43acd662-4d01-4bdd-b2e9-df3a2e86bc96.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "handleCount": 2
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "choice-node-42",
+      "type": "choiceNode",
+      "position": {
+        "x": 3324.7374373840025,
+        "y": 1537.6912722855675
+      },
+      "data": {
+        "choiceDesignation": "A",
+        "choiceCategory": "wrong",
+        "title": "The Premature Cessation",
+        "content": "You agree that Amphotericin B is highly nephrotoxic. Since the surgeon achieved complete visual source control and Marcus is clinically stable, you discontinue the antifungal to preserve his renal function and switch him to nasal saline irrigations.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "choice-node-43",
+      "type": "choiceNode",
+      "position": {
+        "x": 4116.153652548408,
+        "y": 1525.5156382061152
+      },
+      "data": {
+        "choiceDesignation": "B",
+        "choiceCategory": "correct",
+        "title": "The Firm Education",
+        "content": "You validate her fear regarding the kidney toxicity, but gently and firmly explain the reality of the disease. You tell her that while the surgeon removed the visible dead tissue, microscopic fungal elements undoubtedly remain in the margins. You explain that stopping the Amphotericin B now would guarantee a fatal relapse, but assure her you will monitor his renal labs daily to manage the side effects safely.",
+        "isLocked": false
+      },
+      "draggable": true,
+      "origin": [
+        0.5,
+        0
+      ],
+      "measured": {
+        "width": 400,
+        "height": 305
+      },
+      "selected": false
+    },
+    {
+      "id": "information-node-44",
+      "type": "informationNode",
+      "position": {
+        "x": 818.1514998930525,
+        "y": 743.1660524231828
+      },
+      "data": {
+        "title": "The lesson",
+        "content": "Plain radiographs are virtually useless for evaluating the complicated anatomy of the paranasal sinuses and the extent of bone erosion, which is why they have fallen out of favor. When a patient develops rapidly progressing orbital signs (proptosis, ophthalmoplegia), it indicates the infection has breached the sinus walls. Delaying a CT scan to stubbornly rely on a poor-quality X-ray blinds you to a rapidly fatal, destructive process.",
+        "images": [],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 253
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "information-node-45",
+      "type": "informationNode",
+      "position": {
+        "x": 3911.125090802369,
+        "y": 1998.2911237602118
+      },
+      "data": {
+        "title": "The Firm Education",
+        "content": "You flawlessly navigated one of the deadliest emergencies in otolaryngology. You bypassed the useless plain films for a stat CT, recognized the critical need for simultaneous surgical and medical intervention, and successfully educated the family on the necessity of prolonged, high-risk pharmacology to ensure the patient's ultimate survival.",
+        "images": [
+          {
+            "url": "/api/uploads/scenarios/0dc3a527-0765-4f97-bd7f-0ded510669e3/cb35bf4a-4cf5-4a65-9231-5d2551d7df3c.jpeg",
+            "filename": "cb35bf4a-4cf5-4a65-9231-5d2551d7df3c.jpeg"
+          }
+        ],
+        "isLocked": false,
+        "hideTopHandle": false
+      },
+      "draggable": true,
+      "measured": {
+        "width": 400,
+        "height": 333
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-choice-node-2",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-2"
+    },
+    {
+      "source": "choice-node-2",
+      "target": "information-node-3",
+      "id": "xy-edge__choice-node-2-information-node-3"
+    },
+    {
+      "source": "information-node-3",
+      "target": "information-node-4",
+      "id": "xy-edge__information-node-3-information-node-4"
+    },
+    {
+      "source": "information-node-4",
+      "target": "termination-node-5",
+      "id": "xy-edge__information-node-4-termination-node-5"
+    },
+    {
+      "id": "edge-choice-node-6",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-6"
+    },
+    {
+      "source": "choice-node-6",
+      "target": "decision-node-7",
+      "id": "xy-edge__choice-node-6-decision-node-7"
+    },
+    {
+      "id": "edge-choice-node-8",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-8"
+    },
+    {
+      "source": "choice-node-8",
+      "target": "information-node-9",
+      "id": "xy-edge__choice-node-8-information-node-9"
+    },
+    {
+      "id": "edge-choice-node-12",
+      "source": "decision-node-7",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-12"
+    },
+    {
+      "id": "edge-choice-node-13",
+      "source": "decision-node-1",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-13"
+    },
+    {
+      "source": "choice-node-13",
+      "target": "information-node-14",
+      "id": "xy-edge__choice-node-13-information-node-14"
+    },
+    {
+      "source": "choice-node-16",
+      "target": "information-node-18",
+      "id": "xy-edge__choice-node-16-information-node-18"
+    },
+    {
+      "source": "information-node-18",
+      "target": "information-node-19",
+      "id": "xy-edge__information-node-18-information-node-19"
+    },
+    {
+      "source": "information-node-19",
+      "target": "termination-node-20",
+      "id": "xy-edge__information-node-19-termination-node-20"
+    },
+    {
+      "source": "information-node-26",
+      "target": "information-node-28",
+      "id": "xy-edge__information-node-26-information-node-28"
+    },
+    {
+      "source": "information-node-34",
+      "target": "termination-node-33",
+      "id": "xy-edge__information-node-34-termination-node-33"
+    },
+    {
+      "source": "information-node-29",
+      "target": "information-node-34",
+      "id": "xy-edge__information-node-29-information-node-34"
+    },
+    {
+      "source": "information-node-28",
+      "target": "termination-node-32",
+      "id": "xy-edge__information-node-28-termination-node-32"
+    },
+    {
+      "source": "information-node-0",
+      "target": "decision-node-1",
+      "id": "xy-edge__information-node-0-decision-node-1"
+    },
+    {
+      "source": "information-node-14",
+      "target": "decision-node-36",
+      "id": "xy-edge__information-node-14-decision-node-36"
+    },
+    {
+      "source": "choice-node-12",
+      "target": "decision-node-36",
+      "id": "xy-edge__choice-node-12-decision-node-36"
+    },
+    {
+      "id": "edge-choice-node-37",
+      "source": "decision-node-36",
+      "sourceHandle": "choice-2",
+      "target": "choice-node-37"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-16",
+      "id": "xy-edge__decision-node-36choice-0-choice-node-16"
+    },
+    {
+      "source": "decision-node-36",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-17",
+      "id": "xy-edge__decision-node-36choice-1-choice-node-17"
+    },
+    {
+      "source": "choice-node-37",
+      "target": "information-node-21",
+      "id": "xy-edge__choice-node-37-information-node-21"
+    },
+    {
+      "source": "choice-node-17",
+      "target": "decision-node-38",
+      "id": "xy-edge__choice-node-17-decision-node-38"
+    },
+    {
+      "id": "edge-choice-node-39",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-39"
+    },
+    {
+      "id": "edge-choice-node-40",
+      "source": "decision-node-38",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-40"
+    },
+    {
+      "source": "choice-node-39",
+      "target": "information-node-26",
+      "id": "xy-edge__choice-node-39-information-node-26"
+    },
+    {
+      "source": "information-node-21",
+      "target": "decision-node-41",
+      "id": "xy-edge__information-node-21-decision-node-41"
+    },
+    {
+      "source": "choice-node-40",
+      "target": "decision-node-41",
+      "id": "xy-edge__choice-node-40-decision-node-41"
+    },
+    {
+      "id": "edge-choice-node-42",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-0",
+      "target": "choice-node-42"
+    },
+    {
+      "id": "edge-choice-node-43",
+      "source": "decision-node-41",
+      "sourceHandle": "choice-1",
+      "target": "choice-node-43"
+    },
+    {
+      "source": "choice-node-42",
+      "target": "information-node-29",
+      "id": "xy-edge__choice-node-42-information-node-29"
+    },
+    {
+      "source": "information-node-9",
+      "target": "information-node-44",
+      "id": "xy-edge__information-node-9-information-node-44"
+    },
+    {
+      "source": "information-node-44",
+      "target": "termination-node-11",
+      "id": "xy-edge__information-node-44-termination-node-11"
+    },
+    {
+      "source": "choice-node-43",
+      "target": "information-node-45",
+      "id": "xy-edge__choice-node-43-information-node-45"
+    }
+  ],
+  "viewport": {
+    "x": -12.935331301312317,
+    "y": 398.28148871845997,
+    "zoom": 0.323104311043845
+  }
+}
