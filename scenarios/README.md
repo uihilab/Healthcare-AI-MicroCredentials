@@ -45,36 +45,3 @@ The JSON file is a graph of nodes connected by edges. Each node has a `type`:
 | `decisionNode` | A decision point where the learner chooses what to do. |
 | `choiceNode` | One option at a decision, labelled `A`, `B`, `C`… and marked `correct` or `misstep`. |
 | `terminationNode` | An ending: `checkpoint` (a concept learned) or `fail` (try again). |
-
-## Contributing
-
-We'd love more scenarios, especially in specialties and settings that aren't covered yet.
-
-### Suggest a scenario or report a problem
-
-Open an **issue** to:
-
-- propose a new scenario topic, or volunteer to write one
-- report a clinical inaccuracy, outdated guideline, typo or broken image
-- suggest a better choice, explanation or ending for an existing scenario
-
-Please include the scenario name and, for clinical corrections, a reference to the source guideline.
-
-### Add a new scenario
-
-1. Fork this repository and create a branch.
-2. Add a new folder under `scenarios/`, named in lowercase with hyphens (for example `septic-shock/`).
-3. Inside it, add:
-   - `<folder-name>.json`: the scenario graph, following the structure of the existing scenarios
-   - `README.md`: an overview and the story told in order, like the existing READMEs
-   - `images/`: any images the scenario uses, listed under the node's `data.images`
-4. Add a row for your scenario to the table above.
-5. Open a **pull request** describing the scenario, its learning goals and the sources you used.
-
-### Guidelines
-
-- **No real patient data.** All cases must be fictional or fully de-identified.
-- **Images must be yours or openly licensed.** Note the source and license in the scenario README.
-- **Every path should end.** Each choice must lead somewhere, and every branch should finish in a checkpoint or a fail ending.
-- **Explain the misses.** A fail ending should say what went wrong and what the better choice would have been.
-- **Cite your sources.** Base clinical content on current guidelines and list them in the README.
