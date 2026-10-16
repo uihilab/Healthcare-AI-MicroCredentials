@@ -27,11 +27,9 @@ We are issuing an open call to the global medical education community. We need s
 * **Health Information, Billing, & Revenue Cycle**
 * **Quality, Safety, Compliance, & Hospital Operations**
 
-# Clinical Scenarios
+## 📋 Clinical Scenarios
 
 There are currently **19 scenarios**. Contributions are welcome — see [How to Contribute](#contributing) below.
-
-## Scenarios
 
 | Scenario | Topic | Focus | Decisions | Endings |
 |---|---|---|---|---|
@@ -55,7 +53,7 @@ There are currently **19 scenarios**. Contributions are welcome — see [How to 
 | [The Ring-Enhancing Dilemma](scenarios/hiv) | HIV | Infectious disease | 5 | 5 |
 | [The Gradient Collapse](scenarios/electrolytes-and-drug-interaction) | Electrolytes and drug interaction | Pharmacology/Multi-systems | 5 | 5 |
 
-## What's in each scenario folder
+### What's in each scenario folder
 
 ```
 scenarios/<scenario-name>/
