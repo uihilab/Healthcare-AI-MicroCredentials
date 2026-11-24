@@ -92,19 +92,42 @@ The scenarios developed here will be integrated into a web-based cyberinfrastruc
 * **Local Sovereign AI Engines:** Protecting institutional data and evaluating learner logic in real-time.
 * **Adaptive Delivery:** Delivering your scenarios via classic text, interactive Socratic chat, or immersive visual environments.
 
+## 📊 Dataset: Expert Feasibility & Pedagogical Utility Evaluation
+
+This repository includes the anonymized survey dataset (`expert_evaluation_survey_results.csv`) from the human-subjects feasibility evaluation referenced in our manuscript. 
+
+To validate the pedagogical utility and face validity of the cyberinfrastructure, N=33 practicing healthcare professionals and clinical educators were recruited to evaluate the platform's visual scenario editor and localized AI rationale-grader.
+
+### Data Dictionary
+The dataset contains no Personally Identifiable Information (PII). The columns are structured as follows:
+
+**Metadata:**
+* `Progress`: Survey completion percentage (100 = fully completed).
+* `Duration (in seconds)`: Time taken by the participant to complete the evaluation.
+* `Finished`: Boolean indicator of survey completion (`True` / `False`).
+* `UserLanguage`: The language of the survey interface (`EN`).
+
+**Quantitative Metrics (5-point Likert Scale: 1 = Strongly Disagree ➡️ 5 = Strongly Agree):**
+* `Q1_1` **(Node Editor Utility)**: *"The visual node-based scenario editor would be useful for its intended purpose of allowing clinical experts to translate their real-world experience into branching simulation training."*
+* `Q1_2` **(Rationale vs. MCQ)**: *"The AI-enabled feature that requires learners to write a clinical rationale, assessing why a decision was made rather than just what option was clicked, adds meaningful educational value compared to traditional multiple-choice questions."*
+* `Q1_3` **(Branching vs. Linear)**: *"The interactive, branching visualization helps communicate the consequences of clinical decision-making (e.g., recovery pathways and fail-states) more effectively than traditional text-only linear case studies."*
+
+**Qualitative Feedback:**
+* `Q2` **(Future Adoption)**: *"What feature or improvement would make this platform essential for your institution's clinical training or credentialing workflows?"* (Free-text responses highlighting the need for LMS integration, automated tracking, and customizable protocols).
+
 ## 📝 Citation and License
 
 The curriculum content generated in this repository is licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html).
 
 If you use this framework or platform architecture in your research, please cite our upcoming publication:
 
-> Vald, G., Sermet, Y., & Demir, I. (Upcoming). *Scalable Micro-Credentials for AI Literacy in Healthcare: An Open-Source Framework and Call for Collaborative Curriculum Development.* International Journal of Educational Technology in Higher Education.
+> Vald, G., Sermet, Y., Mahapatra, S., & Demir, I. (Upcoming). *Scalable Micro-Credentials for AI Literacy in Healthcare: An Open-Source Framework and Call for Collaborative Curriculum Development.* Medical Teacher.
 
 ## 📬 Contact
 
 For institutional partnerships or questions regarding the cyberinfrastructure deployment, please reach out via GitHub Issues or contact the research team at Tulane University.
 
-**Core Team:** Gabriel Vald, Yusuf Sermet, Ibrahim Demir 
+**Core Team:** Gabriel Vald, Yusuf Sermet, Smruti Mahapatra, Ibrahim Demir 
 (School of Science and Engineering,
 School of Medicine,
 Tulane University)
